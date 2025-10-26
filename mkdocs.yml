@@ -6,11 +6,11 @@
 # TODO: Update site_description
 # TODO: Update site_author
 
-site_name: Professional Analytics Project
-site_url: https://denisecase.github.io/pro-analytics-02-starter/
-repo_url: https://github.com/denisecase/pro-analytics-02-starter
-site_description: Professional Python project demonstrating industry best practices
-site_author: Denise Case
+site_name: Professional Analytics Project CS44632
+site_url: https://crsellinger.github.io/smart-store-calebsellinger/
+repo_url: https://github.com/crsellinger/smart-store-calebsellinger
+site_description: Professional Python project demonstrating industry best practices for CS44632
+site_author: Caleb Sellinger
 docs_dir: docs
 site_dir: site
 
