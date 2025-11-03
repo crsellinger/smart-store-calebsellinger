@@ -167,4 +167,8 @@ Before starting a new session, remember to do a `git pull` and keep your tools u
 
 Each time forward progress is made, remember to git add-commit-push.
 
+### To Run
+
+```uv run python -m analytics_project.data_prep```
+
 
