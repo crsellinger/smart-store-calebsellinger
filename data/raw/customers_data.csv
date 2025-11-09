@@ -4,7 +4,7 @@ CustomerID,Name,Region,JoinDate,LoyaltyPts,ContactMeth
 1002,Mark Marshall,Central,8/8/2020,784,Email
 1003,David Brennan,North,5/21/2020,541,Phone
 1004,Kerry Collins,North,9/12/2023,665,Phone
-1005,Jessica Mora,South,8/5/2021,105,Phone
+1005,Jessica Mora,South,8/5/2021,,Phone
 1006,Hannah Ray,West,7/3/2021,368,Email
 1007,David Kim,West,5/20/2020,852,Email
 1008,William Ramirez,EAST,9/15/2023,671,Phone

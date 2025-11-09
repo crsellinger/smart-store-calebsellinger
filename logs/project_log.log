@@ -1,0 +1,872 @@
+2025-11-08 16:52:00.496 | INFO     | __main__:main:130 - ==================================
+2025-11-08 16:52:00.496 | INFO     | __main__:main:131 - STARTING prepare_sales_data.py
+2025-11-08 16:52:00.496 | INFO     | __main__:main:132 - ==================================
+2025-11-08 16:52:00.496 | INFO     | __main__:main:134 - Root         : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-08 16:52:00.496 | INFO     | __main__:main:135 - data/raw     : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-08 16:52:00.497 | INFO     | __main__:main:136 - data/prepared: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-08 16:52:00.497 | INFO     | __main__:main:137 - scripts      : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-08 16:52:00.497 | INFO     | __main__:read_raw_data:69 - FUNCTION START: read_raw_data with file_name=sales_data.csv
+2025-11-08 16:52:00.497 | INFO     | __main__:read_raw_data:71 - Reading data from C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw\sales_data.csv
+2025-11-08 16:52:00.504 | INFO     | __main__:read_raw_data:73 - Loaded dataframe with 2001 rows and 9 columns
+2025-11-08 16:52:00.505 | INFO     | __main__:read_raw_data:78 - Column datatypes: 
+TransactionID      int64
+SaleDate          object
+CustomerID         int64
+ProductID          int64
+StoreID            int64
+CampaignID       float64
+SaleAmount        object
+NumSold          float64
+PaymntType        object
+dtype: object
+2025-11-08 16:52:00.509 | INFO     | __main__:read_raw_data:79 - Number of unique values: 
+TransactionID    2000
+SaleDate            2
+CustomerID        201
+ProductID         100
+StoreID             4
+CampaignID          4
+SaleAmount        915
+NumSold             9
+PaymntType          2
+dtype: int64
+2025-11-08 16:52:00.510 | INFO     | __main__:main:149 - Initial dataframe columns: TransactionID, SaleDate, CustomerID, ProductID, StoreID, CampaignID, SaleAmount, NumSold, PaymntType
+2025-11-08 16:52:00.510 | INFO     | __main__:main:150 - Initial dataframe shape: (2001, 9)
+2025-11-08 16:52:00.511 | INFO     | __main__:handle_missing_values:95 - FUNCTION START: handle_missing_values with dataframe shape=(2001, 9)
+2025-11-08 16:52:00.511 | INFO     | __main__:handle_missing_values:102 - Missing values by column before handling:
+TransactionID    0
+SaleDate         0
+CustomerID       0
+ProductID        0
+StoreID          0
+CampaignID       1
+SaleAmount       0
+NumSold          1
+PaymntType       0
+dtype: int64
+2025-11-08 16:52:00.515 | INFO     | __main__:handle_missing_values:116 - Missing values by column after handling:
+TransactionID    0
+SaleDate         0
+CustomerID       0
+ProductID        0
+StoreID          0
+CampaignID       1
+SaleAmount       0
+NumSold          0
+PaymntType       0
+dtype: int64
+2025-11-08 16:52:00.515 | INFO     | __main__:handle_missing_values:117 - 2000 records remaining after handling missing values.
+2025-11-08 16:52:00.515 | INFO     | __main__:main:174 - ==================================
+2025-11-08 16:52:00.516 | INFO     | __main__:main:175 - Original shape: (2000, 9)
+2025-11-08 16:52:00.516 | INFO     | __main__:main:176 - Cleaned shape:  (2001, 9)
+2025-11-08 16:52:00.516 | INFO     | __main__:main:177 - ==================================
+2025-11-08 16:52:00.516 | INFO     | __main__:main:178 - FINISHED prepare_sales_data.py
+2025-11-08 16:52:00.516 | INFO     | __main__:main:179 - ==================================
+2025-11-09 17:04:53.699 | INFO     | __main__:main:179 - ==================================
+2025-11-09 17:04:53.700 | INFO     | __main__:main:180 - STARTING prepare_customers_data.py
+2025-11-09 17:04:53.700 | INFO     | __main__:main:181 - ==================================
+2025-11-09 17:04:53.700 | INFO     | __main__:main:183 - Root         : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-09 17:04:53.700 | INFO     | __main__:main:184 - data/raw     : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-09 17:04:53.700 | INFO     | __main__:main:185 - data/prepared: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-09 17:04:53.700 | INFO     | __main__:main:186 - scripts      : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-09 17:04:53.700 | INFO     | __main__:read_raw_data:61 - READING: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw\customers_data.csv.
+2025-11-09 17:04:53.713 | INFO     | __main__:main:198 - Initial dataframe columns: CustomerID, Name, Region, JoinDate, LoyaltyPts, ContactMeth
+2025-11-09 17:04:53.713 | INFO     | __main__:main:199 - Initial dataframe shape: (201, 6)
+2025-11-09 17:04:53.715 | INFO     | __main__:remove_duplicates:99 - FUNCTION START: remove_duplicates with dataframe shape=(201, 6)
+2025-11-09 17:04:53.722 | INFO     | __main__:remove_duplicates:110 - Original dataframe shape: (201, 6)
+2025-11-09 17:04:53.723 | INFO     | __main__:remove_duplicates:111 - Deduped  dataframe shape: (201, 6)
+2025-11-09 17:04:53.723 | INFO     | __main__:handle_missing_values:126 - FUNCTION START: handle_missing_values with dataframe shape=(201, 6)
+2025-11-09 17:04:53.723 | INFO     | __main__:handle_missing_values:132 - Total missing values before handling: 0
+2025-11-09 17:04:53.724 | INFO     | __main__:handle_missing_values:141 - Total missing values after handling: 0
+2025-11-09 17:04:53.724 | INFO     | __main__:handle_missing_values:142 - 201 records remaining after handling missing values.
+2025-11-09 17:04:53.725 | INFO     | __main__:remove_outliers:157 - FUNCTION START: remove_outliers with dataframe shape=(201, 6)
+2025-11-09 17:04:53.725 | INFO     | __main__:remove_outliers:165 - Removed 0 outlier rows
+2025-11-09 17:04:53.725 | INFO     | __main__:remove_outliers:166 - 201 records remaining after removing outliers.
+2025-11-09 17:04:53.725 | INFO     | __main__:save_prepared_data:79 - FUNCTION START: save_prepared_data with file_name=customers_prepared.csv, dataframe shape=(201, 6)
+2025-11-09 17:04:53.729 | INFO     | __main__:save_prepared_data:84 - Data saved to C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared\customers_prepared.csv
+2025-11-09 17:04:53.729 | INFO     | __main__:main:226 - ==================================
+2025-11-09 17:04:53.729 | INFO     | __main__:main:227 - Original shape: (201, 6)
+2025-11-09 17:04:53.730 | INFO     | __main__:main:228 - Cleaned shape:  (201, 6)
+2025-11-09 17:04:53.730 | INFO     | __main__:main:229 - ==================================
+2025-11-09 17:04:53.730 | INFO     | __main__:main:230 - FINISHED prepare_customers_data.py
+2025-11-09 17:04:53.730 | INFO     | __main__:main:231 - ==================================
+2025-11-09 17:06:50.519 | INFO     | __main__:main:179 - ==================================
+2025-11-09 17:06:50.519 | INFO     | __main__:main:180 - STARTING prepare_customers_data.py
+2025-11-09 17:06:50.519 | INFO     | __main__:main:181 - ==================================
+2025-11-09 17:06:50.519 | INFO     | __main__:main:183 - Root         : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-09 17:06:50.519 | INFO     | __main__:main:184 - data/raw     : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-09 17:06:50.519 | INFO     | __main__:main:185 - data/prepared: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-09 17:06:50.520 | INFO     | __main__:main:186 - scripts      : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-09 17:06:50.520 | INFO     | __main__:read_raw_data:61 - READING: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw\customers_data.csv.
+2025-11-09 17:06:50.522 | INFO     | __main__:main:198 - Initial dataframe columns: CustomerID, Name, Region, JoinDate, LoyaltyPts, ContactMeth
+2025-11-09 17:06:50.522 | INFO     | __main__:main:199 - Initial dataframe shape: (201, 6)
+2025-11-09 17:06:50.522 | INFO     | __main__:remove_duplicates:99 - FUNCTION START: remove_duplicates with dataframe shape=(201, 6)
+2025-11-09 17:06:50.523 | INFO     | __main__:remove_duplicates:110 - Original dataframe shape: (201, 6)
+2025-11-09 17:06:50.523 | INFO     | __main__:remove_duplicates:111 - Deduped  dataframe shape: (201, 6)
+2025-11-09 17:06:50.523 | INFO     | __main__:handle_missing_values:126 - FUNCTION START: handle_missing_values with dataframe shape=(201, 6)
+2025-11-09 17:06:50.524 | INFO     | __main__:handle_missing_values:132 - Total missing values before handling: 1
+2025-11-09 17:06:50.527 | INFO     | __main__:handle_missing_values:141 - Total missing values after handling: 0
+2025-11-09 17:06:50.527 | INFO     | __main__:handle_missing_values:142 - 200 records remaining after handling missing values.
+2025-11-09 17:06:50.527 | INFO     | __main__:remove_outliers:157 - FUNCTION START: remove_outliers with dataframe shape=(200, 6)
+2025-11-09 17:06:50.527 | INFO     | __main__:remove_outliers:165 - Removed 0 outlier rows
+2025-11-09 17:06:50.527 | INFO     | __main__:remove_outliers:166 - 200 records remaining after removing outliers.
+2025-11-09 17:06:50.527 | INFO     | __main__:save_prepared_data:79 - FUNCTION START: save_prepared_data with file_name=customers_prepared.csv, dataframe shape=(200, 6)
+2025-11-09 17:06:50.529 | INFO     | __main__:save_prepared_data:84 - Data saved to C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared\customers_prepared.csv
+2025-11-09 17:06:50.529 | INFO     | __main__:main:226 - ==================================
+2025-11-09 17:06:50.529 | INFO     | __main__:main:227 - Original shape: (200, 6)
+2025-11-09 17:06:50.529 | INFO     | __main__:main:228 - Cleaned shape:  (201, 6)
+2025-11-09 17:06:50.529 | INFO     | __main__:main:229 - ==================================
+2025-11-09 17:06:50.529 | INFO     | __main__:main:230 - FINISHED prepare_customers_data.py
+2025-11-09 17:06:50.529 | INFO     | __main__:main:231 - ==================================
+2025-11-09 17:08:00.913 | INFO     | __main__:main:245 - ==================================
+2025-11-09 17:08:00.913 | INFO     | __main__:main:246 - STARTING prepare_products_data.py
+2025-11-09 17:08:00.914 | INFO     | __main__:main:247 - ==================================
+2025-11-09 17:08:00.914 | INFO     | __main__:main:249 - Root         : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-09 17:08:00.914 | INFO     | __main__:main:250 - data/raw     : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-09 17:08:00.914 | INFO     | __main__:main:251 - data/prepared: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-09 17:08:00.914 | INFO     | __main__:main:252 - scripts      : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-09 17:08:00.914 | INFO     | __main__:read_raw_data:67 - FUNCTION START: read_raw_data with file_name=products_data.csv
+2025-11-09 17:08:00.914 | INFO     | __main__:read_raw_data:69 - Reading data from C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw\products_data.csv
+2025-11-09 17:08:00.917 | INFO     | __main__:read_raw_data:71 - Loaded dataframe with 100 rows and 6 columns
+2025-11-09 17:08:00.917 | INFO     | __main__:read_raw_data:76 - Column datatypes: 
+ProductID        int64
+ProductName     object
+Category        object
+UnitPrice      float64
+OH_Quant       float64
+Supplier        object
+dtype: object
+2025-11-09 17:08:00.918 | INFO     | __main__:read_raw_data:77 - Number of unique values: 
+ProductID      100
+ProductName     98
+Category         4
+UnitPrice      100
+OH_Quant        97
+Supplier         3
+dtype: int64
+2025-11-09 17:08:00.918 | INFO     | __main__:read_raw_data:67 - FUNCTION START: read_raw_data with file_name=products_data.csv
+2025-11-09 17:08:00.918 | INFO     | __main__:read_raw_data:69 - Reading data from C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw\products_data.csv
+2025-11-09 17:08:00.919 | INFO     | __main__:read_raw_data:71 - Loaded dataframe with 100 rows and 6 columns
+2025-11-09 17:08:00.920 | INFO     | __main__:read_raw_data:76 - Column datatypes: 
+ProductID        int64
+ProductName     object
+Category        object
+UnitPrice      float64
+OH_Quant       float64
+Supplier        object
+dtype: object
+2025-11-09 17:08:00.921 | INFO     | __main__:read_raw_data:77 - Number of unique values: 
+ProductID      100
+ProductName     98
+Category         4
+UnitPrice      100
+OH_Quant        97
+Supplier         3
+dtype: int64
+2025-11-09 17:08:00.921 | INFO     | __main__:main:267 - Initial dataframe columns: ProductID, ProductName, Category, UnitPrice, OH_Quant, Supplier
+2025-11-09 17:08:00.921 | INFO     | __main__:main:268 - Initial dataframe shape: (100, 6)
+2025-11-09 17:08:00.922 | INFO     | __main__:main:281 - Cleaned column names: ProductID -> productid, ProductName -> productname, Category -> category, UnitPrice -> unitprice, OH_Quant -> oh_quant, Supplier -> supplier
+2025-11-09 17:08:00.922 | INFO     | __main__:remove_duplicates:107 - FUNCTION START: remove_duplicates with dataframe shape=(100, 6)
+2025-11-09 17:08:00.923 | INFO     | __main__:remove_duplicates:117 - Removed 0 duplicate rows
+2025-11-09 17:08:00.923 | INFO     | __main__:remove_duplicates:118 - 100 records remaining after removing duplicates.
+2025-11-09 17:08:00.923 | INFO     | __main__:handle_missing_values:133 - FUNCTION START: handle_missing_values with dataframe shape=(100, 6)
+2025-11-09 17:08:00.924 | INFO     | __main__:handle_missing_values:140 - Missing values by column before handling:
+productid      0
+productname    0
+category       0
+unitprice      0
+oh_quant       2
+supplier       0
+dtype: int64
+2025-11-09 17:09:55.075 | INFO     | __main__:main:245 - ==================================
+2025-11-09 17:09:55.075 | INFO     | __main__:main:246 - STARTING prepare_products_data.py
+2025-11-09 17:09:55.075 | INFO     | __main__:main:247 - ==================================
+2025-11-09 17:09:55.076 | INFO     | __main__:main:249 - Root         : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-09 17:09:55.076 | INFO     | __main__:main:250 - data/raw     : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-09 17:09:55.076 | INFO     | __main__:main:251 - data/prepared: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-09 17:09:55.076 | INFO     | __main__:main:252 - scripts      : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-09 17:09:55.076 | INFO     | __main__:read_raw_data:67 - FUNCTION START: read_raw_data with file_name=products_data.csv
+2025-11-09 17:09:55.076 | INFO     | __main__:read_raw_data:69 - Reading data from C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw\products_data.csv
+2025-11-09 17:09:55.078 | INFO     | __main__:read_raw_data:71 - Loaded dataframe with 100 rows and 6 columns
+2025-11-09 17:09:55.079 | INFO     | __main__:read_raw_data:76 - Column datatypes: 
+ProductID        int64
+ProductName     object
+Category        object
+UnitPrice      float64
+OH_Quant       float64
+Supplier        object
+dtype: object
+2025-11-09 17:09:55.080 | INFO     | __main__:read_raw_data:77 - Number of unique values: 
+ProductID      100
+ProductName     98
+Category         4
+UnitPrice      100
+OH_Quant        97
+Supplier         3
+dtype: int64
+2025-11-09 17:09:55.080 | INFO     | __main__:main:267 - Initial dataframe columns: ProductID, ProductName, Category, UnitPrice, OH_Quant, Supplier
+2025-11-09 17:09:55.080 | INFO     | __main__:main:268 - Initial dataframe shape: (100, 6)
+2025-11-09 17:09:55.080 | INFO     | __main__:main:281 - Cleaned column names: ProductID -> productid, ProductName -> productname, Category -> category, UnitPrice -> unitprice, OH_Quant -> oh_quant, Supplier -> supplier
+2025-11-09 17:09:55.080 | INFO     | __main__:remove_duplicates:107 - FUNCTION START: remove_duplicates with dataframe shape=(100, 6)
+2025-11-09 17:09:55.081 | INFO     | __main__:remove_duplicates:117 - Removed 0 duplicate rows
+2025-11-09 17:09:55.081 | INFO     | __main__:remove_duplicates:118 - 100 records remaining after removing duplicates.
+2025-11-09 17:09:55.082 | INFO     | __main__:handle_missing_values:133 - FUNCTION START: handle_missing_values with dataframe shape=(100, 6)
+2025-11-09 17:09:55.082 | INFO     | __main__:handle_missing_values:140 - Missing values by column before handling:
+productid      0
+productname    0
+category       0
+unitprice      0
+oh_quant       2
+supplier       0
+dtype: int64
+2025-11-09 17:11:25.697 | INFO     | __main__:main:245 - ==================================
+2025-11-09 17:11:25.697 | INFO     | __main__:main:246 - STARTING prepare_products_data.py
+2025-11-09 17:11:25.697 | INFO     | __main__:main:247 - ==================================
+2025-11-09 17:11:25.697 | INFO     | __main__:main:249 - Root         : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-09 17:11:25.697 | INFO     | __main__:main:250 - data/raw     : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-09 17:11:25.697 | INFO     | __main__:main:251 - data/prepared: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-09 17:11:25.698 | INFO     | __main__:main:252 - scripts      : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-09 17:11:25.698 | INFO     | __main__:read_raw_data:67 - FUNCTION START: read_raw_data with file_name=products_data.csv
+2025-11-09 17:11:25.698 | INFO     | __main__:read_raw_data:69 - Reading data from C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw\products_data.csv
+2025-11-09 17:11:25.700 | INFO     | __main__:read_raw_data:71 - Loaded dataframe with 100 rows and 6 columns
+2025-11-09 17:11:25.701 | INFO     | __main__:read_raw_data:76 - Column datatypes: 
+ProductID        int64
+ProductName     object
+Category        object
+UnitPrice      float64
+OH_Quant       float64
+Supplier        object
+dtype: object
+2025-11-09 17:11:25.701 | INFO     | __main__:read_raw_data:77 - Number of unique values: 
+ProductID      100
+ProductName     98
+Category         4
+UnitPrice      100
+OH_Quant        97
+Supplier         3
+dtype: int64
+2025-11-09 17:11:25.702 | INFO     | __main__:main:267 - Initial dataframe columns: ProductID, ProductName, Category, UnitPrice, OH_Quant, Supplier
+2025-11-09 17:11:25.702 | INFO     | __main__:main:268 - Initial dataframe shape: (100, 6)
+2025-11-09 17:11:25.702 | INFO     | __main__:main:281 - Cleaned column names: ProductID -> productid, ProductName -> productname, Category -> category, UnitPrice -> unitprice, OH_Quant -> oh_quant, Supplier -> supplier
+2025-11-09 17:11:25.702 | INFO     | __main__:remove_duplicates:107 - FUNCTION START: remove_duplicates with dataframe shape=(100, 6)
+2025-11-09 17:11:25.703 | INFO     | __main__:remove_duplicates:117 - Removed 0 duplicate rows
+2025-11-09 17:11:25.703 | INFO     | __main__:remove_duplicates:118 - 100 records remaining after removing duplicates.
+2025-11-09 17:11:25.703 | INFO     | __main__:handle_missing_values:133 - FUNCTION START: handle_missing_values with dataframe shape=(100, 6)
+2025-11-09 17:11:25.704 | INFO     | __main__:handle_missing_values:140 - Missing values by column before handling:
+productid      0
+productname    0
+category       0
+unitprice      0
+oh_quant       2
+supplier       0
+dtype: int64
+2025-11-09 17:11:25.705 | INFO     | __main__:handle_missing_values:154 - Missing values by column after handling:
+productid      0
+productname    0
+category       0
+unitprice      0
+oh_quant       0
+supplier       0
+dtype: int64
+2025-11-09 17:11:25.705 | INFO     | __main__:handle_missing_values:155 - 98 records remaining after handling missing values.
+2025-11-09 17:11:25.705 | INFO     | __main__:remove_outliers:170 - FUNCTION START: remove_outliers with dataframe shape=(98, 6)
+2025-11-09 17:11:25.706 | INFO     | __main__:remove_outliers:189 - Removed 0 outlier rows
+2025-11-09 17:11:25.706 | INFO     | __main__:remove_outliers:190 - 98 records remaining after removing outliers.
+2025-11-09 17:11:25.706 | INFO     | __main__:validate_data:228 - FUNCTION START: validate_data with dataframe shape=(98, 6)
+2025-11-09 17:11:25.706 | INFO     | __main__:validate_data:237 - Data validation complete
+2025-11-09 17:11:25.706 | INFO     | __main__:standardize_formats:204 - FUNCTION START: standardize_formats with dataframe shape=(98, 6)
+2025-11-09 17:11:25.706 | INFO     | __main__:standardize_formats:214 - Completed standardizing formats
+2025-11-09 17:11:25.706 | INFO     | __main__:save_prepared_data:89 - FUNCTION START: save_prepared_data with file_name=products_prepared.csv, dataframe shape=(98, 6)
+2025-11-09 17:11:25.708 | INFO     | __main__:save_prepared_data:94 - Data saved to C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared\products_prepared.csv
+2025-11-09 17:11:25.708 | INFO     | __main__:main:301 - ==================================
+2025-11-09 17:11:25.708 | INFO     | __main__:main:302 - Original shape: (98, 6)
+2025-11-09 17:11:25.708 | INFO     | __main__:main:303 - Cleaned shape:  (100, 6)
+2025-11-09 17:11:25.708 | INFO     | __main__:main:304 - ==================================
+2025-11-09 17:11:25.708 | INFO     | __main__:main:305 - FINISHED prepare_products_data.py
+2025-11-09 17:11:25.708 | INFO     | __main__:main:306 - ==================================
+2025-11-09 17:13:02.476 | INFO     | __main__:main:245 - ==================================
+2025-11-09 17:13:02.476 | INFO     | __main__:main:246 - STARTING prepare_products_data.py
+2025-11-09 17:13:02.476 | INFO     | __main__:main:247 - ==================================
+2025-11-09 17:13:02.476 | INFO     | __main__:main:249 - Root         : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-09 17:13:02.476 | INFO     | __main__:main:250 - data/raw     : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-09 17:13:02.477 | INFO     | __main__:main:251 - data/prepared: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-09 17:13:02.477 | INFO     | __main__:main:252 - scripts      : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-09 17:13:02.477 | INFO     | __main__:read_raw_data:67 - FUNCTION START: read_raw_data with file_name=products_data.csv
+2025-11-09 17:13:02.477 | INFO     | __main__:read_raw_data:69 - Reading data from C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw\products_data.csv
+2025-11-09 17:13:02.479 | INFO     | __main__:read_raw_data:71 - Loaded dataframe with 100 rows and 6 columns
+2025-11-09 17:13:02.479 | INFO     | __main__:read_raw_data:76 - Column datatypes: 
+ProductID        int64
+ProductName     object
+Category        object
+UnitPrice      float64
+OH_Quant       float64
+Supplier        object
+dtype: object
+2025-11-09 17:13:02.480 | INFO     | __main__:read_raw_data:77 - Number of unique values: 
+ProductID      100
+ProductName     98
+Category         4
+UnitPrice      100
+OH_Quant        97
+Supplier         3
+dtype: int64
+2025-11-09 17:13:02.480 | INFO     | __main__:main:267 - Initial dataframe columns: ProductID, ProductName, Category, UnitPrice, OH_Quant, Supplier
+2025-11-09 17:13:02.481 | INFO     | __main__:main:268 - Initial dataframe shape: (100, 6)
+2025-11-09 17:13:02.481 | INFO     | __main__:main:281 - Cleaned column names: ProductID -> productid, ProductName -> productname, Category -> category, UnitPrice -> unitprice, OH_Quant -> oh_quant, Supplier -> supplier
+2025-11-09 17:13:02.481 | INFO     | __main__:remove_duplicates:107 - FUNCTION START: remove_duplicates with dataframe shape=(100, 6)
+2025-11-09 17:13:02.482 | INFO     | __main__:remove_duplicates:117 - Removed 0 duplicate rows
+2025-11-09 17:13:02.482 | INFO     | __main__:remove_duplicates:118 - 100 records remaining after removing duplicates.
+2025-11-09 17:13:02.482 | INFO     | __main__:handle_missing_values:133 - FUNCTION START: handle_missing_values with dataframe shape=(100, 6)
+2025-11-09 17:13:02.482 | INFO     | __main__:handle_missing_values:140 - Missing values by column before handling:
+productid      0
+productname    0
+category       0
+unitprice      0
+oh_quant       2
+supplier       0
+dtype: int64
+2025-11-09 17:13:02.484 | INFO     | __main__:handle_missing_values:154 - Missing values by column after handling:
+productid      0
+productname    0
+category       0
+unitprice      0
+oh_quant       0
+supplier       0
+dtype: int64
+2025-11-09 17:13:02.484 | INFO     | __main__:handle_missing_values:155 - 98 records remaining after handling missing values.
+2025-11-09 17:13:02.484 | INFO     | __main__:remove_outliers:170 - FUNCTION START: remove_outliers with dataframe shape=(98, 6)
+2025-11-09 17:13:02.484 | INFO     | __main__:remove_outliers:189 - Removed 0 outlier rows
+2025-11-09 17:13:02.484 | INFO     | __main__:remove_outliers:190 - 98 records remaining after removing outliers.
+2025-11-09 17:13:02.484 | INFO     | __main__:validate_data:228 - FUNCTION START: validate_data with dataframe shape=(98, 6)
+2025-11-09 17:13:02.484 | INFO     | __main__:validate_data:237 - Data validation complete
+2025-11-09 17:13:02.484 | INFO     | __main__:standardize_formats:204 - FUNCTION START: standardize_formats with dataframe shape=(98, 6)
+2025-11-09 17:13:02.485 | INFO     | __main__:standardize_formats:214 - Completed standardizing formats
+2025-11-09 17:13:02.485 | INFO     | __main__:save_prepared_data:89 - FUNCTION START: save_prepared_data with file_name=products_prepared.csv, dataframe shape=(98, 6)
+2025-11-09 17:13:02.486 | INFO     | __main__:save_prepared_data:94 - Data saved to C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared\products_prepared.csv
+2025-11-09 17:13:02.487 | INFO     | __main__:main:301 - ==================================
+2025-11-09 17:13:02.487 | INFO     | __main__:main:302 - Original shape: (98, 6)
+2025-11-09 17:13:02.487 | INFO     | __main__:main:303 - Cleaned shape:  (100, 6)
+2025-11-09 17:13:02.487 | INFO     | __main__:main:304 - ==================================
+2025-11-09 17:13:02.487 | INFO     | __main__:main:305 - FINISHED prepare_products_data.py
+2025-11-09 17:13:02.487 | INFO     | __main__:main:306 - ==================================
+2025-11-09 17:14:00.149 | INFO     | __main__:main:245 - ==================================
+2025-11-09 17:14:00.149 | INFO     | __main__:main:246 - STARTING prepare_products_data.py
+2025-11-09 17:14:00.149 | INFO     | __main__:main:247 - ==================================
+2025-11-09 17:14:00.149 | INFO     | __main__:main:249 - Root         : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-09 17:14:00.149 | INFO     | __main__:main:250 - data/raw     : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-09 17:14:00.149 | INFO     | __main__:main:251 - data/prepared: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-09 17:14:00.149 | INFO     | __main__:main:252 - scripts      : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-09 17:14:00.149 | INFO     | __main__:read_raw_data:67 - FUNCTION START: read_raw_data with file_name=products_data.csv
+2025-11-09 17:14:00.149 | INFO     | __main__:read_raw_data:69 - Reading data from C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw\products_data.csv
+2025-11-09 17:14:00.152 | INFO     | __main__:read_raw_data:71 - Loaded dataframe with 100 rows and 6 columns
+2025-11-09 17:14:00.152 | INFO     | __main__:read_raw_data:76 - Column datatypes: 
+ProductID        int64
+ProductName     object
+Category        object
+UnitPrice      float64
+OH_Quant       float64
+Supplier        object
+dtype: object
+2025-11-09 17:14:00.153 | INFO     | __main__:read_raw_data:77 - Number of unique values: 
+ProductID      100
+ProductName     98
+Category         4
+UnitPrice      100
+OH_Quant        97
+Supplier         3
+dtype: int64
+2025-11-09 17:14:00.153 | INFO     | __main__:main:267 - Initial dataframe columns: ProductID, ProductName, Category, UnitPrice, OH_Quant, Supplier
+2025-11-09 17:14:00.153 | INFO     | __main__:main:268 - Initial dataframe shape: (100, 6)
+2025-11-09 17:14:00.154 | INFO     | __main__:main:281 - Cleaned column names: ProductID -> productid, ProductName -> productname, Category -> category, UnitPrice -> unitprice, OH_Quant -> oh_quant, Supplier -> supplier
+2025-11-09 17:14:00.154 | INFO     | __main__:remove_duplicates:107 - FUNCTION START: remove_duplicates with dataframe shape=(100, 6)
+2025-11-09 17:14:00.155 | INFO     | __main__:remove_duplicates:117 - Removed 0 duplicate rows
+2025-11-09 17:14:00.155 | INFO     | __main__:remove_duplicates:118 - 100 records remaining after removing duplicates.
+2025-11-09 17:14:00.155 | INFO     | __main__:handle_missing_values:133 - FUNCTION START: handle_missing_values with dataframe shape=(100, 6)
+2025-11-09 17:14:00.155 | INFO     | __main__:handle_missing_values:140 - Missing values by column before handling:
+productid      0
+productname    0
+category       0
+unitprice      0
+oh_quant       2
+supplier       0
+dtype: int64
+2025-11-09 17:14:00.157 | INFO     | __main__:handle_missing_values:154 - Missing values by column after handling:
+productid      0
+productname    0
+category       0
+unitprice      0
+oh_quant       0
+supplier       0
+dtype: int64
+2025-11-09 17:14:00.157 | INFO     | __main__:handle_missing_values:155 - 98 records remaining after handling missing values.
+2025-11-09 17:14:00.157 | INFO     | __main__:remove_outliers:170 - FUNCTION START: remove_outliers with dataframe shape=(98, 6)
+2025-11-09 17:14:00.157 | INFO     | __main__:remove_outliers:189 - Removed 0 outlier rows
+2025-11-09 17:14:00.157 | INFO     | __main__:remove_outliers:190 - 98 records remaining after removing outliers.
+2025-11-09 17:14:00.157 | INFO     | __main__:validate_data:228 - FUNCTION START: validate_data with dataframe shape=(98, 6)
+2025-11-09 17:14:00.158 | INFO     | __main__:validate_data:234 - Found 0 products with negative prices
+2025-11-09 17:14:00.158 | INFO     | __main__:validate_data:237 - Data validation complete
+2025-11-09 17:14:00.158 | INFO     | __main__:standardize_formats:204 - FUNCTION START: standardize_formats with dataframe shape=(98, 6)
+2025-11-09 17:14:00.158 | INFO     | __main__:standardize_formats:214 - Completed standardizing formats
+2025-11-09 17:14:00.158 | INFO     | __main__:save_prepared_data:89 - FUNCTION START: save_prepared_data with file_name=products_prepared.csv, dataframe shape=(98, 6)
+2025-11-09 17:14:00.160 | INFO     | __main__:save_prepared_data:94 - Data saved to C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared\products_prepared.csv
+2025-11-09 17:14:00.160 | INFO     | __main__:main:301 - ==================================
+2025-11-09 17:14:00.160 | INFO     | __main__:main:302 - Original shape: (98, 6)
+2025-11-09 17:14:00.160 | INFO     | __main__:main:303 - Cleaned shape:  (100, 6)
+2025-11-09 17:14:00.160 | INFO     | __main__:main:304 - ==================================
+2025-11-09 17:14:00.160 | INFO     | __main__:main:305 - FINISHED prepare_products_data.py
+2025-11-09 17:14:00.160 | INFO     | __main__:main:306 - ==================================
+2025-11-09 17:14:50.387 | INFO     | __main__:main:246 - ==================================
+2025-11-09 17:14:50.388 | INFO     | __main__:main:247 - STARTING prepare_products_data.py
+2025-11-09 17:14:50.388 | INFO     | __main__:main:248 - ==================================
+2025-11-09 17:14:50.388 | INFO     | __main__:main:250 - Root         : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-09 17:14:50.388 | INFO     | __main__:main:251 - data/raw     : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-09 17:14:50.388 | INFO     | __main__:main:252 - data/prepared: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-09 17:14:50.388 | INFO     | __main__:main:253 - scripts      : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-09 17:14:50.388 | INFO     | __main__:read_raw_data:67 - FUNCTION START: read_raw_data with file_name=products_data.csv
+2025-11-09 17:14:50.388 | INFO     | __main__:read_raw_data:69 - Reading data from C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw\products_data.csv
+2025-11-09 17:14:50.391 | INFO     | __main__:read_raw_data:71 - Loaded dataframe with 100 rows and 6 columns
+2025-11-09 17:14:50.391 | INFO     | __main__:read_raw_data:76 - Column datatypes: 
+ProductID        int64
+ProductName     object
+Category        object
+UnitPrice      float64
+OH_Quant       float64
+Supplier        object
+dtype: object
+2025-11-09 17:14:50.392 | INFO     | __main__:read_raw_data:77 - Number of unique values: 
+ProductID      100
+ProductName     98
+Category         4
+UnitPrice      100
+OH_Quant        97
+Supplier         3
+dtype: int64
+2025-11-09 17:14:50.392 | INFO     | __main__:main:268 - Initial dataframe columns: ProductID, ProductName, Category, UnitPrice, OH_Quant, Supplier
+2025-11-09 17:14:50.392 | INFO     | __main__:main:269 - Initial dataframe shape: (100, 6)
+2025-11-09 17:14:50.393 | INFO     | __main__:main:282 - Cleaned column names: ProductID -> productid, ProductName -> productname, Category -> category, UnitPrice -> unitprice, OH_Quant -> oh_quant, Supplier -> supplier
+2025-11-09 17:14:50.393 | INFO     | __main__:remove_duplicates:107 - FUNCTION START: remove_duplicates with dataframe shape=(100, 6)
+2025-11-09 17:14:50.393 | INFO     | __main__:remove_duplicates:117 - Removed 0 duplicate rows
+2025-11-09 17:14:50.393 | INFO     | __main__:remove_duplicates:118 - 100 records remaining after removing duplicates.
+2025-11-09 17:14:50.394 | INFO     | __main__:handle_missing_values:133 - FUNCTION START: handle_missing_values with dataframe shape=(100, 6)
+2025-11-09 17:14:50.394 | INFO     | __main__:handle_missing_values:140 - Missing values by column before handling:
+productid      0
+productname    0
+category       0
+unitprice      0
+oh_quant       2
+supplier       0
+dtype: int64
+2025-11-09 17:14:50.396 | INFO     | __main__:handle_missing_values:154 - Missing values by column after handling:
+productid      0
+productname    0
+category       0
+unitprice      0
+oh_quant       0
+supplier       0
+dtype: int64
+2025-11-09 17:14:50.396 | INFO     | __main__:handle_missing_values:155 - 98 records remaining after handling missing values.
+2025-11-09 17:14:50.396 | INFO     | __main__:remove_outliers:170 - FUNCTION START: remove_outliers with dataframe shape=(98, 6)
+2025-11-09 17:14:50.396 | INFO     | __main__:remove_outliers:189 - Removed 0 outlier rows
+2025-11-09 17:14:50.396 | INFO     | __main__:remove_outliers:190 - 98 records remaining after removing outliers.
+2025-11-09 17:14:50.396 | INFO     | __main__:validate_data:228 - FUNCTION START: validate_data with dataframe shape=(98, 6)
+2025-11-09 17:14:50.397 | INFO     | __main__:validate_data:234 - Found 0 products with negative prices
+2025-11-09 17:14:50.397 | INFO     | __main__:validate_data:238 - Data validation complete
+2025-11-09 17:14:50.397 | INFO     | __main__:standardize_formats:204 - FUNCTION START: standardize_formats with dataframe shape=(13, 6)
+2025-11-09 17:14:50.397 | INFO     | __main__:standardize_formats:214 - Completed standardizing formats
+2025-11-09 17:14:50.397 | INFO     | __main__:save_prepared_data:89 - FUNCTION START: save_prepared_data with file_name=products_prepared.csv, dataframe shape=(13, 6)
+2025-11-09 17:14:50.399 | INFO     | __main__:save_prepared_data:94 - Data saved to C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared\products_prepared.csv
+2025-11-09 17:14:50.399 | INFO     | __main__:main:302 - ==================================
+2025-11-09 17:14:50.399 | INFO     | __main__:main:303 - Original shape: (13, 6)
+2025-11-09 17:14:50.399 | INFO     | __main__:main:304 - Cleaned shape:  (100, 6)
+2025-11-09 17:14:50.399 | INFO     | __main__:main:305 - ==================================
+2025-11-09 17:14:50.399 | INFO     | __main__:main:306 - FINISHED prepare_products_data.py
+2025-11-09 17:14:50.400 | INFO     | __main__:main:307 - ==================================
+2025-11-09 17:16:46.794 | INFO     | __main__:main:145 - ==================================
+2025-11-09 17:16:46.794 | INFO     | __main__:main:146 - STARTING prepare_sales_data.py
+2025-11-09 17:16:46.794 | INFO     | __main__:main:147 - ==================================
+2025-11-09 17:16:46.794 | INFO     | __main__:main:149 - Root         : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-09 17:16:46.794 | INFO     | __main__:main:150 - data/raw     : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-09 17:16:46.794 | INFO     | __main__:main:151 - data/prepared: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-09 17:16:46.794 | INFO     | __main__:main:152 - scripts      : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-09 17:16:46.794 | INFO     | __main__:read_raw_data:69 - FUNCTION START: read_raw_data with file_name=sales_data.csv
+2025-11-09 17:16:46.794 | INFO     | __main__:read_raw_data:71 - Reading data from C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw\sales_data.csv
+2025-11-09 17:16:46.798 | INFO     | __main__:read_raw_data:73 - Loaded dataframe with 2001 rows and 9 columns
+2025-11-09 17:16:46.798 | INFO     | __main__:read_raw_data:78 - Column datatypes: 
+TransactionID      int64
+SaleDate          object
+CustomerID         int64
+ProductID          int64
+StoreID            int64
+CampaignID       float64
+SaleAmount        object
+NumSold          float64
+PaymntType        object
+dtype: object
+2025-11-09 17:16:46.799 | INFO     | __main__:read_raw_data:79 - Number of unique values: 
+TransactionID    2000
+SaleDate            2
+CustomerID        201
+ProductID         100
+StoreID             4
+CampaignID          4
+SaleAmount        915
+NumSold             9
+PaymntType          2
+dtype: int64
+2025-11-09 17:16:46.799 | INFO     | __main__:main:164 - Initial dataframe columns: TransactionID, SaleDate, CustomerID, ProductID, StoreID, CampaignID, SaleAmount, NumSold, PaymntType
+2025-11-09 17:16:46.800 | INFO     | __main__:main:165 - Initial dataframe shape: (2001, 9)
+2025-11-09 17:16:46.800 | INFO     | __main__:handle_missing_values:95 - FUNCTION START: handle_missing_values with dataframe shape=(2001, 9)
+2025-11-09 17:16:46.801 | INFO     | __main__:handle_missing_values:102 - Missing values by column before handling:
+TransactionID    0
+SaleDate         0
+CustomerID       0
+ProductID        0
+StoreID          0
+CampaignID       1
+SaleAmount       0
+NumSold          1
+PaymntType       0
+dtype: int64
+2025-11-09 17:16:46.802 | INFO     | __main__:handle_missing_values:116 - Missing values by column after handling:
+TransactionID    0
+SaleDate         0
+CustomerID       0
+ProductID        0
+StoreID          0
+CampaignID       1
+SaleAmount       0
+NumSold          0
+PaymntType       0
+dtype: int64
+2025-11-09 17:16:46.803 | INFO     | __main__:handle_missing_values:117 - 2000 records remaining after handling missing values.
+2025-11-09 17:16:46.803 | INFO     | __main__:save_prepared_data:128 - FUNCTION START: save_prepared_data with file_name=sales_prepared.csv, dataframe shape=(2000, 9)
+2025-11-09 17:16:46.807 | INFO     | __main__:save_prepared_data:133 - Data saved to C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared\sales_prepared.csv
+2025-11-09 17:16:46.808 | INFO     | __main__:main:190 - ==================================
+2025-11-09 17:16:46.808 | INFO     | __main__:main:191 - Original shape: (2000, 9)
+2025-11-09 17:16:46.808 | INFO     | __main__:main:192 - Cleaned shape:  (2001, 9)
+2025-11-09 17:16:46.808 | INFO     | __main__:main:193 - ==================================
+2025-11-09 17:16:46.808 | INFO     | __main__:main:194 - FINISHED prepare_sales_data.py
+2025-11-09 17:16:46.808 | INFO     | __main__:main:195 - ==================================
+2025-11-09 17:21:20.692 | INFO     | __main__:main:182 - ==================================
+2025-11-09 17:21:20.693 | INFO     | __main__:main:183 - STARTING prepare_sales_data.py
+2025-11-09 17:21:20.693 | INFO     | __main__:main:184 - ==================================
+2025-11-09 17:21:20.693 | INFO     | __main__:main:186 - Root         : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-09 17:21:20.693 | INFO     | __main__:main:187 - data/raw     : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-09 17:21:20.693 | INFO     | __main__:main:188 - data/prepared: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-09 17:21:20.693 | INFO     | __main__:main:189 - scripts      : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-09 17:21:20.694 | INFO     | __main__:read_raw_data:69 - FUNCTION START: read_raw_data with file_name=sales_data.csv
+2025-11-09 17:21:20.694 | INFO     | __main__:read_raw_data:71 - Reading data from C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw\sales_data.csv
+2025-11-09 17:21:20.698 | INFO     | __main__:read_raw_data:73 - Loaded dataframe with 2001 rows and 9 columns
+2025-11-09 17:21:20.699 | INFO     | __main__:read_raw_data:78 - Column datatypes: 
+TransactionID      int64
+SaleDate          object
+CustomerID         int64
+ProductID          int64
+StoreID            int64
+CampaignID       float64
+SaleAmount        object
+NumSold          float64
+PaymntType        object
+dtype: object
+2025-11-09 17:21:20.700 | INFO     | __main__:read_raw_data:79 - Number of unique values: 
+TransactionID    2000
+SaleDate            2
+CustomerID        201
+ProductID         100
+StoreID             4
+CampaignID          4
+SaleAmount        915
+NumSold             9
+PaymntType          2
+dtype: int64
+2025-11-09 17:21:20.700 | INFO     | __main__:main:201 - Initial dataframe columns: TransactionID, SaleDate, CustomerID, ProductID, StoreID, CampaignID, SaleAmount, NumSold, PaymntType
+2025-11-09 17:21:20.700 | INFO     | __main__:main:202 - Initial dataframe shape: (2001, 9)
+2025-11-09 17:21:20.701 | INFO     | __main__:handle_missing_values:132 - FUNCTION START: handle_missing_values with dataframe shape=(2001, 9)
+2025-11-09 17:21:20.702 | INFO     | __main__:handle_missing_values:139 - Missing values by column before handling:
+TransactionID    0
+SaleDate         0
+CustomerID       0
+ProductID        0
+StoreID          0
+CampaignID       1
+SaleAmount       0
+NumSold          1
+PaymntType       0
+dtype: int64
+2025-11-09 17:21:20.703 | INFO     | __main__:handle_missing_values:153 - Missing values by column after handling:
+TransactionID    0
+SaleDate         0
+CustomerID       0
+ProductID        0
+StoreID          0
+CampaignID       1
+SaleAmount       0
+NumSold          0
+PaymntType       0
+dtype: int64
+2025-11-09 17:21:20.704 | INFO     | __main__:handle_missing_values:154 - 2000 records remaining after handling missing values.
+2025-11-09 17:21:20.704 | INFO     | __main__:remove_outliers:95 - FUNCTION START: remove_outliers with dataframe shape=(2000, 9)
+2025-11-09 17:21:20.706 | INFO     | __main__:remove_outliers:111 - Applied outlier removal to ProductID: bounds [1948.5, 2152.5]
+2025-11-09 17:21:20.707 | INFO     | __main__:remove_outliers:116 - Removed 0 outlier rows
+2025-11-09 17:21:20.707 | INFO     | __main__:remove_outliers:117 - 2000 records remaining after removing outliers.
+2025-11-09 17:21:20.707 | INFO     | __main__:save_prepared_data:165 - FUNCTION START: save_prepared_data with file_name=sales_prepared.csv, dataframe shape=(2000, 9)
+2025-11-09 17:21:20.712 | INFO     | __main__:save_prepared_data:170 - Data saved to C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared\sales_prepared.csv
+2025-11-09 17:21:20.712 | INFO     | __main__:main:227 - ==================================
+2025-11-09 17:21:20.713 | INFO     | __main__:main:228 - Original shape: (2000, 9)
+2025-11-09 17:21:20.713 | INFO     | __main__:main:229 - Cleaned shape:  (2001, 9)
+2025-11-09 17:21:20.713 | INFO     | __main__:main:230 - ==================================
+2025-11-09 17:21:20.713 | INFO     | __main__:main:231 - FINISHED prepare_sales_data.py
+2025-11-09 17:21:20.713 | INFO     | __main__:main:232 - ==================================
+2025-11-09 17:22:14.599 | INFO     | __main__:main:219 - ==================================
+2025-11-09 17:22:14.599 | INFO     | __main__:main:220 - STARTING prepare_sales_data.py
+2025-11-09 17:22:14.599 | INFO     | __main__:main:221 - ==================================
+2025-11-09 17:22:14.600 | INFO     | __main__:main:223 - Root         : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-09 17:22:14.600 | INFO     | __main__:main:224 - data/raw     : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-09 17:22:14.600 | INFO     | __main__:main:225 - data/prepared: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-09 17:22:14.600 | INFO     | __main__:main:226 - scripts      : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-09 17:22:14.600 | INFO     | __main__:read_raw_data:69 - FUNCTION START: read_raw_data with file_name=sales_data.csv
+2025-11-09 17:22:14.600 | INFO     | __main__:read_raw_data:71 - Reading data from C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw\sales_data.csv
+2025-11-09 17:22:14.604 | INFO     | __main__:read_raw_data:73 - Loaded dataframe with 2001 rows and 9 columns
+2025-11-09 17:22:14.604 | INFO     | __main__:read_raw_data:78 - Column datatypes: 
+TransactionID      int64
+SaleDate          object
+CustomerID         int64
+ProductID          int64
+StoreID            int64
+CampaignID       float64
+SaleAmount        object
+NumSold          float64
+PaymntType        object
+dtype: object
+2025-11-09 17:22:14.605 | INFO     | __main__:read_raw_data:79 - Number of unique values: 
+TransactionID    2000
+SaleDate            2
+CustomerID        201
+ProductID         100
+StoreID             4
+CampaignID          4
+SaleAmount        915
+NumSold             9
+PaymntType          2
+dtype: int64
+2025-11-09 17:22:14.605 | INFO     | __main__:main:238 - Initial dataframe columns: TransactionID, SaleDate, CustomerID, ProductID, StoreID, CampaignID, SaleAmount, NumSold, PaymntType
+2025-11-09 17:22:14.605 | INFO     | __main__:main:239 - Initial dataframe shape: (2001, 9)
+2025-11-09 17:22:37.941 | INFO     | __main__:main:241 - ==================================
+2025-11-09 17:22:37.941 | INFO     | __main__:main:242 - STARTING prepare_sales_data.py
+2025-11-09 17:22:37.941 | INFO     | __main__:main:243 - ==================================
+2025-11-09 17:22:37.941 | INFO     | __main__:main:245 - Root         : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-09 17:22:37.941 | INFO     | __main__:main:246 - data/raw     : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-09 17:22:37.941 | INFO     | __main__:main:247 - data/prepared: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-09 17:22:37.941 | INFO     | __main__:main:248 - scripts      : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-09 17:22:37.941 | INFO     | __main__:read_raw_data:69 - FUNCTION START: read_raw_data with file_name=sales_data.csv
+2025-11-09 17:22:37.941 | INFO     | __main__:read_raw_data:71 - Reading data from C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw\sales_data.csv
+2025-11-09 17:22:37.945 | INFO     | __main__:read_raw_data:73 - Loaded dataframe with 2001 rows and 9 columns
+2025-11-09 17:22:37.945 | INFO     | __main__:read_raw_data:78 - Column datatypes: 
+TransactionID      int64
+SaleDate          object
+CustomerID         int64
+ProductID          int64
+StoreID            int64
+CampaignID       float64
+SaleAmount        object
+NumSold          float64
+PaymntType        object
+dtype: object
+2025-11-09 17:22:37.946 | INFO     | __main__:read_raw_data:79 - Number of unique values: 
+TransactionID    2000
+SaleDate            2
+CustomerID        201
+ProductID         100
+StoreID             4
+CampaignID          4
+SaleAmount        915
+NumSold             9
+PaymntType          2
+dtype: int64
+2025-11-09 17:22:37.947 | INFO     | __main__:main:260 - Initial dataframe columns: TransactionID, SaleDate, CustomerID, ProductID, StoreID, CampaignID, SaleAmount, NumSold, PaymntType
+2025-11-09 17:22:37.947 | INFO     | __main__:main:261 - Initial dataframe shape: (2001, 9)
+2025-11-09 17:22:37.947 | INFO     | __main__:remove_duplicates:202 - FUNCTION START: remove_duplicates with dataframe shape=(2001, 9)
+2025-11-09 17:22:37.948 | INFO     | __main__:remove_duplicates:212 - Removed 0 duplicate rows
+2025-11-09 17:22:37.948 | INFO     | __main__:remove_duplicates:213 - 2001 records remaining after removing duplicates.
+2025-11-09 17:22:37.949 | INFO     | __main__:handle_missing_values:132 - FUNCTION START: handle_missing_values with dataframe shape=(2001, 9)
+2025-11-09 17:22:37.949 | INFO     | __main__:handle_missing_values:139 - Missing values by column before handling:
+TransactionID    0
+SaleDate         0
+CustomerID       0
+ProductID        0
+StoreID          0
+CampaignID       1
+SaleAmount       0
+NumSold          1
+PaymntType       0
+dtype: int64
+2025-11-09 17:22:37.951 | INFO     | __main__:handle_missing_values:153 - Missing values by column after handling:
+TransactionID    0
+SaleDate         0
+CustomerID       0
+ProductID        0
+StoreID          0
+CampaignID       1
+SaleAmount       0
+NumSold          0
+PaymntType       0
+dtype: int64
+2025-11-09 17:22:37.951 | INFO     | __main__:handle_missing_values:154 - 2000 records remaining after handling missing values.
+2025-11-09 17:22:37.951 | INFO     | __main__:remove_outliers:168 - FUNCTION START: remove_outliers with dataframe shape=(2000, 9)
+2025-11-09 17:22:37.952 | INFO     | __main__:remove_outliers:184 - Applied outlier removal to ProductID: bounds [1948.5, 2152.5]
+2025-11-09 17:22:37.952 | INFO     | __main__:remove_outliers:187 - Removed 0 outlier rows
+2025-11-09 17:22:37.953 | INFO     | __main__:remove_outliers:188 - 2000 records remaining after removing outliers.
+2025-11-09 17:22:37.953 | INFO     | __main__:save_prepared_data:224 - FUNCTION START: save_prepared_data with file_name=sales_prepared.csv, dataframe shape=(2000, 9)
+2025-11-09 17:22:37.957 | INFO     | __main__:save_prepared_data:229 - Data saved to C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared\sales_prepared.csv
+2025-11-09 17:22:37.958 | INFO     | __main__:main:286 - ==================================
+2025-11-09 17:22:37.958 | INFO     | __main__:main:287 - Original shape: (2000, 9)
+2025-11-09 17:22:37.958 | INFO     | __main__:main:288 - Cleaned shape:  (2001, 9)
+2025-11-09 17:22:37.958 | INFO     | __main__:main:289 - ==================================
+2025-11-09 17:22:37.958 | INFO     | __main__:main:290 - FINISHED prepare_sales_data.py
+2025-11-09 17:22:37.958 | INFO     | __main__:main:291 - ==================================
+2025-11-09 17:23:49.147 | INFO     | __main__:main:207 - ==================================
+2025-11-09 17:23:49.147 | INFO     | __main__:main:208 - STARTING prepare_sales_data.py
+2025-11-09 17:23:49.147 | INFO     | __main__:main:209 - ==================================
+2025-11-09 17:23:49.148 | INFO     | __main__:main:211 - Root         : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-09 17:23:49.148 | INFO     | __main__:main:212 - data/raw     : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-09 17:23:49.148 | INFO     | __main__:main:213 - data/prepared: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-09 17:23:49.148 | INFO     | __main__:main:214 - scripts      : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-09 17:23:49.148 | INFO     | __main__:read_raw_data:69 - FUNCTION START: read_raw_data with file_name=sales_data.csv
+2025-11-09 17:23:49.149 | INFO     | __main__:read_raw_data:71 - Reading data from C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw\sales_data.csv
+2025-11-09 17:23:49.153 | INFO     | __main__:read_raw_data:73 - Loaded dataframe with 2001 rows and 9 columns
+2025-11-09 17:23:49.154 | INFO     | __main__:read_raw_data:78 - Column datatypes: 
+TransactionID      int64
+SaleDate          object
+CustomerID         int64
+ProductID          int64
+StoreID            int64
+CampaignID       float64
+SaleAmount        object
+NumSold          float64
+PaymntType        object
+dtype: object
+2025-11-09 17:23:49.156 | INFO     | __main__:read_raw_data:79 - Number of unique values: 
+TransactionID    2000
+SaleDate            2
+CustomerID        201
+ProductID         100
+StoreID             4
+CampaignID          4
+SaleAmount        915
+NumSold             9
+PaymntType          2
+dtype: int64
+2025-11-09 17:23:49.156 | INFO     | __main__:main:226 - Initial dataframe columns: TransactionID, SaleDate, CustomerID, ProductID, StoreID, CampaignID, SaleAmount, NumSold, PaymntType
+2025-11-09 17:23:49.156 | INFO     | __main__:main:227 - Initial dataframe shape: (2001, 9)
+2025-11-09 17:23:49.156 | INFO     | __main__:remove_duplicates:168 - FUNCTION START: remove_duplicates with dataframe shape=(2001, 9)
+2025-11-09 17:23:49.157 | INFO     | __main__:remove_duplicates:178 - Removed 0 duplicate rows
+2025-11-09 17:23:49.158 | INFO     | __main__:remove_duplicates:179 - 2001 records remaining after removing duplicates.
+2025-11-09 17:23:49.158 | INFO     | __main__:handle_missing_values:132 - FUNCTION START: handle_missing_values with dataframe shape=(2001, 9)
+2025-11-09 17:23:49.158 | INFO     | __main__:handle_missing_values:139 - Missing values by column before handling:
+TransactionID    0
+SaleDate         0
+CustomerID       0
+ProductID        0
+StoreID          0
+CampaignID       1
+SaleAmount       0
+NumSold          1
+PaymntType       0
+dtype: int64
+2025-11-09 17:23:49.160 | INFO     | __main__:handle_missing_values:153 - Missing values by column after handling:
+TransactionID    0
+SaleDate         0
+CustomerID       0
+ProductID        0
+StoreID          0
+CampaignID       1
+SaleAmount       0
+NumSold          0
+PaymntType       0
+dtype: int64
+2025-11-09 17:23:49.160 | INFO     | __main__:handle_missing_values:154 - 2000 records remaining after handling missing values.
+2025-11-09 17:23:49.160 | INFO     | __main__:remove_outliers:95 - FUNCTION START: remove_outliers with dataframe shape=(2000, 9)
+2025-11-09 17:23:49.161 | INFO     | __main__:remove_outliers:111 - Applied outlier removal to ProductID: bounds [1948.5, 2152.5]
+2025-11-09 17:23:49.161 | INFO     | __main__:remove_outliers:116 - Removed 0 outlier rows
+2025-11-09 17:23:49.161 | INFO     | __main__:remove_outliers:117 - 2000 records remaining after removing outliers.
+2025-11-09 17:23:49.161 | INFO     | __main__:save_prepared_data:190 - FUNCTION START: save_prepared_data with file_name=sales_prepared.csv, dataframe shape=(2000, 9)
+2025-11-09 17:23:49.166 | INFO     | __main__:save_prepared_data:195 - Data saved to C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared\sales_prepared.csv
+2025-11-09 17:23:49.166 | INFO     | __main__:main:252 - ==================================
+2025-11-09 17:23:49.166 | INFO     | __main__:main:253 - Original shape: (2000, 9)
+2025-11-09 17:23:49.166 | INFO     | __main__:main:254 - Cleaned shape:  (2001, 9)
+2025-11-09 17:23:49.167 | INFO     | __main__:main:255 - ==================================
+2025-11-09 17:23:49.167 | INFO     | __main__:main:256 - FINISHED prepare_sales_data.py
+2025-11-09 17:23:49.167 | INFO     | __main__:main:257 - ==================================
+2025-11-09 17:25:01.907 | INFO     | __main__:main:207 - ==================================
+2025-11-09 17:25:01.907 | INFO     | __main__:main:208 - STARTING prepare_sales_data.py
+2025-11-09 17:25:01.907 | INFO     | __main__:main:209 - ==================================
+2025-11-09 17:25:01.908 | INFO     | __main__:main:211 - Root         : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-09 17:25:01.908 | INFO     | __main__:main:212 - data/raw     : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-09 17:25:01.908 | INFO     | __main__:main:213 - data/prepared: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-09 17:25:01.908 | INFO     | __main__:main:214 - scripts      : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-09 17:25:01.908 | INFO     | __main__:read_raw_data:69 - FUNCTION START: read_raw_data with file_name=sales_data.csv
+2025-11-09 17:25:01.908 | INFO     | __main__:read_raw_data:71 - Reading data from C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw\sales_data.csv
+2025-11-09 17:25:01.911 | INFO     | __main__:read_raw_data:73 - Loaded dataframe with 2001 rows and 9 columns
+2025-11-09 17:25:01.912 | INFO     | __main__:read_raw_data:78 - Column datatypes: 
+TransactionID      int64
+SaleDate          object
+CustomerID         int64
+ProductID          int64
+StoreID            int64
+CampaignID       float64
+SaleAmount        object
+NumSold          float64
+PaymntType        object
+dtype: object
+2025-11-09 17:25:01.913 | INFO     | __main__:read_raw_data:79 - Number of unique values: 
+TransactionID    2000
+SaleDate            2
+CustomerID        201
+ProductID         100
+StoreID             4
+CampaignID          4
+SaleAmount        915
+NumSold             9
+PaymntType          2
+dtype: int64
+2025-11-09 17:25:01.913 | INFO     | __main__:main:226 - Initial dataframe columns: TransactionID, SaleDate, CustomerID, ProductID, StoreID, CampaignID, SaleAmount, NumSold, PaymntType
+2025-11-09 17:25:01.913 | INFO     | __main__:main:227 - Initial dataframe shape: (2001, 9)
+2025-11-09 17:25:01.914 | INFO     | __main__:remove_duplicates:168 - FUNCTION START: remove_duplicates with dataframe shape=(2001, 9)
+2025-11-09 17:25:01.915 | INFO     | __main__:remove_duplicates:178 - Removed 0 duplicate rows
+2025-11-09 17:25:01.915 | INFO     | __main__:remove_duplicates:179 - 2001 records remaining after removing duplicates.
+2025-11-09 17:25:01.915 | INFO     | __main__:handle_missing_values:132 - FUNCTION START: handle_missing_values with dataframe shape=(2001, 9)
+2025-11-09 17:25:01.916 | INFO     | __main__:handle_missing_values:139 - Missing values by column before handling:
+TransactionID    0
+SaleDate         0
+CustomerID       0
+ProductID        0
+StoreID          0
+CampaignID       1
+SaleAmount       0
+NumSold          1
+PaymntType       0
+dtype: int64
+2025-11-09 17:25:01.918 | INFO     | __main__:handle_missing_values:153 - Missing values by column after handling:
+TransactionID    0
+SaleDate         0
+CustomerID       0
+ProductID        0
+StoreID          0
+CampaignID       1
+SaleAmount       0
+NumSold          0
+PaymntType       0
+dtype: int64
+2025-11-09 17:25:01.918 | INFO     | __main__:handle_missing_values:154 - 2000 records remaining after handling missing values.
+2025-11-09 17:25:01.918 | INFO     | __main__:remove_outliers:95 - FUNCTION START: remove_outliers with dataframe shape=(2000, 9)
+2025-11-09 17:25:01.919 | INFO     | __main__:remove_outliers:111 - Applied outlier removal to ProductID: bounds [1948.5, 2152.5]
+2025-11-09 17:25:01.919 | INFO     | __main__:remove_outliers:116 - Removed 0 outlier rows
+2025-11-09 17:25:01.919 | INFO     | __main__:remove_outliers:117 - 2000 records remaining after removing outliers.
+2025-11-09 17:25:01.919 | INFO     | __main__:save_prepared_data:190 - FUNCTION START: save_prepared_data with file_name=sales_prepared.csv, dataframe shape=(2000, 9)
+2025-11-09 17:25:01.924 | INFO     | __main__:save_prepared_data:195 - Data saved to C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared\sales_prepared.csv
+2025-11-09 17:25:01.925 | INFO     | __main__:main:252 - ==================================
+2025-11-09 17:25:01.925 | INFO     | __main__:main:253 - Original shape: (2000, 9)
+2025-11-09 17:25:01.925 | INFO     | __main__:main:254 - Cleaned shape:  (2001, 9)
+2025-11-09 17:25:01.925 | INFO     | __main__:main:255 - ==================================
+2025-11-09 17:25:01.925 | INFO     | __main__:main:256 - FINISHED prepare_sales_data.py
+2025-11-09 17:25:01.925 | INFO     | __main__:main:257 - ==================================

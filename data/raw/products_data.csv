@@ -4,7 +4,7 @@ ProductID,ProductName,Category,UnitPrice,OH_Quant,Supplier
 2002,Office-Family,Clothing,866,81596,Hurz
 2003,Electronics-Training,Clothing,385.18,93860,Lib Co.
 2004,Office-Where,Home,927.25,37846,Artis
-2005,Office-Huge,Home,428.78,14285,Hurz
+2005,Office-Huge,Home,428.78,,Hurz
 2006,Office-Class,Clothing,198,33054,Artis
 2007,Clothing-Over,Electronics,583.39,85102,Artis
 2008,Electronics-Skin,Home,66.59,23373,Hurz
@@ -30,7 +30,7 @@ ProductID,ProductName,Category,UnitPrice,OH_Quant,Supplier
 2028,Electronics-Take,Electronics,637.94,83192,Artis
 2029,Home-Yourself,Electronics,13.51,73660,Lib Co.
 2030,Clothing-First,Home,169.97,24386,Hurz
-2031,Office-Develop,Office,565.3,36097,Lib Co.
+2031,Office-Develop,Office,565.3,,Lib Co.
 2032,Electronics-There,Electronics,945.6,19981,Artis
 2033,Clothing-Argue,Electronics,836.25,83280,Hurz
 2034,Clothing-Feel,Office,136.17,74108,Artis
