@@ -1761,3 +1761,77 @@ dtype: int64
 2025-11-09 18:09:00.307 | INFO     | __main__:main:249 - ==================================
 2025-11-09 18:09:00.308 | INFO     | __main__:main:250 - FINISHED prepare_sales_data.py
 2025-11-09 18:09:00.308 | INFO     | __main__:main:251 - ==================================
+2025-11-09 18:33:36.123 | INFO     | __main__:main:177 - ==================================
+2025-11-09 18:33:36.124 | INFO     | __main__:main:178 - STARTING prepare_customers_data.py
+2025-11-09 18:33:36.124 | INFO     | __main__:main:179 - ==================================
+2025-11-09 18:33:36.124 | INFO     | __main__:main:181 - Root         : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-09 18:33:36.124 | INFO     | __main__:main:182 - data/raw     : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-09 18:33:36.124 | INFO     | __main__:main:183 - data/prepared: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-09 18:33:36.124 | INFO     | __main__:main:184 - scripts      : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-09 18:33:36.124 | INFO     | __main__:read_raw_data:61 - READING: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw\customers_data.csv.
+2025-11-09 18:33:36.135 | INFO     | __main__:main:196 - Initial dataframe columns: CustomerID, Name, Region, JoinDate, LoyaltyPts, ContactMeth
+2025-11-09 18:33:36.135 | INFO     | __main__:main:197 - Initial dataframe shape: (201, 6)
+2025-11-09 18:33:36.136 | INFO     | __main__:remove_duplicates:99 - FUNCTION START: remove_duplicates with dataframe shape=(201, 6)
+2025-11-09 18:33:36.137 | INFO     | __main__:remove_duplicates:110 - Original dataframe shape: (201, 6)
+2025-11-09 18:33:36.137 | INFO     | __main__:remove_duplicates:111 - Deduped  dataframe shape: (201, 6)
+2025-11-09 18:33:36.137 | INFO     | __main__:handle_missing_values:126 - FUNCTION START: handle_missing_values with dataframe shape=(201, 6)
+2025-11-09 18:33:36.137 | INFO     | __main__:handle_missing_values:130 - Total missing values before handling: 1
+2025-11-09 18:33:36.138 | INFO     | __main__:handle_missing_values:139 - Total missing values after handling: 0
+2025-11-09 18:33:36.138 | INFO     | __main__:handle_missing_values:140 - 200 records remaining after handling missing values.
+2025-11-09 18:33:36.138 | INFO     | __main__:remove_outliers:155 - FUNCTION START: remove_outliers with dataframe shape=(200, 6)
+2025-11-09 18:33:36.139 | INFO     | __main__:remove_outliers:163 - Removed 0 outlier rows
+2025-11-09 18:33:36.139 | INFO     | __main__:remove_outliers:164 - 200 records remaining after removing outliers.
+2025-11-09 18:33:36.139 | INFO     | __main__:save_prepared_data:79 - FUNCTION START: save_prepared_data with file_name=customers_prepared.csv, dataframe shape=(200, 6)
+2025-11-09 18:33:36.141 | INFO     | __main__:save_prepared_data:84 - Data saved to C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared\customers_prepared.csv
+2025-11-09 18:33:36.141 | INFO     | __main__:main:222 - ==================================
+2025-11-09 18:33:36.141 | INFO     | __main__:main:223 - Original shape: (201, 6)
+2025-11-09 18:33:36.141 | INFO     | __main__:main:224 - Cleaned shape:  (200, 6)
+2025-11-09 18:33:36.141 | INFO     | __main__:main:225 - ==================================
+2025-11-09 18:33:36.141 | INFO     | __main__:main:226 - FINISHED prepare_customers_data.py
+2025-11-09 18:33:36.141 | INFO     | __main__:main:227 - ==================================
+2025-11-09 18:36:50.166 | INFO     | __main__:main:177 - ==================================
+2025-11-09 18:36:50.167 | INFO     | __main__:main:178 - STARTING prepare_customers_data.py
+2025-11-09 18:36:50.167 | INFO     | __main__:main:179 - ==================================
+2025-11-09 18:36:50.167 | INFO     | __main__:main:181 - Root         : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-09 18:36:50.167 | INFO     | __main__:main:182 - data/raw     : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-09 18:36:50.167 | INFO     | __main__:main:183 - data/prepared: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-09 18:36:50.167 | INFO     | __main__:main:184 - scripts      : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-09 18:36:50.167 | INFO     | __main__:read_raw_data:61 - READING: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw\customers_data.csv.
+2025-11-09 18:36:50.169 | INFO     | __main__:main:196 - Initial dataframe columns: CustomerID, Name, Region, JoinDate, LoyaltyPts, ContactMeth
+2025-11-09 18:36:50.169 | INFO     | __main__:main:197 - Initial dataframe shape: (201, 6)
+2025-11-09 18:36:50.170 | INFO     | __main__:remove_duplicates:99 - FUNCTION START: remove_duplicates with dataframe shape=(201, 6)
+2025-11-09 18:36:50.171 | INFO     | __main__:remove_duplicates:110 - Original dataframe shape: (201, 6)
+2025-11-09 18:36:50.171 | INFO     | __main__:remove_duplicates:111 - Deduped  dataframe shape: (201, 6)
+2025-11-09 18:36:50.171 | INFO     | __main__:handle_missing_values:126 - FUNCTION START: handle_missing_values with dataframe shape=(201, 6)
+2025-11-09 18:36:50.171 | INFO     | __main__:handle_missing_values:130 - Total missing values before handling: 1
+2025-11-09 18:36:50.172 | INFO     | __main__:handle_missing_values:139 - Total missing values after handling: 0
+2025-11-09 18:36:50.172 | INFO     | __main__:handle_missing_values:140 - 200 records remaining after handling missing values.
+2025-11-09 18:36:50.172 | INFO     | __main__:remove_outliers:155 - FUNCTION START: remove_outliers with dataframe shape=(200, 6)
+2025-11-09 18:37:01.863 | INFO     | __main__:main:177 - ==================================
+2025-11-09 18:37:01.864 | INFO     | __main__:main:178 - STARTING prepare_customers_data.py
+2025-11-09 18:37:01.864 | INFO     | __main__:main:179 - ==================================
+2025-11-09 18:37:01.864 | INFO     | __main__:main:181 - Root         : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-09 18:37:01.864 | INFO     | __main__:main:182 - data/raw     : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-09 18:37:01.864 | INFO     | __main__:main:183 - data/prepared: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-09 18:37:01.864 | INFO     | __main__:main:184 - scripts      : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-09 18:37:01.864 | INFO     | __main__:read_raw_data:61 - READING: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw\customers_data.csv.
+2025-11-09 18:37:01.867 | INFO     | __main__:main:196 - Initial dataframe columns: CustomerID, Name, Region, JoinDate, LoyaltyPts, ContactMeth
+2025-11-09 18:37:01.867 | INFO     | __main__:main:197 - Initial dataframe shape: (201, 6)
+2025-11-09 18:37:01.867 | INFO     | __main__:remove_duplicates:99 - FUNCTION START: remove_duplicates with dataframe shape=(201, 6)
+2025-11-09 18:37:01.868 | INFO     | __main__:remove_duplicates:110 - Original dataframe shape: (201, 6)
+2025-11-09 18:37:01.868 | INFO     | __main__:remove_duplicates:111 - Deduped  dataframe shape: (201, 6)
+2025-11-09 18:37:01.868 | INFO     | __main__:handle_missing_values:126 - FUNCTION START: handle_missing_values with dataframe shape=(201, 6)
+2025-11-09 18:37:01.869 | INFO     | __main__:handle_missing_values:130 - Total missing values before handling: 1
+2025-11-09 18:37:01.870 | INFO     | __main__:handle_missing_values:139 - Total missing values after handling: 0
+2025-11-09 18:37:01.870 | INFO     | __main__:handle_missing_values:140 - 200 records remaining after handling missing values.
+2025-11-09 18:37:01.870 | INFO     | __main__:remove_outliers:155 - FUNCTION START: remove_outliers with dataframe shape=(200, 6)
+2025-11-09 18:37:01.870 | INFO     | __main__:remove_outliers:163 - Removed 0 outlier rows
+2025-11-09 18:37:01.870 | INFO     | __main__:remove_outliers:164 - 200 records remaining after removing outliers.
+2025-11-09 18:37:01.870 | INFO     | __main__:save_prepared_data:79 - FUNCTION START: save_prepared_data with file_name=customers_prepared.csv, dataframe shape=(200, 6)
+2025-11-09 18:37:01.872 | INFO     | __main__:save_prepared_data:84 - Data saved to C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared\customers_prepared.csv
+2025-11-09 18:37:01.872 | INFO     | __main__:main:222 - ==================================
+2025-11-09 18:37:01.872 | INFO     | __main__:main:223 - Original shape: (201, 6)
+2025-11-09 18:37:01.872 | INFO     | __main__:main:224 - Cleaned shape:  (200, 6)
+2025-11-09 18:37:01.873 | INFO     | __main__:main:225 - ==================================
+2025-11-09 18:37:01.873 | INFO     | __main__:main:226 - FINISHED prepare_customers_data.py
+2025-11-09 18:37:01.873 | INFO     | __main__:main:227 - ==================================
