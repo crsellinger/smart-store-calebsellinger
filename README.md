@@ -171,4 +171,8 @@ Each time forward progress is made, remember to git add-commit-push.
 
 ```uv run python -m analytics_project.data_prep```
 
+### Running Cleaning Scripts individually
+
+```py .\src\data_preparation\[script_name].py```
+
 
