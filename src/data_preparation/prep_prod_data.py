@@ -289,7 +289,7 @@ def main() -> None:
     df = validate_data(df)
 
     # TODO: Standardize formats
-    # df = standardize_formats(df)
+    df = standardize_formats(df)
 
     # Save prepared data
     save_prepared_data(df, output_file)
