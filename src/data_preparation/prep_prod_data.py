@@ -110,7 +110,7 @@ def remove_duplicates(df: pd.DataFrame) -> pd.DataFrame:
     # TODO: Consider which columns should be used to identify duplicates
     # Example: For products, SKU or product code is typically unique
     # So we could do something like this:
-    # df = df.drop_duplicates(subset=['product_code'])
+    df = df.drop_duplicates(subset=['productid'], keep="first")
     df = df.drop_duplicates()
 
     removed_count = initial_count - len(df)
@@ -230,8 +230,7 @@ def validate_data(df: pd.DataFrame) -> pd.DataFrame:
     # Example:
     invalid_prices = df[df["oh_quant"] < 0].shape[0]
     logger.info(f"Found {invalid_prices} products with negative prices")
-    df = df[df['oh_quant'] >= 0]
-    df = df[df["oh_quant"] < 10000]
+    df = df[(df['oh_quant'] >= 0) & (df['oh_quant'] < 100000)]
 
     logger.info("Data validation complete")
     return df
@@ -290,14 +289,14 @@ def main() -> None:
     df = validate_data(df)
 
     # TODO: Standardize formats
-    df = standardize_formats(df)
+    # df = standardize_formats(df)
 
     # Save prepared data
     save_prepared_data(df, output_file)
 
     logger.info("==================================")
-    logger.info(f"Original shape: {df.shape}")
-    logger.info(f"Cleaned shape:  {original_shape}")
+    logger.info(f"Original shape: {original_shape}")
+    logger.info(f"Cleaned shape:  {df.shape}")
     logger.info("==================================")
     logger.info("FINISHED prepare_products_data.py")
     logger.info("==================================")
