@@ -175,4 +175,8 @@ Each time forward progress is made, remember to git add-commit-push.
 
 ```py .\src\data_preparation\[script_name].py```
 
+### Data Warehouse
+
+Schema is star with one centralized facts table and two dimensional tables.
+
 
