@@ -168,7 +168,7 @@ def remove_duplicates(df: pd.DataFrame) -> pd.DataFrame:
     # Example: For products, SKU or product code is typically unique
     # So we could do something like this:
     # df = df.drop_duplicates(subset=['product_code'])
-    df = df.drop_duplicates()
+    df = df.drop_duplicates(subset=['TransactionID'])
 
     removed_count = initial_count - len(df)
     logger.info(f"Removed {removed_count} duplicate rows")

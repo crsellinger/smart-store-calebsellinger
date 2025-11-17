@@ -1835,3 +1835,1055 @@ dtype: int64
 2025-11-09 18:37:01.873 | INFO     | __main__:main:225 - ==================================
 2025-11-09 18:37:01.873 | INFO     | __main__:main:226 - FINISHED prepare_customers_data.py
 2025-11-09 18:37:01.873 | INFO     | __main__:main:227 - ==================================
+2025-11-16 19:14:40.174 | INFO     | __main__:main:177 - ==================================
+2025-11-16 19:14:40.174 | INFO     | __main__:main:178 - STARTING prepare_customers_data.py
+2025-11-16 19:14:40.174 | INFO     | __main__:main:179 - ==================================
+2025-11-16 19:14:40.175 | INFO     | __main__:main:181 - Root         : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 19:14:40.175 | INFO     | __main__:main:182 - data/raw     : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-16 19:14:40.175 | INFO     | __main__:main:183 - data/prepared: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-16 19:14:40.175 | INFO     | __main__:main:184 - scripts      : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 19:14:40.175 | INFO     | __main__:read_raw_data:61 - READING: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw\customers_data.csv.
+2025-11-16 19:14:40.178 | INFO     | __main__:main:196 - Initial dataframe columns: CustomerID, Name, Region, JoinDate, LoyaltyPts, ContactMeth
+2025-11-16 19:14:40.179 | INFO     | __main__:main:197 - Initial dataframe shape: (201, 6)
+2025-11-16 19:14:40.179 | INFO     | __main__:remove_duplicates:99 - FUNCTION START: remove_duplicates with dataframe shape=(201, 6)
+2025-11-16 19:14:40.184 | INFO     | __main__:remove_duplicates:110 - Original dataframe shape: (201, 6)
+2025-11-16 19:14:40.185 | INFO     | __main__:remove_duplicates:111 - Deduped  dataframe shape: (201, 6)
+2025-11-16 19:14:40.185 | INFO     | __main__:handle_missing_values:126 - FUNCTION START: handle_missing_values with dataframe shape=(201, 6)
+2025-11-16 19:14:40.185 | INFO     | __main__:handle_missing_values:130 - Total missing values before handling: 1
+2025-11-16 19:14:40.187 | INFO     | __main__:handle_missing_values:139 - Total missing values after handling: 0
+2025-11-16 19:14:40.187 | INFO     | __main__:handle_missing_values:140 - 200 records remaining after handling missing values.
+2025-11-16 19:14:40.188 | INFO     | __main__:remove_outliers:155 - FUNCTION START: remove_outliers with dataframe shape=(200, 6)
+2025-11-16 19:14:40.188 | INFO     | __main__:remove_outliers:163 - Removed 0 outlier rows
+2025-11-16 19:14:40.188 | INFO     | __main__:remove_outliers:164 - 200 records remaining after removing outliers.
+2025-11-16 19:14:40.188 | INFO     | __main__:save_prepared_data:79 - FUNCTION START: save_prepared_data with file_name=customers_prepared.csv, dataframe shape=(200, 6)
+2025-11-16 19:14:40.190 | INFO     | __main__:save_prepared_data:84 - Data saved to C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared\customers_prepared.csv
+2025-11-16 19:14:40.190 | INFO     | __main__:main:222 - ==================================
+2025-11-16 19:14:40.190 | INFO     | __main__:main:223 - Original shape: (201, 6)
+2025-11-16 19:14:40.190 | INFO     | __main__:main:224 - Cleaned shape:  (200, 6)
+2025-11-16 19:14:40.190 | INFO     | __main__:main:225 - ==================================
+2025-11-16 19:14:40.190 | INFO     | __main__:main:226 - FINISHED prepare_customers_data.py
+2025-11-16 19:14:40.191 | INFO     | __main__:main:227 - ==================================
+2025-11-16 19:18:04.190 | INFO     | __main__:main:177 - ==================================
+2025-11-16 19:18:04.190 | INFO     | __main__:main:178 - STARTING prepare_customers_data.py
+2025-11-16 19:18:04.190 | INFO     | __main__:main:179 - ==================================
+2025-11-16 19:18:04.191 | INFO     | __main__:main:181 - Root         : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 19:18:04.191 | INFO     | __main__:main:182 - data/raw     : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-16 19:18:04.191 | INFO     | __main__:main:183 - data/prepared: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-16 19:18:04.191 | INFO     | __main__:main:184 - scripts      : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 19:18:04.191 | INFO     | __main__:read_raw_data:61 - READING: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw\customers_data.csv.
+2025-11-16 19:18:04.193 | INFO     | __main__:main:196 - Initial dataframe columns: CustomerID, Name, Region, JoinDate, LoyaltyPts, ContactMeth
+2025-11-16 19:18:04.193 | INFO     | __main__:main:197 - Initial dataframe shape: (201, 6)
+2025-11-16 19:18:04.193 | INFO     | __main__:remove_duplicates:99 - FUNCTION START: remove_duplicates with dataframe shape=(201, 6)
+2025-11-16 19:18:04.194 | INFO     | __main__:remove_duplicates:110 - Original dataframe shape: (201, 6)
+2025-11-16 19:18:04.194 | INFO     | __main__:remove_duplicates:111 - Deduped  dataframe shape: (201, 6)
+2025-11-16 19:18:04.194 | INFO     | __main__:handle_missing_values:126 - FUNCTION START: handle_missing_values with dataframe shape=(201, 6)
+2025-11-16 19:18:04.195 | INFO     | __main__:handle_missing_values:130 - Total missing values before handling: 1
+2025-11-16 19:18:04.196 | INFO     | __main__:handle_missing_values:139 - Total missing values after handling: 0
+2025-11-16 19:18:04.196 | INFO     | __main__:handle_missing_values:140 - 200 records remaining after handling missing values.
+2025-11-16 19:18:04.196 | INFO     | __main__:remove_outliers:155 - FUNCTION START: remove_outliers with dataframe shape=(200, 6)
+2025-11-16 19:18:04.196 | INFO     | __main__:remove_outliers:163 - Removed 0 outlier rows
+2025-11-16 19:18:04.196 | INFO     | __main__:remove_outliers:164 - 200 records remaining after removing outliers.
+2025-11-16 19:18:04.196 | INFO     | __main__:save_prepared_data:79 - FUNCTION START: save_prepared_data with file_name=customers_prepared.csv, dataframe shape=(200, 6)
+2025-11-16 19:18:04.198 | INFO     | __main__:save_prepared_data:84 - Data saved to C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared\customers_prepared.csv
+2025-11-16 19:18:04.198 | INFO     | __main__:main:222 - ==================================
+2025-11-16 19:18:04.198 | INFO     | __main__:main:223 - Original shape: (201, 6)
+2025-11-16 19:18:04.198 | INFO     | __main__:main:224 - Cleaned shape:  (200, 6)
+2025-11-16 19:18:04.198 | INFO     | __main__:main:225 - ==================================
+2025-11-16 19:18:04.198 | INFO     | __main__:main:226 - FINISHED prepare_customers_data.py
+2025-11-16 19:18:04.198 | INFO     | __main__:main:227 - ==================================
+2025-11-16 19:19:56.129 | INFO     | __main__:<module>:65 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 19:19:56.129 | INFO     | __main__:<module>:66 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 19:19:56.129 | INFO     | __main__:<module>:67 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 19:19:56.130 | INFO     | __main__:<module>:68 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 19:19:56.130 | INFO     | __main__:<module>:69 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632
+2025-11-16 19:19:56.130 | INFO     | __main__:<module>:71 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data
+2025-11-16 19:19:56.130 | INFO     | __main__:<module>:72 - RAW_DATA_DIR:        C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\raw
+2025-11-16 19:19:56.130 | INFO     | __main__:<module>:73 - CLEAN_DATA_DIR:      C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\prepared
+2025-11-16 19:19:56.130 | INFO     | __main__:<module>:74 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse
+2025-11-16 19:19:56.130 | INFO     | __main__:<module>:75 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse\smart_sales.db
+2025-11-16 19:19:56.130 | INFO     | __main__:load_data_to_db:138 - Starting ETL: loading clean data into the warehouse.
+2025-11-16 19:19:56.142 | INFO     | __main__:load_data_to_db:207 - Closing database connection.
+2025-11-16 19:26:48.520 | INFO     | __main__:<module>:65 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 19:26:48.520 | INFO     | __main__:<module>:66 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 19:26:48.520 | INFO     | __main__:<module>:67 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 19:26:48.520 | INFO     | __main__:<module>:68 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 19:26:48.520 | INFO     | __main__:<module>:69 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632
+2025-11-16 19:26:48.520 | INFO     | __main__:<module>:71 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data
+2025-11-16 19:26:48.520 | INFO     | __main__:<module>:72 - RAW_DATA_DIR:        C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\raw
+2025-11-16 19:26:48.520 | INFO     | __main__:<module>:73 - CLEAN_DATA_DIR:      C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\prepared
+2025-11-16 19:26:48.520 | INFO     | __main__:<module>:74 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse
+2025-11-16 19:26:48.520 | INFO     | __main__:<module>:75 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse\smart_sales.db
+2025-11-16 19:26:48.520 | INFO     | __main__:load_data_to_db:137 - Starting ETL: loading clean data into the warehouse.
+2025-11-16 19:26:48.520 | INFO     | __main__:load_data_to_db:144 - Removing existing warehouse database at: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse\smart_sales.db
+2025-11-16 19:26:48.533 | INFO     | __main__:load_data_to_db:206 - Closing database connection.
+2025-11-16 19:28:09.389 | INFO     | __main__:<module>:65 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 19:28:09.390 | INFO     | __main__:<module>:66 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 19:28:09.390 | INFO     | __main__:<module>:67 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 19:28:09.390 | INFO     | __main__:<module>:68 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 19:28:09.390 | INFO     | __main__:<module>:69 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632
+2025-11-16 19:28:09.390 | INFO     | __main__:<module>:71 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data
+2025-11-16 19:28:09.390 | INFO     | __main__:<module>:72 - RAW_DATA_DIR:        C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\raw
+2025-11-16 19:28:09.390 | INFO     | __main__:<module>:73 - CLEAN_DATA_DIR:      C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\prepared
+2025-11-16 19:28:09.390 | INFO     | __main__:<module>:74 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse
+2025-11-16 19:28:09.391 | INFO     | __main__:<module>:75 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse\smart_sales.db
+2025-11-16 19:28:09.391 | INFO     | __main__:load_data_to_db:137 - Starting ETL: loading clean data into the warehouse.
+2025-11-16 19:28:09.391 | INFO     | __main__:load_data_to_db:144 - Removing existing warehouse database at: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse\smart_sales.db
+2025-11-16 19:28:09.398 | INFO     | __main__:load_data_to_db:206 - Closing database connection.
+2025-11-16 19:29:22.120 | INFO     | __main__:<module>:65 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 19:29:22.120 | INFO     | __main__:<module>:66 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 19:29:22.120 | INFO     | __main__:<module>:67 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 19:29:22.120 | INFO     | __main__:<module>:68 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 19:29:22.120 | INFO     | __main__:<module>:69 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632
+2025-11-16 19:29:22.120 | INFO     | __main__:<module>:71 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data
+2025-11-16 19:29:22.120 | INFO     | __main__:<module>:72 - RAW_DATA_DIR:        C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\raw
+2025-11-16 19:29:22.120 | INFO     | __main__:<module>:73 - CLEAN_DATA_DIR:      C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\prepared
+2025-11-16 19:29:22.120 | INFO     | __main__:<module>:74 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse
+2025-11-16 19:29:22.120 | INFO     | __main__:<module>:75 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse\smart_sales.db
+2025-11-16 19:29:22.120 | INFO     | __main__:load_data_to_db:137 - Starting ETL: loading clean data into the warehouse.
+2025-11-16 19:29:22.120 | INFO     | __main__:load_data_to_db:144 - Removing existing warehouse database at: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse\smart_sales.db
+2025-11-16 19:29:22.128 | INFO     | __main__:load_data_to_db:206 - Closing database connection.
+2025-11-16 19:29:55.263 | INFO     | __main__:<module>:65 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 19:29:55.263 | INFO     | __main__:<module>:66 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 19:29:55.263 | INFO     | __main__:<module>:67 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 19:29:55.263 | INFO     | __main__:<module>:68 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 19:29:55.263 | INFO     | __main__:<module>:69 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632
+2025-11-16 19:29:55.263 | INFO     | __main__:<module>:71 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data
+2025-11-16 19:29:55.263 | INFO     | __main__:<module>:72 - RAW_DATA_DIR:        C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\raw
+2025-11-16 19:29:55.264 | INFO     | __main__:<module>:73 - CLEAN_DATA_DIR:      C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\prepared
+2025-11-16 19:29:55.264 | INFO     | __main__:<module>:74 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse
+2025-11-16 19:29:55.264 | INFO     | __main__:<module>:75 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse\smart_sales.db
+2025-11-16 19:29:55.264 | INFO     | __main__:load_data_to_db:137 - Starting ETL: loading clean data into the warehouse.
+2025-11-16 19:29:55.264 | INFO     | __main__:load_data_to_db:144 - Removing existing warehouse database at: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse\smart_sales.db
+2025-11-16 19:29:55.271 | INFO     | __main__:load_data_to_db:206 - Closing database connection.
+2025-11-16 19:30:43.405 | INFO     | __main__:main:177 - ==================================
+2025-11-16 19:30:43.405 | INFO     | __main__:main:178 - STARTING prepare_customers_data.py
+2025-11-16 19:30:43.405 | INFO     | __main__:main:179 - ==================================
+2025-11-16 19:30:43.405 | INFO     | __main__:main:181 - Root         : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 19:30:43.406 | INFO     | __main__:main:182 - data/raw     : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-16 19:30:43.406 | INFO     | __main__:main:183 - data/prepared: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-16 19:30:43.406 | INFO     | __main__:main:184 - scripts      : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 19:30:43.406 | INFO     | __main__:read_raw_data:61 - READING: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw\customers_data.csv.
+2025-11-16 19:30:43.410 | INFO     | __main__:main:196 - Initial dataframe columns: CustomerID, Name, Region, JoinDate, LoyaltyPts, ContactMeth
+2025-11-16 19:30:43.410 | INFO     | __main__:main:197 - Initial dataframe shape: (201, 6)
+2025-11-16 19:30:43.410 | INFO     | __main__:remove_duplicates:99 - FUNCTION START: remove_duplicates with dataframe shape=(201, 6)
+2025-11-16 19:30:43.416 | INFO     | __main__:remove_duplicates:110 - Original dataframe shape: (201, 6)
+2025-11-16 19:30:43.416 | INFO     | __main__:remove_duplicates:111 - Deduped  dataframe shape: (201, 6)
+2025-11-16 19:30:43.416 | INFO     | __main__:handle_missing_values:126 - FUNCTION START: handle_missing_values with dataframe shape=(201, 6)
+2025-11-16 19:30:43.416 | INFO     | __main__:handle_missing_values:130 - Total missing values before handling: 1
+2025-11-16 19:30:43.419 | INFO     | __main__:handle_missing_values:139 - Total missing values after handling: 0
+2025-11-16 19:30:43.419 | INFO     | __main__:handle_missing_values:140 - 200 records remaining after handling missing values.
+2025-11-16 19:30:43.419 | INFO     | __main__:remove_outliers:155 - FUNCTION START: remove_outliers with dataframe shape=(200, 6)
+2025-11-16 19:30:43.419 | INFO     | __main__:remove_outliers:163 - Removed 0 outlier rows
+2025-11-16 19:30:43.419 | INFO     | __main__:remove_outliers:164 - 200 records remaining after removing outliers.
+2025-11-16 19:30:43.419 | INFO     | __main__:save_prepared_data:79 - FUNCTION START: save_prepared_data with file_name=customers_prepared.csv, dataframe shape=(200, 6)
+2025-11-16 19:30:43.431 | INFO     | __main__:save_prepared_data:84 - Data saved to C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared\customers_prepared.csv
+2025-11-16 19:30:43.432 | INFO     | __main__:main:222 - ==================================
+2025-11-16 19:30:43.432 | INFO     | __main__:main:223 - Original shape: (201, 6)
+2025-11-16 19:30:43.432 | INFO     | __main__:main:224 - Cleaned shape:  (200, 6)
+2025-11-16 19:30:43.432 | INFO     | __main__:main:225 - ==================================
+2025-11-16 19:30:43.432 | INFO     | __main__:main:226 - FINISHED prepare_customers_data.py
+2025-11-16 19:30:43.432 | INFO     | __main__:main:227 - ==================================
+2025-11-16 19:30:46.183 | INFO     | __main__:<module>:65 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 19:30:46.183 | INFO     | __main__:<module>:66 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 19:30:46.183 | INFO     | __main__:<module>:67 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 19:30:46.183 | INFO     | __main__:<module>:68 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 19:30:46.183 | INFO     | __main__:<module>:69 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632
+2025-11-16 19:30:46.183 | INFO     | __main__:<module>:71 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data
+2025-11-16 19:30:46.183 | INFO     | __main__:<module>:72 - RAW_DATA_DIR:        C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\raw
+2025-11-16 19:30:46.183 | INFO     | __main__:<module>:73 - CLEAN_DATA_DIR:      C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\prepared
+2025-11-16 19:30:46.184 | INFO     | __main__:<module>:74 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse
+2025-11-16 19:30:46.184 | INFO     | __main__:<module>:75 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse\smart_sales.db
+2025-11-16 19:30:46.184 | INFO     | __main__:load_data_to_db:137 - Starting ETL: loading clean data into the warehouse.
+2025-11-16 19:30:46.184 | INFO     | __main__:load_data_to_db:144 - Removing existing warehouse database at: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse\smart_sales.db
+2025-11-16 19:30:46.193 | INFO     | __main__:load_data_to_db:206 - Closing database connection.
+2025-11-16 19:39:53.880 | INFO     | __main__:<module>:66 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 19:39:53.880 | INFO     | __main__:<module>:67 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 19:39:53.880 | INFO     | __main__:<module>:68 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 19:39:53.880 | INFO     | __main__:<module>:69 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 19:39:53.881 | INFO     | __main__:<module>:70 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632
+2025-11-16 19:39:53.881 | INFO     | __main__:<module>:72 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data
+2025-11-16 19:39:53.881 | INFO     | __main__:<module>:73 - RAW_DATA_DIR:        C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\raw
+2025-11-16 19:39:53.881 | INFO     | __main__:<module>:74 - CLEAN_DATA_DIR:      C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\prepared
+2025-11-16 19:39:53.881 | INFO     | __main__:<module>:75 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse
+2025-11-16 19:39:53.881 | INFO     | __main__:<module>:76 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse\smart_sales.db
+2025-11-16 19:39:53.881 | INFO     | __main__:load_data_to_db:138 - Starting ETL: loading clean data into the warehouse.
+2025-11-16 19:39:53.882 | INFO     | __main__:load_data_to_db:145 - Removing existing warehouse database at: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse\smart_sales.db
+2025-11-16 19:39:53.889 | INFO     | __main__:load_data_to_db:210 - Closing database connection.
+2025-11-16 19:40:57.079 | INFO     | __main__:<module>:66 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 19:40:57.079 | INFO     | __main__:<module>:67 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 19:40:57.079 | INFO     | __main__:<module>:68 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 19:40:57.079 | INFO     | __main__:<module>:69 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 19:40:57.079 | INFO     | __main__:<module>:70 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632
+2025-11-16 19:40:57.079 | INFO     | __main__:<module>:72 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data
+2025-11-16 19:40:57.079 | INFO     | __main__:<module>:73 - RAW_DATA_DIR:        C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\raw
+2025-11-16 19:40:57.079 | INFO     | __main__:<module>:74 - CLEAN_DATA_DIR:      C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\prepared
+2025-11-16 19:40:57.079 | INFO     | __main__:<module>:75 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse
+2025-11-16 19:40:57.079 | INFO     | __main__:<module>:76 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse\smart_sales.db
+2025-11-16 19:40:57.079 | INFO     | __main__:load_data_to_db:138 - Starting ETL: loading clean data into the warehouse.
+2025-11-16 19:40:57.079 | INFO     | __main__:load_data_to_db:145 - Removing existing warehouse database at: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse\smart_sales.db
+2025-11-16 19:40:57.086 | INFO     | __main__:load_data_to_db:210 - Closing database connection.
+2025-11-16 19:41:38.640 | INFO     | __main__:<module>:66 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 19:41:38.640 | INFO     | __main__:<module>:67 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 19:41:38.641 | INFO     | __main__:<module>:68 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 19:41:38.641 | INFO     | __main__:<module>:69 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 19:41:38.641 | INFO     | __main__:<module>:70 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632
+2025-11-16 19:41:38.641 | INFO     | __main__:<module>:72 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data
+2025-11-16 19:41:38.641 | INFO     | __main__:<module>:73 - RAW_DATA_DIR:        C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\raw
+2025-11-16 19:41:38.641 | INFO     | __main__:<module>:74 - CLEAN_DATA_DIR:      C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\prepared
+2025-11-16 19:41:38.641 | INFO     | __main__:<module>:75 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse
+2025-11-16 19:41:38.642 | INFO     | __main__:<module>:76 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse\smart_sales.db
+2025-11-16 19:41:38.642 | INFO     | __main__:load_data_to_db:138 - Starting ETL: loading clean data into the warehouse.
+2025-11-16 19:41:38.642 | INFO     | __main__:load_data_to_db:145 - Removing existing warehouse database at: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse\smart_sales.db
+2025-11-16 19:41:38.648 | INFO     | __main__:load_data_to_db:210 - Closing database connection.
+2025-11-16 19:41:47.963 | INFO     | __main__:<module>:66 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 19:41:47.963 | INFO     | __main__:<module>:67 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 19:41:47.964 | INFO     | __main__:<module>:68 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 19:41:47.964 | INFO     | __main__:<module>:69 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 19:41:47.964 | INFO     | __main__:<module>:70 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632
+2025-11-16 19:41:47.964 | INFO     | __main__:<module>:72 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data
+2025-11-16 19:41:47.964 | INFO     | __main__:<module>:73 - RAW_DATA_DIR:        C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\raw
+2025-11-16 19:41:47.964 | INFO     | __main__:<module>:74 - CLEAN_DATA_DIR:      C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\prepared
+2025-11-16 19:41:47.964 | INFO     | __main__:<module>:75 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse
+2025-11-16 19:41:47.964 | INFO     | __main__:<module>:76 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse\smart_sales.db
+2025-11-16 19:41:47.964 | INFO     | __main__:load_data_to_db:138 - Starting ETL: loading clean data into the warehouse.
+2025-11-16 19:41:47.965 | INFO     | __main__:load_data_to_db:145 - Removing existing warehouse database at: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse\smart_sales.db
+2025-11-16 19:41:47.972 | INFO     | __main__:load_data_to_db:210 - Closing database connection.
+2025-11-16 19:42:22.143 | INFO     | __main__:<module>:66 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 19:42:22.144 | INFO     | __main__:<module>:67 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 19:42:22.144 | INFO     | __main__:<module>:68 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 19:42:22.144 | INFO     | __main__:<module>:69 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 19:42:22.144 | INFO     | __main__:<module>:70 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632
+2025-11-16 19:42:22.144 | INFO     | __main__:<module>:72 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data
+2025-11-16 19:42:22.144 | INFO     | __main__:<module>:73 - RAW_DATA_DIR:        C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\raw
+2025-11-16 19:42:22.144 | INFO     | __main__:<module>:74 - CLEAN_DATA_DIR:      C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\prepared
+2025-11-16 19:42:22.145 | INFO     | __main__:<module>:75 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse
+2025-11-16 19:42:22.145 | INFO     | __main__:<module>:76 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse\smart_sales.db
+2025-11-16 19:42:22.145 | INFO     | __main__:load_data_to_db:138 - Starting ETL: loading clean data into the warehouse.
+2025-11-16 19:42:22.145 | INFO     | __main__:load_data_to_db:145 - Removing existing warehouse database at: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse\smart_sales.db
+2025-11-16 19:42:22.152 | INFO     | __main__:load_data_to_db:212 - Closing database connection.
+2025-11-16 19:44:11.170 | INFO     | __main__:<module>:66 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 19:44:11.170 | INFO     | __main__:<module>:67 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 19:44:11.170 | INFO     | __main__:<module>:68 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 19:44:11.171 | INFO     | __main__:<module>:69 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 19:44:11.171 | INFO     | __main__:<module>:70 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632
+2025-11-16 19:44:11.171 | INFO     | __main__:<module>:72 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data
+2025-11-16 19:44:11.171 | INFO     | __main__:<module>:73 - RAW_DATA_DIR:        C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\raw
+2025-11-16 19:44:11.171 | INFO     | __main__:<module>:74 - CLEAN_DATA_DIR:      C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\prepared
+2025-11-16 19:44:11.171 | INFO     | __main__:<module>:75 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse
+2025-11-16 19:44:11.171 | INFO     | __main__:<module>:76 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse\smart_sales.db
+2025-11-16 19:44:11.171 | INFO     | __main__:load_data_to_db:138 - Starting ETL: loading clean data into the warehouse.
+2025-11-16 19:44:11.171 | INFO     | __main__:load_data_to_db:145 - Removing existing warehouse database at: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse\smart_sales.db
+2025-11-16 19:44:11.179 | INFO     | __main__:load_data_to_db:212 - Closing database connection.
+2025-11-16 19:46:59.969 | INFO     | __main__:<module>:65 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 19:46:59.969 | INFO     | __main__:<module>:66 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 19:46:59.969 | INFO     | __main__:<module>:67 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 19:46:59.969 | INFO     | __main__:<module>:68 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 19:46:59.969 | INFO     | __main__:<module>:69 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632
+2025-11-16 19:46:59.970 | INFO     | __main__:<module>:71 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data
+2025-11-16 19:46:59.970 | INFO     | __main__:<module>:72 - RAW_DATA_DIR:        C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\raw
+2025-11-16 19:46:59.970 | INFO     | __main__:<module>:73 - CLEAN_DATA_DIR:      C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\prepared
+2025-11-16 19:46:59.970 | INFO     | __main__:<module>:74 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse
+2025-11-16 19:46:59.970 | INFO     | __main__:<module>:75 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse\smart_sales.db
+2025-11-16 19:46:59.970 | INFO     | __main__:load_data_to_db:137 - Starting ETL: loading clean data into the warehouse.
+2025-11-16 19:46:59.970 | INFO     | __main__:load_data_to_db:144 - Removing existing warehouse database at: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse\smart_sales.db
+2025-11-16 19:46:59.976 | INFO     | __main__:load_data_to_db:211 - Closing database connection.
+2025-11-16 19:49:00.001 | INFO     | __main__:<module>:65 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 19:49:00.001 | INFO     | __main__:<module>:66 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 19:49:00.001 | INFO     | __main__:<module>:67 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 19:49:00.001 | INFO     | __main__:<module>:68 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 19:49:00.001 | INFO     | __main__:<module>:69 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632
+2025-11-16 19:49:00.001 | INFO     | __main__:<module>:71 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data
+2025-11-16 19:49:00.001 | INFO     | __main__:<module>:72 - RAW_DATA_DIR:        C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\raw
+2025-11-16 19:49:00.001 | INFO     | __main__:<module>:73 - CLEAN_DATA_DIR:      C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\prepared
+2025-11-16 19:49:00.001 | INFO     | __main__:<module>:74 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse
+2025-11-16 19:49:00.001 | INFO     | __main__:<module>:75 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse\smart_sales.db
+2025-11-16 19:49:00.001 | INFO     | __main__:load_data_to_db:137 - Starting ETL: loading clean data into the warehouse.
+2025-11-16 19:49:00.002 | INFO     | __main__:load_data_to_db:144 - Removing existing warehouse database at: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse\smart_sales.db
+2025-11-16 19:49:00.009 | INFO     | __main__:load_data_to_db:211 - Closing database connection.
+2025-11-16 19:49:58.580 | INFO     | __main__:<module>:65 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 19:49:58.580 | INFO     | __main__:<module>:66 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 19:49:58.580 | INFO     | __main__:<module>:67 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 19:49:58.581 | INFO     | __main__:<module>:68 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 19:49:58.581 | INFO     | __main__:<module>:69 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632
+2025-11-16 19:49:58.581 | INFO     | __main__:<module>:71 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data
+2025-11-16 19:49:58.581 | INFO     | __main__:<module>:72 - RAW_DATA_DIR:        C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\raw
+2025-11-16 19:49:58.581 | INFO     | __main__:<module>:73 - CLEAN_DATA_DIR:      C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\prepared
+2025-11-16 19:49:58.581 | INFO     | __main__:<module>:74 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse
+2025-11-16 19:49:58.581 | INFO     | __main__:<module>:75 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse\smart_sales.db
+2025-11-16 19:49:58.581 | INFO     | __main__:load_data_to_db:137 - Starting ETL: loading clean data into the warehouse.
+2025-11-16 19:49:58.581 | INFO     | __main__:load_data_to_db:141 - Warehouse directory exists.
+2025-11-16 19:49:58.581 | INFO     | __main__:load_data_to_db:145 - Removing existing warehouse database at: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse\smart_sales.db
+2025-11-16 19:49:58.588 | INFO     | __main__:load_data_to_db:212 - Closing database connection.
+2025-11-16 19:50:19.809 | INFO     | __main__:<module>:65 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 19:50:19.809 | INFO     | __main__:<module>:66 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 19:50:19.809 | INFO     | __main__:<module>:67 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 19:50:19.809 | INFO     | __main__:<module>:68 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 19:50:19.809 | INFO     | __main__:<module>:69 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632
+2025-11-16 19:50:19.809 | INFO     | __main__:<module>:71 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data
+2025-11-16 19:50:19.809 | INFO     | __main__:<module>:72 - RAW_DATA_DIR:        C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\raw
+2025-11-16 19:50:19.809 | INFO     | __main__:<module>:73 - CLEAN_DATA_DIR:      C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\prepared
+2025-11-16 19:50:19.809 | INFO     | __main__:<module>:74 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse
+2025-11-16 19:50:19.809 | INFO     | __main__:<module>:75 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse\smart_sales.db
+2025-11-16 19:50:19.809 | INFO     | __main__:load_data_to_db:137 - Starting ETL: loading clean data into the warehouse.
+2025-11-16 19:50:19.810 | INFO     | __main__:load_data_to_db:141 - Warehouse directory exists.
+2025-11-16 19:50:19.810 | INFO     | __main__:load_data_to_db:145 - Removing existing warehouse database at: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse\smart_sales.db
+2025-11-16 19:50:19.816 | INFO     | __main__:load_data_to_db:212 - Closing database connection.
+2025-11-16 19:50:46.653 | INFO     | __main__:<module>:65 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 19:50:46.653 | INFO     | __main__:<module>:66 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 19:50:46.654 | INFO     | __main__:<module>:67 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 19:50:46.654 | INFO     | __main__:<module>:68 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 19:50:46.654 | INFO     | __main__:<module>:69 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632
+2025-11-16 19:50:46.654 | INFO     | __main__:<module>:71 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data
+2025-11-16 19:50:46.654 | INFO     | __main__:<module>:72 - RAW_DATA_DIR:        C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\raw
+2025-11-16 19:50:46.654 | INFO     | __main__:<module>:73 - CLEAN_DATA_DIR:      C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\prepared
+2025-11-16 19:50:46.654 | INFO     | __main__:<module>:74 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse
+2025-11-16 19:50:46.654 | INFO     | __main__:<module>:75 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse\smart_sales.db
+2025-11-16 19:50:46.654 | INFO     | __main__:load_data_to_db:137 - Starting ETL: loading clean data into the warehouse.
+2025-11-16 19:50:46.654 | INFO     | __main__:load_data_to_db:144 - Removing existing warehouse database at: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse\smart_sales.db
+2025-11-16 19:50:46.661 | INFO     | __main__:load_data_to_db:211 - Closing database connection.
+2025-11-16 19:52:21.659 | INFO     | __main__:<module>:65 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 19:52:21.659 | INFO     | __main__:<module>:66 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 19:52:21.659 | INFO     | __main__:<module>:67 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 19:52:21.660 | INFO     | __main__:<module>:68 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 19:52:21.660 | INFO     | __main__:<module>:69 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632
+2025-11-16 19:52:21.660 | INFO     | __main__:<module>:71 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data
+2025-11-16 19:52:21.660 | INFO     | __main__:<module>:72 - RAW_DATA_DIR:        C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\raw
+2025-11-16 19:52:21.660 | INFO     | __main__:<module>:73 - CLEAN_DATA_DIR:      C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\prepared
+2025-11-16 19:52:21.660 | INFO     | __main__:<module>:74 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse
+2025-11-16 19:52:21.660 | INFO     | __main__:<module>:75 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse\smart_sales.db
+2025-11-16 19:52:21.660 | INFO     | __main__:load_data_to_db:137 - Starting ETL: loading clean data into the warehouse.
+2025-11-16 19:52:21.660 | INFO     | __main__:load_data_to_db:144 - Removing existing warehouse database at: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse\smart_sales.db
+2025-11-16 19:52:21.667 | INFO     | __main__:load_data_to_db:211 - Closing database connection.
+2025-11-16 19:54:41.925 | INFO     | __main__:<module>:65 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 19:54:41.925 | INFO     | __main__:<module>:66 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 19:54:41.925 | INFO     | __main__:<module>:67 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 19:54:41.925 | INFO     | __main__:<module>:68 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 19:54:41.925 | INFO     | __main__:<module>:69 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632
+2025-11-16 19:54:41.925 | INFO     | __main__:<module>:71 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data
+2025-11-16 19:54:41.925 | INFO     | __main__:<module>:72 - RAW_DATA_DIR:        C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\raw
+2025-11-16 19:54:41.925 | INFO     | __main__:<module>:73 - CLEAN_DATA_DIR:      C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\prepared
+2025-11-16 19:54:41.925 | INFO     | __main__:<module>:74 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse
+2025-11-16 19:54:41.925 | INFO     | __main__:<module>:75 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse\smart_sales.db
+2025-11-16 19:54:41.925 | INFO     | __main__:load_data_to_db:141 - Starting ETL: loading clean data into the warehouse.
+2025-11-16 19:54:41.926 | INFO     | __main__:load_data_to_db:148 - Removing existing warehouse database at: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse\smart_sales.db
+2025-11-16 19:54:41.932 | INFO     | __main__:load_data_to_db:215 - Closing database connection.
+2025-11-16 19:57:31.370 | INFO     | __main__:<module>:65 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 19:57:31.370 | INFO     | __main__:<module>:66 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 19:57:31.371 | INFO     | __main__:<module>:67 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 19:57:31.371 | INFO     | __main__:<module>:68 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 19:57:31.371 | INFO     | __main__:<module>:69 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632
+2025-11-16 19:57:31.371 | INFO     | __main__:<module>:71 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data
+2025-11-16 19:57:31.371 | INFO     | __main__:<module>:72 - RAW_DATA_DIR:        C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\raw
+2025-11-16 19:57:31.371 | INFO     | __main__:<module>:73 - CLEAN_DATA_DIR:      C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\prepared
+2025-11-16 19:57:31.371 | INFO     | __main__:<module>:74 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse
+2025-11-16 19:57:31.371 | INFO     | __main__:<module>:75 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse\smart_sales.db
+2025-11-16 19:57:31.371 | INFO     | __main__:load_data_to_db:141 - Starting ETL: loading clean data into the warehouse.
+2025-11-16 19:57:31.371 | INFO     | __main__:load_data_to_db:148 - Removing existing warehouse database at: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse\smart_sales.db
+2025-11-16 19:57:31.379 | INFO     | __main__:load_data_to_db:216 - Closing database connection.
+2025-11-16 20:01:06.457 | INFO     | __main__:<module>:66 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:01:06.457 | INFO     | __main__:<module>:67 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:01:06.457 | INFO     | __main__:<module>:68 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 20:01:06.457 | INFO     | __main__:<module>:69 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:01:06.457 | INFO     | __main__:<module>:70 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632
+2025-11-16 20:01:06.457 | INFO     | __main__:<module>:72 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data
+2025-11-16 20:01:06.458 | INFO     | __main__:<module>:73 - RAW_DATA_DIR:        C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\raw
+2025-11-16 20:01:06.458 | INFO     | __main__:<module>:74 - CLEAN_DATA_DIR:      C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\prepared
+2025-11-16 20:01:06.458 | INFO     | __main__:<module>:75 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse
+2025-11-16 20:01:06.458 | INFO     | __main__:<module>:76 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse\smart_sales.db
+2025-11-16 20:01:06.458 | INFO     | __main__:load_data_to_db:142 - Starting ETL: loading clean data into the warehouse.
+2025-11-16 20:01:06.458 | INFO     | __main__:load_data_to_db:149 - Removing existing warehouse database at: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\data\warehouse\smart_sales.db
+2025-11-16 20:01:06.467 | INFO     | __main__:load_data_to_db:217 - Closing database connection.
+2025-11-16 20:01:39.953 | INFO     | __main__:<module>:66 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:01:39.953 | INFO     | __main__:<module>:67 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:01:39.953 | INFO     | __main__:<module>:68 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 20:01:39.953 | INFO     | __main__:<module>:69 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:01:39.953 | INFO     | __main__:<module>:70 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:01:39.954 | INFO     | __main__:<module>:72 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data
+2025-11-16 20:01:39.954 | INFO     | __main__:<module>:73 - RAW_DATA_DIR:        C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-16 20:01:39.954 | INFO     | __main__:<module>:74 - CLEAN_DATA_DIR:      C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-16 20:01:39.954 | INFO     | __main__:<module>:75 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse
+2025-11-16 20:01:39.954 | INFO     | __main__:<module>:76 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:01:39.954 | INFO     | __main__:load_data_to_db:142 - Starting ETL: loading clean data into the warehouse.
+2025-11-16 20:01:39.954 | INFO     | __main__:load_data_to_db:149 - Removing existing warehouse database at: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:01:39.970 | INFO     | __main__:load_data_to_db:187 - Customer columns (cleaned): ['customer_id', 'name', 'region', 'join_date', 'LoyaltyPts', 'ContactMeth']
+2025-11-16 20:01:39.970 | INFO     | __main__:load_data_to_db:199 - Product columns (cleaned):  ['product_id', 'product_name', 'category', 'unit_price', 'oh_quant', 'supplier']
+2025-11-16 20:01:39.970 | INFO     | __main__:insert_customers:124 - Inserting 200 customer rows.
+2025-11-16 20:01:39.971 | INFO     | __main__:load_data_to_db:217 - Closing database connection.
+2025-11-16 20:04:52.556 | INFO     | __main__:<module>:66 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:04:52.556 | INFO     | __main__:<module>:67 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:04:52.556 | INFO     | __main__:<module>:68 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 20:04:52.556 | INFO     | __main__:<module>:69 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:04:52.556 | INFO     | __main__:<module>:70 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:04:52.556 | INFO     | __main__:<module>:72 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data
+2025-11-16 20:04:52.556 | INFO     | __main__:<module>:73 - RAW_DATA_DIR:        C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-16 20:04:52.557 | INFO     | __main__:<module>:74 - CLEAN_DATA_DIR:      C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-16 20:04:52.557 | INFO     | __main__:<module>:75 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse
+2025-11-16 20:04:52.557 | INFO     | __main__:<module>:76 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:04:52.557 | INFO     | __main__:load_data_to_db:140 - Starting ETL: loading clean data into the warehouse.
+2025-11-16 20:04:52.557 | INFO     | __main__:load_data_to_db:147 - Removing existing warehouse database at: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:04:52.567 | INFO     | __main__:load_data_to_db:185 - Customer columns (cleaned): ['customer_id', 'name', 'region', 'join_date', 'LoyaltyPts', 'ContactMeth']
+2025-11-16 20:04:52.567 | INFO     | __main__:load_data_to_db:197 - Product columns (cleaned):  ['product_id', 'product_name', 'category', 'unit_price', 'oh_quant', 'supplier']
+2025-11-16 20:04:52.567 | INFO     | __main__:insert_customers:122 - Inserting 200 customer rows.
+2025-11-16 20:04:52.568 | INFO     | __main__:load_data_to_db:215 - Closing database connection.
+2025-11-16 20:05:46.008 | INFO     | __main__:<module>:66 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:05:46.009 | INFO     | __main__:<module>:67 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:05:46.009 | INFO     | __main__:<module>:68 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 20:05:46.009 | INFO     | __main__:<module>:69 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:05:46.009 | INFO     | __main__:<module>:70 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:05:46.009 | INFO     | __main__:<module>:72 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data
+2025-11-16 20:05:46.009 | INFO     | __main__:<module>:73 - RAW_DATA_DIR:        C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-16 20:05:46.009 | INFO     | __main__:<module>:74 - CLEAN_DATA_DIR:      C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-16 20:05:46.009 | INFO     | __main__:<module>:75 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse
+2025-11-16 20:05:46.009 | INFO     | __main__:<module>:76 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:05:46.009 | INFO     | __main__:load_data_to_db:142 - Starting ETL: loading clean data into the warehouse.
+2025-11-16 20:05:46.009 | INFO     | __main__:load_data_to_db:149 - Removing existing warehouse database at: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:05:46.019 | INFO     | __main__:load_data_to_db:187 - Customer columns (cleaned): ['customer_id', 'name', 'region', 'join_date', 'LoyaltyPts', 'ContactMeth']
+2025-11-16 20:05:46.020 | INFO     | __main__:load_data_to_db:199 - Product columns (cleaned):  ['product_id', 'product_name', 'category', 'unit_price', 'oh_quant', 'supplier']
+2025-11-16 20:05:46.020 | INFO     | __main__:insert_customers:124 - Inserting 200 customer rows.
+2025-11-16 20:05:46.021 | INFO     | __main__:load_data_to_db:217 - Closing database connection.
+2025-11-16 20:06:07.467 | INFO     | __main__:<module>:66 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:06:07.467 | INFO     | __main__:<module>:67 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:06:07.467 | INFO     | __main__:<module>:68 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 20:06:07.467 | INFO     | __main__:<module>:69 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:06:07.467 | INFO     | __main__:<module>:70 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:06:07.467 | INFO     | __main__:<module>:72 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data
+2025-11-16 20:06:07.468 | INFO     | __main__:<module>:73 - RAW_DATA_DIR:        C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-16 20:06:07.468 | INFO     | __main__:<module>:74 - CLEAN_DATA_DIR:      C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-16 20:06:07.468 | INFO     | __main__:<module>:75 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse
+2025-11-16 20:06:07.468 | INFO     | __main__:<module>:76 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:06:07.468 | INFO     | __main__:load_data_to_db:142 - Starting ETL: loading clean data into the warehouse.
+2025-11-16 20:06:07.468 | INFO     | __main__:load_data_to_db:149 - Removing existing warehouse database at: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:06:07.477 | INFO     | __main__:load_data_to_db:187 - Customer columns (cleaned): ['customer_id', 'name', 'region', 'join_date', 'LoyaltyPts', 'ContactMeth']
+2025-11-16 20:06:07.477 | INFO     | __main__:load_data_to_db:199 - Product columns (cleaned):  ['product_id', 'product_name', 'category', 'unit_price', 'oh_quant', 'supplier']
+2025-11-16 20:06:07.477 | INFO     | __main__:insert_customers:124 - Inserting 200 customer rows.
+2025-11-16 20:06:07.480 | INFO     | __main__:insert_products:130 - Inserting 98 product rows.
+2025-11-16 20:06:07.480 | INFO     | __main__:load_data_to_db:217 - Closing database connection.
+2025-11-16 20:07:30.752 | INFO     | __main__:<module>:66 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:07:30.753 | INFO     | __main__:<module>:67 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:07:30.753 | INFO     | __main__:<module>:68 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 20:07:30.753 | INFO     | __main__:<module>:69 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:07:30.753 | INFO     | __main__:<module>:70 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:07:30.753 | INFO     | __main__:<module>:72 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data
+2025-11-16 20:07:30.753 | INFO     | __main__:<module>:73 - RAW_DATA_DIR:        C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-16 20:07:30.753 | INFO     | __main__:<module>:74 - CLEAN_DATA_DIR:      C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-16 20:07:30.753 | INFO     | __main__:<module>:75 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse
+2025-11-16 20:07:30.753 | INFO     | __main__:<module>:76 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:07:30.753 | INFO     | __main__:load_data_to_db:147 - Starting ETL: loading clean data into the warehouse.
+2025-11-16 20:07:30.753 | INFO     | __main__:load_data_to_db:154 - Removing existing warehouse database at: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:07:30.762 | INFO     | __main__:load_data_to_db:192 - Customer columns (cleaned): ['customer_id', 'name', 'region', 'join_date', 'LoyaltyPts', 'ContactMeth']
+2025-11-16 20:07:30.763 | INFO     | __main__:load_data_to_db:204 - Product columns (cleaned):  ['product_id', 'product_name', 'category', 'unit_price', 'oh_quant', 'supplier']
+2025-11-16 20:07:30.763 | INFO     | __main__:insert_customers:129 - Inserting 200 customer rows.
+2025-11-16 20:07:30.765 | INFO     | __main__:insert_products:135 - Inserting 98 product rows.
+2025-11-16 20:07:30.766 | INFO     | __main__:load_data_to_db:222 - Closing database connection.
+2025-11-16 20:07:41.204 | INFO     | __main__:<module>:66 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:07:41.204 | INFO     | __main__:<module>:67 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:07:41.205 | INFO     | __main__:<module>:68 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 20:07:41.205 | INFO     | __main__:<module>:69 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:07:41.205 | INFO     | __main__:<module>:70 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:07:41.205 | INFO     | __main__:<module>:72 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data
+2025-11-16 20:07:41.205 | INFO     | __main__:<module>:73 - RAW_DATA_DIR:        C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-16 20:07:41.205 | INFO     | __main__:<module>:74 - CLEAN_DATA_DIR:      C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-16 20:07:41.205 | INFO     | __main__:<module>:75 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse
+2025-11-16 20:07:41.205 | INFO     | __main__:<module>:76 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:07:41.205 | INFO     | __main__:load_data_to_db:147 - Starting ETL: loading clean data into the warehouse.
+2025-11-16 20:07:41.205 | INFO     | __main__:load_data_to_db:154 - Removing existing warehouse database at: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:07:41.215 | INFO     | __main__:load_data_to_db:192 - Customer columns (cleaned): ['customer_id', 'name', 'region', 'join_date', 'LoyaltyPts', 'ContactMeth']
+2025-11-16 20:07:41.215 | INFO     | __main__:load_data_to_db:204 - Product columns (cleaned):  ['product_id', 'product_name', 'category', 'unit_price', 'oh_quant', 'supplier']
+2025-11-16 20:07:41.215 | INFO     | __main__:insert_customers:129 - Inserting 200 customer rows.
+2025-11-16 20:07:41.217 | INFO     | __main__:insert_products:135 - Inserting 98 product rows.
+2025-11-16 20:07:41.220 | INFO     | __main__:load_data_to_db:218 - ETL finished successfully. Data loaded into the warehouse.
+2025-11-16 20:07:41.220 | INFO     | __main__:load_data_to_db:222 - Closing database connection.
+2025-11-16 20:09:16.371 | INFO     | __main__:<module>:66 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:09:16.371 | INFO     | __main__:<module>:67 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:09:16.371 | INFO     | __main__:<module>:68 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 20:09:16.371 | INFO     | __main__:<module>:69 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:09:16.371 | INFO     | __main__:<module>:70 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:09:16.371 | INFO     | __main__:<module>:72 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data
+2025-11-16 20:09:16.371 | INFO     | __main__:<module>:73 - RAW_DATA_DIR:        C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-16 20:09:16.371 | INFO     | __main__:<module>:74 - CLEAN_DATA_DIR:      C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-16 20:09:16.371 | INFO     | __main__:<module>:75 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse
+2025-11-16 20:09:16.371 | INFO     | __main__:<module>:76 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:09:16.371 | INFO     | __main__:load_data_to_db:147 - Starting ETL: loading clean data into the warehouse.
+2025-11-16 20:09:16.371 | INFO     | __main__:load_data_to_db:154 - Removing existing warehouse database at: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:09:16.380 | INFO     | __main__:load_data_to_db:192 - Customer columns (cleaned): ['customer_id', 'name', 'region', 'join_date', 'LoyaltyPts', 'ContactMeth']
+2025-11-16 20:09:16.381 | INFO     | __main__:load_data_to_db:204 - Product columns (cleaned):  ['product_id', 'product_name', 'category', 'unit_price', 'oh_quant', 'supplier']
+2025-11-16 20:09:16.381 | INFO     | __main__:insert_customers:129 - Inserting 200 customer rows.
+2025-11-16 20:09:16.383 | INFO     | __main__:insert_products:135 - Inserting 98 product rows.
+2025-11-16 20:09:16.386 | INFO     | __main__:load_data_to_db:218 - ETL finished successfully. Data loaded into the warehouse.
+2025-11-16 20:09:16.386 | INFO     | __main__:load_data_to_db:222 - Closing database connection.
+2025-11-16 20:09:45.936 | INFO     | __main__:<module>:66 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:09:45.936 | INFO     | __main__:<module>:67 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:09:45.937 | INFO     | __main__:<module>:68 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 20:09:45.937 | INFO     | __main__:<module>:69 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:09:45.937 | INFO     | __main__:<module>:70 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:09:45.937 | INFO     | __main__:<module>:72 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data
+2025-11-16 20:09:45.937 | INFO     | __main__:<module>:73 - RAW_DATA_DIR:        C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-16 20:09:45.937 | INFO     | __main__:<module>:74 - CLEAN_DATA_DIR:      C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-16 20:09:45.937 | INFO     | __main__:<module>:75 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse
+2025-11-16 20:09:45.937 | INFO     | __main__:<module>:76 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:09:45.937 | INFO     | __main__:load_data_to_db:147 - Starting ETL: loading clean data into the warehouse.
+2025-11-16 20:09:45.947 | INFO     | __main__:load_data_to_db:192 - Customer columns (cleaned): ['customer_id', 'name', 'region', 'join_date', 'LoyaltyPts', 'ContactMeth']
+2025-11-16 20:09:45.947 | INFO     | __main__:load_data_to_db:204 - Product columns (cleaned):  ['product_id', 'product_name', 'category', 'unit_price', 'oh_quant', 'supplier']
+2025-11-16 20:09:45.947 | INFO     | __main__:insert_customers:129 - Inserting 200 customer rows.
+2025-11-16 20:09:45.950 | INFO     | __main__:insert_products:135 - Inserting 98 product rows.
+2025-11-16 20:09:45.952 | INFO     | __main__:load_data_to_db:218 - ETL finished successfully. Data loaded into the warehouse.
+2025-11-16 20:09:45.952 | INFO     | __main__:load_data_to_db:222 - Closing database connection.
+2025-11-16 20:11:54.215 | INFO     | __main__:<module>:66 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:11:54.215 | INFO     | __main__:<module>:67 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:11:54.215 | INFO     | __main__:<module>:68 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 20:11:54.215 | INFO     | __main__:<module>:69 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:11:54.215 | INFO     | __main__:<module>:70 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:11:54.215 | INFO     | __main__:<module>:72 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data
+2025-11-16 20:11:54.215 | INFO     | __main__:<module>:73 - RAW_DATA_DIR:        C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-16 20:11:54.215 | INFO     | __main__:<module>:74 - CLEAN_DATA_DIR:      C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-16 20:11:54.215 | INFO     | __main__:<module>:75 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse
+2025-11-16 20:11:54.215 | INFO     | __main__:<module>:76 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:11:54.215 | INFO     | __main__:load_data_to_db:147 - Starting ETL: loading clean data into the warehouse.
+2025-11-16 20:11:54.226 | INFO     | __main__:load_data_to_db:192 - Customer columns (cleaned): ['customer_id', 'name', 'region', 'join_date', 'LoyaltyPts', 'ContactMeth']
+2025-11-16 20:11:54.226 | INFO     | __main__:load_data_to_db:204 - Product columns (cleaned):  ['product_id', 'product_name', 'category', 'unit_price', 'oh_quant', 'supplier']
+2025-11-16 20:11:54.226 | INFO     | __main__:insert_customers:129 - Inserting 200 customer rows.
+2025-11-16 20:11:54.229 | INFO     | __main__:insert_products:135 - Inserting 98 product rows.
+2025-11-16 20:11:54.231 | INFO     | __main__:load_data_to_db:218 - ETL finished successfully. Data loaded into the warehouse.
+2025-11-16 20:11:54.232 | INFO     | __main__:load_data_to_db:222 - Closing database connection.
+2025-11-16 20:15:22.217 | INFO     | __main__:<module>:66 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:15:22.217 | INFO     | __main__:<module>:67 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:15:22.217 | INFO     | __main__:<module>:68 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 20:15:22.217 | INFO     | __main__:<module>:69 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:15:22.217 | INFO     | __main__:<module>:70 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:15:22.217 | INFO     | __main__:<module>:72 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data
+2025-11-16 20:15:22.217 | INFO     | __main__:<module>:73 - RAW_DATA_DIR:        C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-16 20:15:22.217 | INFO     | __main__:<module>:74 - CLEAN_DATA_DIR:      C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-16 20:15:22.217 | INFO     | __main__:<module>:75 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse
+2025-11-16 20:15:22.217 | INFO     | __main__:<module>:76 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:15:22.217 | INFO     | __main__:load_data_to_db:147 - Starting ETL: loading clean data into the warehouse.
+2025-11-16 20:15:22.218 | INFO     | __main__:load_data_to_db:154 - Removing existing warehouse database at: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:15:22.230 | INFO     | __main__:load_data_to_db:194 - Customer columns (cleaned): ['customer_id', 'name', 'region', 'join_date', 'loyaltypts', 'ContactMeth']
+2025-11-16 20:15:22.230 | INFO     | __main__:load_data_to_db:208 - Product columns (cleaned):  ['product_id', 'product_name', 'category', 'unit_price', 'oh_quant', 'supplier']
+2025-11-16 20:15:22.230 | INFO     | __main__:insert_customers:129 - Inserting 200 customer rows.
+2025-11-16 20:15:22.233 | INFO     | __main__:insert_products:135 - Inserting 98 product rows.
+2025-11-16 20:15:22.236 | INFO     | __main__:load_data_to_db:222 - ETL finished successfully. Data loaded into the warehouse.
+2025-11-16 20:15:22.236 | INFO     | __main__:load_data_to_db:226 - Closing database connection.
+2025-11-16 20:16:04.770 | INFO     | __main__:<module>:66 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:16:04.771 | INFO     | __main__:<module>:67 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:16:04.771 | INFO     | __main__:<module>:68 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 20:16:04.771 | INFO     | __main__:<module>:69 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:16:04.771 | INFO     | __main__:<module>:70 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:16:04.771 | INFO     | __main__:<module>:72 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data
+2025-11-16 20:16:04.771 | INFO     | __main__:<module>:73 - RAW_DATA_DIR:        C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-16 20:16:04.771 | INFO     | __main__:<module>:74 - CLEAN_DATA_DIR:      C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-16 20:16:04.771 | INFO     | __main__:<module>:75 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse
+2025-11-16 20:16:04.771 | INFO     | __main__:<module>:76 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:16:04.771 | INFO     | __main__:load_data_to_db:147 - Starting ETL: loading clean data into the warehouse.
+2025-11-16 20:16:04.772 | INFO     | __main__:load_data_to_db:154 - Removing existing warehouse database at: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:16:04.784 | INFO     | __main__:load_data_to_db:194 - Customer columns (cleaned): ['customer_id', 'name', 'region', 'join_date', 'loyaltypts', 'ContactMeth']
+2025-11-16 20:16:04.785 | INFO     | __main__:load_data_to_db:208 - Product columns (cleaned):  ['product_id', 'product_name', 'category', 'unit_price', 'oh_quant', 'supplier']
+2025-11-16 20:16:04.785 | INFO     | __main__:insert_customers:129 - Inserting 200 customer rows.
+2025-11-16 20:16:04.788 | INFO     | __main__:insert_products:135 - Inserting 98 product rows.
+2025-11-16 20:16:04.790 | INFO     | __main__:insert_sales:141 - Inserting 2000 sale rows.
+2025-11-16 20:16:04.792 | INFO     | __main__:load_data_to_db:226 - Closing database connection.
+2025-11-16 20:24:54.432 | INFO     | __main__:<module>:66 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:24:54.432 | INFO     | __main__:<module>:67 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:24:54.432 | INFO     | __main__:<module>:68 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 20:24:54.433 | INFO     | __main__:<module>:69 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:24:54.433 | INFO     | __main__:<module>:70 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:24:54.433 | INFO     | __main__:<module>:72 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data
+2025-11-16 20:24:54.433 | INFO     | __main__:<module>:73 - RAW_DATA_DIR:        C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-16 20:24:54.433 | INFO     | __main__:<module>:74 - CLEAN_DATA_DIR:      C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-16 20:24:54.433 | INFO     | __main__:<module>:75 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse
+2025-11-16 20:24:54.433 | INFO     | __main__:<module>:76 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:24:54.433 | INFO     | __main__:load_data_to_db:147 - Starting ETL: loading clean data into the warehouse.
+2025-11-16 20:24:54.434 | INFO     | __main__:load_data_to_db:154 - Removing existing warehouse database at: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:24:54.446 | INFO     | __main__:load_data_to_db:194 - Customer columns (cleaned): ['customer_id', 'name', 'region', 'join_date', 'loyaltypts', 'ContactMeth']
+2025-11-16 20:24:54.446 | INFO     | __main__:load_data_to_db:208 - Product columns (cleaned):  ['product_id', 'product_name', 'category', 'unit_price', 'oh_quant', 'supplier']
+2025-11-16 20:24:54.447 | INFO     | __main__:insert_customers:129 - Inserting 200 customer rows.
+2025-11-16 20:24:54.449 | INFO     | __main__:insert_products:135 - Inserting 98 product rows.
+2025-11-16 20:24:54.451 | INFO     | __main__:insert_sales:141 - Inserting 2000 sale rows.
+2025-11-16 20:24:54.453 | INFO     | __main__:load_data_to_db:235 - Closing database connection.
+2025-11-16 20:30:29.669 | INFO     | __main__:<module>:66 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:30:29.669 | INFO     | __main__:<module>:67 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:30:29.669 | INFO     | __main__:<module>:68 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 20:30:29.669 | INFO     | __main__:<module>:69 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:30:29.670 | INFO     | __main__:<module>:70 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:30:29.670 | INFO     | __main__:<module>:72 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data
+2025-11-16 20:30:29.670 | INFO     | __main__:<module>:73 - RAW_DATA_DIR:        C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-16 20:30:29.670 | INFO     | __main__:<module>:74 - CLEAN_DATA_DIR:      C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-16 20:30:29.670 | INFO     | __main__:<module>:75 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse
+2025-11-16 20:30:29.670 | INFO     | __main__:<module>:76 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:30:29.670 | INFO     | __main__:load_data_to_db:147 - Starting ETL: loading clean data into the warehouse.
+2025-11-16 20:30:29.670 | INFO     | __main__:load_data_to_db:154 - Removing existing warehouse database at: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:30:29.682 | INFO     | __main__:load_data_to_db:194 - Customer columns (cleaned): ['customer_id', 'name', 'region', 'join_date', 'loyaltypts', 'ContactMeth']
+2025-11-16 20:30:29.682 | INFO     | __main__:load_data_to_db:208 - Product columns (cleaned):  ['product_id', 'product_name', 'category', 'unit_price', 'oh_quant', 'supplier']
+2025-11-16 20:30:29.683 | INFO     | __main__:insert_customers:129 - Inserting 200 customer rows.
+2025-11-16 20:30:29.685 | INFO     | __main__:insert_products:135 - Inserting 98 product rows.
+2025-11-16 20:30:29.687 | INFO     | __main__:insert_sales:141 - Inserting 2000 sale rows.
+2025-11-16 20:30:29.689 | INFO     | __main__:load_data_to_db:235 - Closing database connection.
+2025-11-16 20:30:50.697 | INFO     | __main__:<module>:66 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:30:50.698 | INFO     | __main__:<module>:67 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:30:50.698 | INFO     | __main__:<module>:68 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 20:30:50.698 | INFO     | __main__:<module>:69 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:30:50.698 | INFO     | __main__:<module>:70 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:30:50.698 | INFO     | __main__:<module>:72 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data
+2025-11-16 20:30:50.698 | INFO     | __main__:<module>:73 - RAW_DATA_DIR:        C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-16 20:30:50.698 | INFO     | __main__:<module>:74 - CLEAN_DATA_DIR:      C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-16 20:30:50.698 | INFO     | __main__:<module>:75 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse
+2025-11-16 20:30:50.698 | INFO     | __main__:<module>:76 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:30:50.698 | INFO     | __main__:load_data_to_db:147 - Starting ETL: loading clean data into the warehouse.
+2025-11-16 20:30:50.698 | INFO     | __main__:load_data_to_db:154 - Removing existing warehouse database at: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:30:50.711 | INFO     | __main__:load_data_to_db:194 - Customer columns (cleaned): ['customer_id', 'name', 'region', 'join_date', 'loyaltypts', 'ContactMeth']
+2025-11-16 20:30:50.711 | INFO     | __main__:load_data_to_db:208 - Product columns (cleaned):  ['product_id', 'product_name', 'category', 'unit_price', 'oh_quant', 'supplier']
+2025-11-16 20:30:50.712 | INFO     | __main__:insert_customers:129 - Inserting 200 customer rows.
+2025-11-16 20:30:50.714 | INFO     | __main__:insert_products:135 - Inserting 98 product rows.
+2025-11-16 20:30:50.716 | INFO     | __main__:insert_sales:141 - Inserting 2000 sale rows.
+2025-11-16 20:30:50.718 | INFO     | __main__:load_data_to_db:234 - Closing database connection.
+2025-11-16 20:31:34.508 | INFO     | __main__:<module>:66 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:31:34.508 | INFO     | __main__:<module>:67 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:31:34.508 | INFO     | __main__:<module>:68 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 20:31:34.508 | INFO     | __main__:<module>:69 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:31:34.508 | INFO     | __main__:<module>:70 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:31:34.508 | INFO     | __main__:<module>:72 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data
+2025-11-16 20:31:34.509 | INFO     | __main__:<module>:73 - RAW_DATA_DIR:        C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-16 20:31:34.509 | INFO     | __main__:<module>:74 - CLEAN_DATA_DIR:      C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-16 20:31:34.509 | INFO     | __main__:<module>:75 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse
+2025-11-16 20:31:34.509 | INFO     | __main__:<module>:76 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:31:34.509 | INFO     | __main__:load_data_to_db:147 - Starting ETL: loading clean data into the warehouse.
+2025-11-16 20:31:34.509 | INFO     | __main__:load_data_to_db:154 - Removing existing warehouse database at: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:31:34.521 | INFO     | __main__:load_data_to_db:194 - Customer columns (cleaned): ['customer_id', 'name', 'region', 'join_date', 'loyaltypts', 'ContactMeth']
+2025-11-16 20:31:34.522 | INFO     | __main__:load_data_to_db:208 - Product columns (cleaned):  ['product_id', 'product_name', 'category', 'unit_price', 'oh_quant', 'supplier']
+2025-11-16 20:31:34.522 | INFO     | __main__:insert_customers:129 - Inserting 200 customer rows.
+2025-11-16 20:31:34.525 | INFO     | __main__:insert_products:135 - Inserting 98 product rows.
+2025-11-16 20:31:34.527 | INFO     | __main__:insert_sales:141 - Inserting 2000 sale rows.
+2025-11-16 20:31:34.529 | INFO     | __main__:load_data_to_db:235 - Closing database connection.
+2025-11-16 20:31:44.890 | INFO     | __main__:<module>:66 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:31:44.890 | INFO     | __main__:<module>:67 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:31:44.891 | INFO     | __main__:<module>:68 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 20:31:44.891 | INFO     | __main__:<module>:69 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:31:44.891 | INFO     | __main__:<module>:70 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:31:44.891 | INFO     | __main__:<module>:72 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data
+2025-11-16 20:31:44.891 | INFO     | __main__:<module>:73 - RAW_DATA_DIR:        C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-16 20:31:44.891 | INFO     | __main__:<module>:74 - CLEAN_DATA_DIR:      C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-16 20:31:44.891 | INFO     | __main__:<module>:75 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse
+2025-11-16 20:31:44.891 | INFO     | __main__:<module>:76 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:31:44.891 | INFO     | __main__:load_data_to_db:147 - Starting ETL: loading clean data into the warehouse.
+2025-11-16 20:31:44.892 | INFO     | __main__:load_data_to_db:154 - Removing existing warehouse database at: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:31:44.904 | INFO     | __main__:load_data_to_db:194 - Customer columns (cleaned): ['customer_id', 'name', 'region', 'join_date', 'loyaltypts', 'ContactMeth']
+2025-11-16 20:31:44.904 | INFO     | __main__:load_data_to_db:208 - Product columns (cleaned):  ['product_id', 'product_name', 'category', 'unit_price', 'oh_quant', 'supplier']
+2025-11-16 20:31:44.904 | INFO     | __main__:insert_customers:129 - Inserting 200 customer rows.
+2025-11-16 20:31:44.907 | INFO     | __main__:insert_products:135 - Inserting 98 product rows.
+2025-11-16 20:31:44.910 | INFO     | __main__:insert_sales:141 - Inserting 2000 sale rows.
+2025-11-16 20:31:44.911 | INFO     | __main__:load_data_to_db:235 - Closing database connection.
+2025-11-16 20:33:04.851 | INFO     | __main__:<module>:66 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:33:04.851 | INFO     | __main__:<module>:67 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:33:04.851 | INFO     | __main__:<module>:68 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 20:33:04.851 | INFO     | __main__:<module>:69 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:33:04.851 | INFO     | __main__:<module>:70 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:33:04.851 | INFO     | __main__:<module>:72 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data
+2025-11-16 20:33:04.851 | INFO     | __main__:<module>:73 - RAW_DATA_DIR:        C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-16 20:33:04.851 | INFO     | __main__:<module>:74 - CLEAN_DATA_DIR:      C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-16 20:33:04.851 | INFO     | __main__:<module>:75 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse
+2025-11-16 20:33:04.851 | INFO     | __main__:<module>:76 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:33:04.851 | INFO     | __main__:load_data_to_db:147 - Starting ETL: loading clean data into the warehouse.
+2025-11-16 20:33:04.852 | INFO     | __main__:load_data_to_db:154 - Removing existing warehouse database at: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:33:04.865 | INFO     | __main__:load_data_to_db:194 - Customer columns (cleaned): ['customer_id', 'name', 'region', 'join_date', 'loyaltypts', 'ContactMeth']
+2025-11-16 20:33:04.865 | INFO     | __main__:load_data_to_db:208 - Product columns (cleaned):  ['product_id', 'product_name', 'category', 'unit_price', 'oh_quant', 'supplier']
+2025-11-16 20:33:04.865 | INFO     | __main__:insert_customers:129 - Inserting 200 customer rows.
+2025-11-16 20:33:04.868 | INFO     | __main__:insert_products:135 - Inserting 98 product rows.
+2025-11-16 20:33:04.871 | INFO     | __main__:insert_sales:141 - Inserting 2000 sale rows.
+2025-11-16 20:33:04.873 | INFO     | __main__:load_data_to_db:237 - Closing database connection.
+2025-11-16 20:33:52.670 | INFO     | __main__:<module>:66 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:33:52.670 | INFO     | __main__:<module>:67 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:33:52.670 | INFO     | __main__:<module>:68 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 20:33:52.670 | INFO     | __main__:<module>:69 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:33:52.670 | INFO     | __main__:<module>:70 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:33:52.670 | INFO     | __main__:<module>:72 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data
+2025-11-16 20:33:52.671 | INFO     | __main__:<module>:73 - RAW_DATA_DIR:        C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-16 20:33:52.671 | INFO     | __main__:<module>:74 - CLEAN_DATA_DIR:      C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-16 20:33:52.671 | INFO     | __main__:<module>:75 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse
+2025-11-16 20:33:52.671 | INFO     | __main__:<module>:76 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:33:52.671 | INFO     | __main__:load_data_to_db:147 - Starting ETL: loading clean data into the warehouse.
+2025-11-16 20:33:52.671 | INFO     | __main__:load_data_to_db:154 - Removing existing warehouse database at: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:33:52.683 | INFO     | __main__:load_data_to_db:194 - Customer columns (cleaned): ['customer_id', 'name', 'region', 'join_date', 'loyaltypts', 'ContactMeth']
+2025-11-16 20:33:52.683 | INFO     | __main__:load_data_to_db:208 - Product columns (cleaned):  ['product_id', 'product_name', 'category', 'unit_price', 'oh_quant', 'supplier']
+2025-11-16 20:33:52.684 | INFO     | __main__:insert_customers:129 - Inserting 200 customer rows.
+2025-11-16 20:33:52.686 | INFO     | __main__:insert_products:135 - Inserting 98 product rows.
+2025-11-16 20:33:52.689 | INFO     | __main__:insert_sales:141 - Inserting 2000 sale rows.
+2025-11-16 20:33:52.690 | INFO     | __main__:load_data_to_db:237 - Closing database connection.
+2025-11-16 20:34:06.974 | INFO     | __main__:<module>:66 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:34:06.974 | INFO     | __main__:<module>:67 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:34:06.974 | INFO     | __main__:<module>:68 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 20:34:06.974 | INFO     | __main__:<module>:69 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:34:06.974 | INFO     | __main__:<module>:70 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:34:06.974 | INFO     | __main__:<module>:72 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data
+2025-11-16 20:34:06.974 | INFO     | __main__:<module>:73 - RAW_DATA_DIR:        C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-16 20:34:06.975 | INFO     | __main__:<module>:74 - CLEAN_DATA_DIR:      C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-16 20:34:06.975 | INFO     | __main__:<module>:75 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse
+2025-11-16 20:34:06.975 | INFO     | __main__:<module>:76 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:34:06.975 | INFO     | __main__:load_data_to_db:147 - Starting ETL: loading clean data into the warehouse.
+2025-11-16 20:34:06.975 | INFO     | __main__:load_data_to_db:154 - Removing existing warehouse database at: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:34:06.986 | INFO     | __main__:load_data_to_db:194 - Customer columns (cleaned): ['customer_id', 'name', 'region', 'join_date', 'loyaltypts', 'ContactMeth']
+2025-11-16 20:34:06.987 | INFO     | __main__:load_data_to_db:208 - Product columns (cleaned):  ['product_id', 'product_name', 'category', 'unit_price', 'oh_quant', 'supplier']
+2025-11-16 20:34:06.987 | INFO     | __main__:insert_customers:129 - Inserting 200 customer rows.
+2025-11-16 20:34:06.989 | INFO     | __main__:insert_products:135 - Inserting 98 product rows.
+2025-11-16 20:34:06.992 | INFO     | __main__:insert_sales:141 - Inserting 2000 sale rows.
+2025-11-16 20:34:06.993 | INFO     | __main__:load_data_to_db:237 - Closing database connection.
+2025-11-16 20:40:05.898 | INFO     | __main__:<module>:66 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:40:05.898 | INFO     | __main__:<module>:67 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:40:05.898 | INFO     | __main__:<module>:68 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 20:40:05.898 | INFO     | __main__:<module>:69 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:40:05.898 | INFO     | __main__:<module>:70 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:40:05.898 | INFO     | __main__:<module>:72 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data
+2025-11-16 20:40:05.898 | INFO     | __main__:<module>:73 - RAW_DATA_DIR:        C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-16 20:40:05.898 | INFO     | __main__:<module>:74 - CLEAN_DATA_DIR:      C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-16 20:40:05.899 | INFO     | __main__:<module>:75 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse
+2025-11-16 20:40:05.899 | INFO     | __main__:<module>:76 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:40:05.899 | INFO     | __main__:load_data_to_db:147 - Starting ETL: loading clean data into the warehouse.
+2025-11-16 20:40:05.899 | INFO     | __main__:load_data_to_db:154 - Removing existing warehouse database at: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:40:05.912 | INFO     | __main__:load_data_to_db:194 - Customer columns (cleaned): ['customer_id', 'name', 'region', 'join_date', 'loyaltypts', 'ContactMeth']
+2025-11-16 20:40:05.912 | INFO     | __main__:load_data_to_db:208 - Product columns (cleaned):  ['product_id', 'product_name', 'category', 'unit_price', 'oh_quant', 'supplier']
+2025-11-16 20:40:05.912 | INFO     | __main__:insert_customers:129 - Inserting 200 customer rows.
+2025-11-16 20:40:05.915 | INFO     | __main__:insert_products:135 - Inserting 98 product rows.
+2025-11-16 20:40:05.918 | INFO     | __main__:insert_sales:141 - Inserting 2000 sale rows.
+2025-11-16 20:40:05.919 | INFO     | __main__:load_data_to_db:239 - Closing database connection.
+2025-11-16 20:40:45.491 | INFO     | __main__:<module>:66 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:40:45.491 | INFO     | __main__:<module>:67 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:40:45.491 | INFO     | __main__:<module>:68 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 20:40:45.491 | INFO     | __main__:<module>:69 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:40:45.491 | INFO     | __main__:<module>:70 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:40:45.491 | INFO     | __main__:<module>:72 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data
+2025-11-16 20:40:45.491 | INFO     | __main__:<module>:73 - RAW_DATA_DIR:        C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-16 20:40:45.491 | INFO     | __main__:<module>:74 - CLEAN_DATA_DIR:      C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-16 20:40:45.492 | INFO     | __main__:<module>:75 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse
+2025-11-16 20:40:45.492 | INFO     | __main__:<module>:76 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:40:45.492 | INFO     | __main__:load_data_to_db:147 - Starting ETL: loading clean data into the warehouse.
+2025-11-16 20:40:45.492 | INFO     | __main__:load_data_to_db:154 - Removing existing warehouse database at: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:40:45.518 | INFO     | __main__:load_data_to_db:194 - Customer columns (cleaned): ['customer_id', 'name', 'region', 'join_date', 'loyaltypts', 'ContactMeth']
+2025-11-16 20:40:45.519 | INFO     | __main__:load_data_to_db:208 - Product columns (cleaned):  ['product_id', 'product_name', 'category', 'unit_price', 'oh_quant', 'supplier']
+2025-11-16 20:40:45.519 | INFO     | __main__:insert_customers:129 - Inserting 200 customer rows.
+2025-11-16 20:40:45.521 | INFO     | __main__:insert_products:135 - Inserting 98 product rows.
+2025-11-16 20:40:45.524 | INFO     | __main__:insert_sales:141 - Inserting 2000 sale rows.
+2025-11-16 20:40:45.525 | INFO     | __main__:load_data_to_db:234 - Closing database connection.
+2025-11-16 20:41:06.508 | INFO     | __main__:<module>:66 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:41:06.508 | INFO     | __main__:<module>:67 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:41:06.508 | INFO     | __main__:<module>:68 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 20:41:06.508 | INFO     | __main__:<module>:69 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:41:06.508 | INFO     | __main__:<module>:70 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:41:06.508 | INFO     | __main__:<module>:72 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data
+2025-11-16 20:41:06.508 | INFO     | __main__:<module>:73 - RAW_DATA_DIR:        C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-16 20:41:06.508 | INFO     | __main__:<module>:74 - CLEAN_DATA_DIR:      C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-16 20:41:06.508 | INFO     | __main__:<module>:75 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse
+2025-11-16 20:41:06.508 | INFO     | __main__:<module>:76 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:41:06.508 | INFO     | __main__:load_data_to_db:147 - Starting ETL: loading clean data into the warehouse.
+2025-11-16 20:41:06.508 | INFO     | __main__:load_data_to_db:154 - Removing existing warehouse database at: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:41:06.520 | INFO     | __main__:load_data_to_db:194 - Customer columns (cleaned): ['customer_id', 'name', 'region', 'join_date', 'loyaltypts', 'ContactMeth']
+2025-11-16 20:41:06.520 | INFO     | __main__:load_data_to_db:208 - Product columns (cleaned):  ['product_id', 'product_name', 'category', 'unit_price', 'oh_quant', 'supplier']
+2025-11-16 20:41:06.520 | INFO     | __main__:insert_customers:129 - Inserting 200 customer rows.
+2025-11-16 20:41:06.523 | INFO     | __main__:insert_products:135 - Inserting 98 product rows.
+2025-11-16 20:41:06.525 | INFO     | __main__:insert_sales:141 - Inserting 2000 sale rows.
+2025-11-16 20:41:06.527 | INFO     | __main__:load_data_to_db:234 - Closing database connection.
+2025-11-16 20:45:06.750 | INFO     | __main__:<module>:66 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:45:06.750 | INFO     | __main__:<module>:67 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:45:06.750 | INFO     | __main__:<module>:68 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 20:45:06.750 | INFO     | __main__:<module>:69 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:45:06.750 | INFO     | __main__:<module>:70 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:45:06.750 | INFO     | __main__:<module>:72 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data
+2025-11-16 20:45:06.751 | INFO     | __main__:<module>:73 - RAW_DATA_DIR:        C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-16 20:45:06.751 | INFO     | __main__:<module>:74 - CLEAN_DATA_DIR:      C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-16 20:45:06.751 | INFO     | __main__:<module>:75 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse
+2025-11-16 20:45:06.751 | INFO     | __main__:<module>:76 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:45:06.751 | INFO     | __main__:load_data_to_db:153 - Starting ETL: loading clean data into the warehouse.
+2025-11-16 20:45:06.751 | INFO     | __main__:load_data_to_db:160 - Removing existing warehouse database at: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:45:06.763 | INFO     | __main__:load_data_to_db:200 - Customer columns (cleaned): ['customer_id', 'name', 'region', 'join_date', 'loyaltypts', 'ContactMeth']
+2025-11-16 20:45:06.764 | INFO     | __main__:load_data_to_db:214 - Product columns (cleaned):  ['product_id', 'product_name', 'category', 'unit_price', 'oh_quant', 'supplier']
+2025-11-16 20:45:06.764 | INFO     | __main__:insert_customers:135 - Inserting 200 customer rows.
+2025-11-16 20:45:06.767 | INFO     | __main__:insert_products:141 - Inserting 98 product rows.
+2025-11-16 20:45:06.770 | INFO     | __main__:insert_sales:147 - Inserting 2000 sale rows.
+2025-11-16 20:45:06.772 | INFO     | __main__:load_data_to_db:244 - Closing database connection.
+2025-11-16 20:45:50.834 | INFO     | __main__:<module>:66 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:45:50.834 | INFO     | __main__:<module>:67 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:45:50.834 | INFO     | __main__:<module>:68 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 20:45:50.834 | INFO     | __main__:<module>:69 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:45:50.834 | INFO     | __main__:<module>:70 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:45:50.834 | INFO     | __main__:<module>:72 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data
+2025-11-16 20:45:50.834 | INFO     | __main__:<module>:73 - RAW_DATA_DIR:        C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-16 20:45:50.834 | INFO     | __main__:<module>:74 - CLEAN_DATA_DIR:      C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-16 20:45:50.834 | INFO     | __main__:<module>:75 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse
+2025-11-16 20:45:50.834 | INFO     | __main__:<module>:76 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:45:50.834 | INFO     | __main__:load_data_to_db:153 - Starting ETL: loading clean data into the warehouse.
+2025-11-16 20:45:50.835 | INFO     | __main__:load_data_to_db:160 - Removing existing warehouse database at: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:45:50.846 | INFO     | __main__:load_data_to_db:200 - Customer columns (cleaned): ['customer_id', 'name', 'region', 'join_date', 'loyaltypts', 'ContactMeth']
+2025-11-16 20:45:50.846 | INFO     | __main__:load_data_to_db:214 - Product columns (cleaned):  ['product_id', 'product_name', 'category', 'unit_price', 'oh_quant', 'supplier']
+2025-11-16 20:45:50.847 | INFO     | __main__:insert_customers:135 - Inserting 200 customer rows.
+2025-11-16 20:45:50.849 | INFO     | __main__:insert_products:141 - Inserting 98 product rows.
+2025-11-16 20:45:50.852 | INFO     | __main__:insert_sales:147 - Inserting 2000 sale rows.
+2025-11-16 20:45:50.853 | INFO     | __main__:load_data_to_db:244 - Closing database connection.
+2025-11-16 20:47:56.746 | INFO     | __main__:<module>:66 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:47:56.746 | INFO     | __main__:<module>:67 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:47:56.747 | INFO     | __main__:<module>:68 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 20:47:56.747 | INFO     | __main__:<module>:69 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:47:56.747 | INFO     | __main__:<module>:70 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:47:56.747 | INFO     | __main__:<module>:72 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data
+2025-11-16 20:47:56.747 | INFO     | __main__:<module>:73 - RAW_DATA_DIR:        C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-16 20:47:56.747 | INFO     | __main__:<module>:74 - CLEAN_DATA_DIR:      C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-16 20:47:56.747 | INFO     | __main__:<module>:75 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse
+2025-11-16 20:47:56.747 | INFO     | __main__:<module>:76 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:47:56.747 | INFO     | __main__:load_data_to_db:153 - Starting ETL: loading clean data into the warehouse.
+2025-11-16 20:47:56.747 | INFO     | __main__:load_data_to_db:160 - Removing existing warehouse database at: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:47:56.759 | INFO     | __main__:load_data_to_db:200 - Customer columns (cleaned): ['customer_id', 'name', 'region', 'join_date', 'loyaltypts', 'ContactMeth']
+2025-11-16 20:47:56.759 | INFO     | __main__:load_data_to_db:214 - Product columns (cleaned):  ['product_id', 'product_name', 'category', 'unit_price', 'oh_quant', 'supplier']
+2025-11-16 20:47:56.760 | INFO     | __main__:insert_customers:135 - Inserting 200 customer rows.
+2025-11-16 20:47:56.762 | INFO     | __main__:insert_products:141 - Inserting 98 product rows.
+2025-11-16 20:47:56.765 | INFO     | __main__:insert_sales:147 - Inserting 2000 sale rows.
+2025-11-16 20:47:56.766 | INFO     | __main__:load_data_to_db:244 - Closing database connection.
+2025-11-16 20:48:12.251 | INFO     | __main__:<module>:66 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:48:12.251 | INFO     | __main__:<module>:67 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:48:12.251 | INFO     | __main__:<module>:68 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 20:48:12.251 | INFO     | __main__:<module>:69 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:48:12.251 | INFO     | __main__:<module>:70 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:48:12.252 | INFO     | __main__:<module>:72 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data
+2025-11-16 20:48:12.252 | INFO     | __main__:<module>:73 - RAW_DATA_DIR:        C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-16 20:48:12.252 | INFO     | __main__:<module>:74 - CLEAN_DATA_DIR:      C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-16 20:48:12.252 | INFO     | __main__:<module>:75 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse
+2025-11-16 20:48:12.252 | INFO     | __main__:<module>:76 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:48:12.252 | INFO     | __main__:load_data_to_db:153 - Starting ETL: loading clean data into the warehouse.
+2025-11-16 20:48:12.252 | INFO     | __main__:load_data_to_db:160 - Removing existing warehouse database at: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:48:12.263 | INFO     | __main__:load_data_to_db:200 - Customer columns (cleaned): ['customer_id', 'name', 'region', 'join_date', 'loyaltypts', 'ContactMeth']
+2025-11-16 20:48:12.264 | INFO     | __main__:load_data_to_db:214 - Product columns (cleaned):  ['product_id', 'product_name', 'category', 'unit_price', 'oh_quant', 'supplier']
+2025-11-16 20:48:12.264 | INFO     | __main__:insert_customers:135 - Inserting 200 customer rows.
+2025-11-16 20:48:12.266 | INFO     | __main__:insert_products:141 - Inserting 98 product rows.
+2025-11-16 20:48:12.269 | INFO     | __main__:insert_sales:147 - Inserting 2000 sale rows.
+2025-11-16 20:48:12.270 | INFO     | __main__:load_data_to_db:244 - Closing database connection.
+2025-11-16 20:48:30.930 | INFO     | __main__:<module>:66 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:48:30.930 | INFO     | __main__:<module>:67 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:48:30.930 | INFO     | __main__:<module>:68 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 20:48:30.930 | INFO     | __main__:<module>:69 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:48:30.930 | INFO     | __main__:<module>:70 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:48:30.931 | INFO     | __main__:<module>:72 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data
+2025-11-16 20:48:30.931 | INFO     | __main__:<module>:73 - RAW_DATA_DIR:        C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-16 20:48:30.931 | INFO     | __main__:<module>:74 - CLEAN_DATA_DIR:      C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-16 20:48:30.931 | INFO     | __main__:<module>:75 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse
+2025-11-16 20:48:30.931 | INFO     | __main__:<module>:76 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:48:30.931 | INFO     | __main__:load_data_to_db:153 - Starting ETL: loading clean data into the warehouse.
+2025-11-16 20:48:30.931 | INFO     | __main__:load_data_to_db:160 - Removing existing warehouse database at: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:48:30.942 | INFO     | __main__:load_data_to_db:200 - Customer columns (cleaned): ['customer_id', 'name', 'region', 'join_date', 'loyaltypts', 'ContactMeth']
+2025-11-16 20:48:30.943 | INFO     | __main__:load_data_to_db:214 - Product columns (cleaned):  ['product_id', 'product_name', 'category', 'unit_price', 'oh_quant', 'supplier']
+2025-11-16 20:48:30.943 | INFO     | __main__:insert_customers:135 - Inserting 200 customer rows.
+2025-11-16 20:48:30.946 | INFO     | __main__:insert_products:141 - Inserting 98 product rows.
+2025-11-16 20:48:30.948 | INFO     | __main__:insert_sales:147 - Inserting 2000 sale rows.
+2025-11-16 20:48:30.951 | INFO     | __main__:load_data_to_db:244 - Closing database connection.
+2025-11-16 20:51:12.666 | INFO     | __main__:<module>:66 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:51:12.667 | INFO     | __main__:<module>:67 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:51:12.667 | INFO     | __main__:<module>:68 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 20:51:12.667 | INFO     | __main__:<module>:69 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:51:12.667 | INFO     | __main__:<module>:70 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:51:12.667 | INFO     | __main__:<module>:72 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data
+2025-11-16 20:51:12.667 | INFO     | __main__:<module>:73 - RAW_DATA_DIR:        C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-16 20:51:12.667 | INFO     | __main__:<module>:74 - CLEAN_DATA_DIR:      C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-16 20:51:12.667 | INFO     | __main__:<module>:75 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse
+2025-11-16 20:51:12.667 | INFO     | __main__:<module>:76 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:51:12.667 | INFO     | __main__:load_data_to_db:153 - Starting ETL: loading clean data into the warehouse.
+2025-11-16 20:51:12.667 | INFO     | __main__:load_data_to_db:160 - Removing existing warehouse database at: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:51:12.680 | INFO     | __main__:load_data_to_db:200 - Customer columns (cleaned): ['customer_id', 'name', 'region', 'join_date', 'loyaltypts', 'ContactMeth']
+2025-11-16 20:51:12.681 | INFO     | __main__:load_data_to_db:214 - Product columns (cleaned):  ['product_id', 'product_name', 'category', 'unit_price', 'oh_quant', 'supplier']
+2025-11-16 20:51:12.681 | INFO     | __main__:insert_customers:135 - Inserting 200 customer rows.
+2025-11-16 20:51:12.683 | INFO     | __main__:insert_products:141 - Inserting 98 product rows.
+2025-11-16 20:51:12.686 | INFO     | __main__:load_data_to_db:240 - ETL finished successfully. Data loaded into the warehouse.
+2025-11-16 20:51:12.686 | INFO     | __main__:load_data_to_db:244 - Closing database connection.
+2025-11-16 20:51:25.738 | INFO     | __main__:<module>:66 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:51:25.738 | INFO     | __main__:<module>:67 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:51:25.738 | INFO     | __main__:<module>:68 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 20:51:25.738 | INFO     | __main__:<module>:69 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:51:25.739 | INFO     | __main__:<module>:70 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:51:25.739 | INFO     | __main__:<module>:72 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data
+2025-11-16 20:51:25.739 | INFO     | __main__:<module>:73 - RAW_DATA_DIR:        C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-16 20:51:25.739 | INFO     | __main__:<module>:74 - CLEAN_DATA_DIR:      C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-16 20:51:25.739 | INFO     | __main__:<module>:75 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse
+2025-11-16 20:51:25.739 | INFO     | __main__:<module>:76 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:51:25.739 | INFO     | __main__:load_data_to_db:153 - Starting ETL: loading clean data into the warehouse.
+2025-11-16 20:51:25.739 | INFO     | __main__:load_data_to_db:160 - Removing existing warehouse database at: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:51:25.750 | INFO     | __main__:load_data_to_db:200 - Customer columns (cleaned): ['customer_id', 'name', 'region', 'join_date', 'loyaltypts', 'ContactMeth']
+2025-11-16 20:51:25.751 | INFO     | __main__:load_data_to_db:214 - Product columns (cleaned):  ['product_id', 'product_name', 'category', 'unit_price', 'oh_quant', 'supplier']
+2025-11-16 20:51:25.751 | INFO     | __main__:insert_customers:135 - Inserting 200 customer rows.
+2025-11-16 20:51:25.753 | INFO     | __main__:insert_products:141 - Inserting 98 product rows.
+2025-11-16 20:51:25.756 | INFO     | __main__:insert_sales:147 - Inserting 2000 sale rows.
+2025-11-16 20:51:25.759 | INFO     | __main__:load_data_to_db:244 - Closing database connection.
+2025-11-16 20:54:28.648 | INFO     | __main__:<module>:66 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:54:28.648 | INFO     | __main__:<module>:67 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:54:28.648 | INFO     | __main__:<module>:68 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 20:54:28.648 | INFO     | __main__:<module>:69 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:54:28.648 | INFO     | __main__:<module>:70 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:54:28.648 | INFO     | __main__:<module>:72 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data
+2025-11-16 20:54:28.648 | INFO     | __main__:<module>:73 - RAW_DATA_DIR:        C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-16 20:54:28.648 | INFO     | __main__:<module>:74 - CLEAN_DATA_DIR:      C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-16 20:54:28.648 | INFO     | __main__:<module>:75 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse
+2025-11-16 20:54:28.648 | INFO     | __main__:<module>:76 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:54:28.648 | INFO     | __main__:load_data_to_db:153 - Starting ETL: loading clean data into the warehouse.
+2025-11-16 20:54:28.660 | INFO     | __main__:load_data_to_db:200 - Customer columns (cleaned): ['customer_id', 'name', 'region', 'join_date', 'loyaltypts', 'ContactMeth']
+2025-11-16 20:54:28.660 | INFO     | __main__:load_data_to_db:214 - Product columns (cleaned):  ['product_id', 'product_name', 'category', 'unit_price', 'oh_quant', 'supplier']
+2025-11-16 20:54:28.660 | INFO     | __main__:insert_customers:135 - Inserting 200 customer rows.
+2025-11-16 20:54:28.663 | INFO     | __main__:insert_products:141 - Inserting 98 product rows.
+2025-11-16 20:54:28.666 | INFO     | __main__:insert_sales:147 - Inserting 2000 sale rows.
+2025-11-16 20:54:28.669 | INFO     | __main__:load_data_to_db:244 - Closing database connection.
+2025-11-16 20:55:48.331 | INFO     | __main__:main:203 - ==================================
+2025-11-16 20:55:48.331 | INFO     | __main__:main:204 - STARTING prepare_sales_data.py
+2025-11-16 20:55:48.331 | INFO     | __main__:main:205 - ==================================
+2025-11-16 20:55:48.331 | INFO     | __main__:main:207 - Root         : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:55:48.331 | INFO     | __main__:main:208 - data/raw     : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-16 20:55:48.331 | INFO     | __main__:main:209 - data/prepared: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-16 20:55:48.331 | INFO     | __main__:main:210 - scripts      : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 20:55:48.331 | INFO     | __main__:read_raw_data:69 - FUNCTION START: read_raw_data with file_name=sales_data.csv
+2025-11-16 20:55:48.331 | INFO     | __main__:read_raw_data:71 - Reading data from C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw\sales_data.csv
+2025-11-16 20:55:48.342 | INFO     | __main__:read_raw_data:73 - Loaded dataframe with 2001 rows and 9 columns
+2025-11-16 20:55:48.343 | INFO     | __main__:read_raw_data:78 - Column datatypes: 
+TransactionID      int64
+SaleDate          object
+CustomerID         int64
+ProductID          int64
+StoreID            int64
+CampaignID       float64
+SaleAmount        object
+NumSold          float64
+PaymntType        object
+dtype: object
+2025-11-16 20:55:48.344 | INFO     | __main__:read_raw_data:79 - Number of unique values: 
+TransactionID    2000
+SaleDate            2
+CustomerID        201
+ProductID         100
+StoreID             4
+CampaignID          4
+SaleAmount        915
+NumSold             9
+PaymntType          2
+dtype: int64
+2025-11-16 20:55:48.344 | INFO     | __main__:main:222 - Initial dataframe columns: TransactionID, SaleDate, CustomerID, ProductID, StoreID, CampaignID, SaleAmount, NumSold, PaymntType
+2025-11-16 20:55:48.345 | INFO     | __main__:main:223 - Initial dataframe shape: (2001, 9)
+2025-11-16 20:55:48.345 | INFO     | __main__:remove_duplicates:164 - FUNCTION START: remove_duplicates with dataframe shape=(2001, 9)
+2025-11-16 20:55:48.346 | INFO     | __main__:remove_duplicates:174 - Removed 0 duplicate rows
+2025-11-16 20:55:48.346 | INFO     | __main__:remove_duplicates:175 - 2001 records remaining after removing duplicates.
+2025-11-16 20:55:48.347 | INFO     | __main__:handle_missing_values:130 - FUNCTION START: handle_missing_values with dataframe shape=(2001, 9)
+2025-11-16 20:55:48.347 | INFO     | __main__:handle_missing_values:135 - Missing values by column before handling:
+TransactionID    0
+SaleDate         0
+CustomerID       0
+ProductID        0
+StoreID          0
+CampaignID       1
+SaleAmount       0
+NumSold          1
+PaymntType       0
+dtype: int64
+2025-11-16 20:55:48.349 | INFO     | __main__:handle_missing_values:149 - Missing values by column after handling:
+TransactionID    0
+SaleDate         0
+CustomerID       0
+ProductID        0
+StoreID          0
+CampaignID       1
+SaleAmount       0
+NumSold          0
+PaymntType       0
+dtype: int64
+2025-11-16 20:55:48.349 | INFO     | __main__:handle_missing_values:150 - 2000 records remaining after handling missing values.
+2025-11-16 20:55:48.349 | INFO     | __main__:remove_outliers:95 - FUNCTION START: remove_outliers with dataframe shape=(2000, 9)
+2025-11-16 20:55:48.350 | INFO     | __main__:remove_outliers:111 - Applied outlier removal to ProductID: bounds [1948.5, 2152.5]
+2025-11-16 20:55:48.351 | INFO     | __main__:remove_outliers:114 - Removed 0 outlier rows
+2025-11-16 20:55:48.351 | INFO     | __main__:remove_outliers:115 - 2000 records remaining after removing outliers.
+2025-11-16 20:55:48.351 | INFO     | __main__:save_prepared_data:186 - FUNCTION START: save_prepared_data with file_name=sales_prepared.csv, dataframe shape=(2000, 9)
+2025-11-16 20:55:48.356 | INFO     | __main__:save_prepared_data:191 - Data saved to C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared\sales_prepared.csv
+2025-11-16 20:55:48.356 | INFO     | __main__:main:246 - ==================================
+2025-11-16 20:55:48.356 | INFO     | __main__:main:247 - Original shape: (2001, 9)
+2025-11-16 20:55:48.356 | INFO     | __main__:main:248 - Cleaned shape:  (2000, 9)
+2025-11-16 20:55:48.356 | INFO     | __main__:main:249 - ==================================
+2025-11-16 20:55:48.356 | INFO     | __main__:main:250 - FINISHED prepare_sales_data.py
+2025-11-16 20:55:48.356 | INFO     | __main__:main:251 - ==================================
+2025-11-16 20:56:55.274 | INFO     | __main__:main:203 - ==================================
+2025-11-16 20:56:55.274 | INFO     | __main__:main:204 - STARTING prepare_sales_data.py
+2025-11-16 20:56:55.274 | INFO     | __main__:main:205 - ==================================
+2025-11-16 20:56:55.274 | INFO     | __main__:main:207 - Root         : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:56:55.274 | INFO     | __main__:main:208 - data/raw     : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-16 20:56:55.274 | INFO     | __main__:main:209 - data/prepared: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-16 20:56:55.274 | INFO     | __main__:main:210 - scripts      : C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 20:56:55.274 | INFO     | __main__:read_raw_data:69 - FUNCTION START: read_raw_data with file_name=sales_data.csv
+2025-11-16 20:56:55.274 | INFO     | __main__:read_raw_data:71 - Reading data from C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw\sales_data.csv
+2025-11-16 20:56:55.278 | INFO     | __main__:read_raw_data:73 - Loaded dataframe with 2001 rows and 9 columns
+2025-11-16 20:56:55.278 | INFO     | __main__:read_raw_data:78 - Column datatypes: 
+TransactionID      int64
+SaleDate          object
+CustomerID         int64
+ProductID          int64
+StoreID            int64
+CampaignID       float64
+SaleAmount        object
+NumSold          float64
+PaymntType        object
+dtype: object
+2025-11-16 20:56:55.280 | INFO     | __main__:read_raw_data:79 - Number of unique values: 
+TransactionID    2000
+SaleDate            2
+CustomerID        201
+ProductID         100
+StoreID             4
+CampaignID          4
+SaleAmount        915
+NumSold             9
+PaymntType          2
+dtype: int64
+2025-11-16 20:56:55.280 | INFO     | __main__:main:222 - Initial dataframe columns: TransactionID, SaleDate, CustomerID, ProductID, StoreID, CampaignID, SaleAmount, NumSold, PaymntType
+2025-11-16 20:56:55.280 | INFO     | __main__:main:223 - Initial dataframe shape: (2001, 9)
+2025-11-16 20:56:55.280 | INFO     | __main__:remove_duplicates:164 - FUNCTION START: remove_duplicates with dataframe shape=(2001, 9)
+2025-11-16 20:56:55.281 | INFO     | __main__:remove_duplicates:174 - Removed 1 duplicate rows
+2025-11-16 20:56:55.281 | INFO     | __main__:remove_duplicates:175 - 2000 records remaining after removing duplicates.
+2025-11-16 20:56:55.281 | INFO     | __main__:handle_missing_values:130 - FUNCTION START: handle_missing_values with dataframe shape=(2000, 9)
+2025-11-16 20:56:55.282 | INFO     | __main__:handle_missing_values:135 - Missing values by column before handling:
+TransactionID    0
+SaleDate         0
+CustomerID       0
+ProductID        0
+StoreID          0
+CampaignID       1
+SaleAmount       0
+NumSold          1
+PaymntType       0
+dtype: int64
+2025-11-16 20:56:55.283 | INFO     | __main__:handle_missing_values:149 - Missing values by column after handling:
+TransactionID    0
+SaleDate         0
+CustomerID       0
+ProductID        0
+StoreID          0
+CampaignID       1
+SaleAmount       0
+NumSold          0
+PaymntType       0
+dtype: int64
+2025-11-16 20:56:55.283 | INFO     | __main__:handle_missing_values:150 - 1999 records remaining after handling missing values.
+2025-11-16 20:56:55.283 | INFO     | __main__:remove_outliers:95 - FUNCTION START: remove_outliers with dataframe shape=(1999, 9)
+2025-11-16 20:56:55.285 | INFO     | __main__:remove_outliers:111 - Applied outlier removal to ProductID: bounds [1948.5, 2152.5]
+2025-11-16 20:56:55.285 | INFO     | __main__:remove_outliers:114 - Removed 0 outlier rows
+2025-11-16 20:56:55.285 | INFO     | __main__:remove_outliers:115 - 1999 records remaining after removing outliers.
+2025-11-16 20:56:55.285 | INFO     | __main__:save_prepared_data:186 - FUNCTION START: save_prepared_data with file_name=sales_prepared.csv, dataframe shape=(1999, 9)
+2025-11-16 20:56:55.289 | INFO     | __main__:save_prepared_data:191 - Data saved to C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared\sales_prepared.csv
+2025-11-16 20:56:55.290 | INFO     | __main__:main:246 - ==================================
+2025-11-16 20:56:55.290 | INFO     | __main__:main:247 - Original shape: (2001, 9)
+2025-11-16 20:56:55.290 | INFO     | __main__:main:248 - Cleaned shape:  (1999, 9)
+2025-11-16 20:56:55.290 | INFO     | __main__:main:249 - ==================================
+2025-11-16 20:56:55.290 | INFO     | __main__:main:250 - FINISHED prepare_sales_data.py
+2025-11-16 20:56:55.290 | INFO     | __main__:main:251 - ==================================
+2025-11-16 20:57:01.095 | INFO     | __main__:<module>:66 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:57:01.095 | INFO     | __main__:<module>:67 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\dw
+2025-11-16 20:57:01.095 | INFO     | __main__:<module>:68 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-16 20:57:01.095 | INFO     | __main__:<module>:69 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:57:01.095 | INFO     | __main__:<module>:70 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-16 20:57:01.095 | INFO     | __main__:<module>:72 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data
+2025-11-16 20:57:01.096 | INFO     | __main__:<module>:73 - RAW_DATA_DIR:        C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\raw
+2025-11-16 20:57:01.096 | INFO     | __main__:<module>:74 - CLEAN_DATA_DIR:      C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\prepared
+2025-11-16 20:57:01.096 | INFO     | __main__:<module>:75 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse
+2025-11-16 20:57:01.096 | INFO     | __main__:<module>:76 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:57:01.096 | INFO     | __main__:load_data_to_db:153 - Starting ETL: loading clean data into the warehouse.
+2025-11-16 20:57:01.096 | INFO     | __main__:load_data_to_db:160 - Removing existing warehouse database at: C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-16 20:57:01.108 | INFO     | __main__:load_data_to_db:200 - Customer columns (cleaned): ['customer_id', 'name', 'region', 'join_date', 'loyaltypts', 'ContactMeth']
+2025-11-16 20:57:01.108 | INFO     | __main__:load_data_to_db:214 - Product columns (cleaned):  ['product_id', 'product_name', 'category', 'unit_price', 'oh_quant', 'supplier']
+2025-11-16 20:57:01.109 | INFO     | __main__:insert_customers:135 - Inserting 200 customer rows.
+2025-11-16 20:57:01.111 | INFO     | __main__:insert_products:141 - Inserting 98 product rows.
+2025-11-16 20:57:01.113 | INFO     | __main__:insert_sales:147 - Inserting 1999 sale rows.
+2025-11-16 20:57:01.118 | INFO     | __main__:load_data_to_db:240 - ETL finished successfully. Data loaded into the warehouse.
+2025-11-16 20:57:01.118 | INFO     | __main__:load_data_to_db:244 - Closing database connection.
