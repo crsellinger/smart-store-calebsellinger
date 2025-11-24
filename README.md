@@ -179,4 +179,14 @@ Each time forward progress is made, remember to git add-commit-push.
 
 Schema is star with one centralized facts table and two dimensional tables.
 
+### Power BI
+
+Sum of sale_amount by Year and Quarter: total sales can be drilled up or down to year, quarter, or month
+
+Matrix chart shows total sales by product category and supplier
+
+Chart 3 shows sales by customer_id
+
+All charts can be modified by the supplier slicer
+
 
