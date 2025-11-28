@@ -189,4 +189,28 @@ Chart 3 shows sales by customer_id
 
 All charts can be modified by the supplier slicer
 
+### P6
 
+#### Section 1: The Business Goal
+Revenue by region. In order to better serve customers in each region, aligning products with revenue targets for each region will increase growth.
+
+#### Section 2: Data Source
+Using the .db file created in P5.
+Columns required: customer.region, customer.customer_id, product.product_id, sale.customer_id
+
+#### Section 3: Tools
+Python, following the rest of this project.
+
+#### Section 4: Workflow and Logic
+1. Join customer and sale tables on customer_id.
+2. Aggregate sum of sale_amount by customer_id.
+3. Group customer_id by region.
+4. Calculate sale_amount by region.
+
+#### Section 5: Results
+Show bar graph of results for each region.
+
+#### Section 6: Business Action
+
+
+#### Section 7: Challenges
