@@ -1,9 +1,13 @@
 import pathlib
 import sqlite3
+import sys
 
 import pandas as pd
 
-from analytics_project.utils_logger import logger
+# Ensure project root is in sys.path for local imports (now 3 parents are needed)
+sys.path.append(str(pathlib.Path(__file__).resolve().parent.parent.parent.parent))
+
+from utils.logger import logger
 
 # Global constants for paths and key directories
 
@@ -44,7 +48,10 @@ def ingest_sales_data_from_dw() -> pd.DataFrame:
     """Ingest sales data from SQLite data warehouse."""
     try:
         conn = sqlite3.connect(DB_PATH)
-        sales_df = pd.read_sql_query("SELECT * FROM sale", conn)
+        sales_df = pd.read_sql_query(
+            "SELECT * FROM sale INNER JOIN customer ON customer.customer_id = sale.customer_id",
+            conn,
+        )
         conn.close()
         logger.info("Sales data successfully loaded from SQLite data warehouse.")
         return sales_df
@@ -151,20 +158,24 @@ def main():
             "Fix: Prepare raw data and run the ETL step to load the data warehouse."
         )
 
-    # Step 2: Add additional columns for time-based dimensions
-    sales_df["sale_date"] = pd.to_datetime(sales_df["sale_date"])
-    sales_df["DayOfWeek"] = sales_df["sale_date"].dt.day_name()
-    sales_df["Month"] = sales_df["sale_date"].dt.month
-    sales_df["Year"] = sales_df["sale_date"].dt.year
+    # print(sales_df.head())
 
-    # Step 3: Define dimensions and metrics for the cube
-    dimensions = ["DayOfWeek", "product_id", "customer_id"]
-    metrics = {"sale_amount": ["sum", "mean"], "sale_id": "count"}
+    # Step 2: Add additional columns for time-based dimensions
+    # sales_df["sale_date"] = pd.to_datetime(sales_df["sale_date"])
+    # sales_df["DayOfWeek"] = sales_df["sale_date"].dt.day_name()
+    # sales_df["Month"] = sales_df["sale_date"].dt.month
+    # sales_df["Year"] = sales_df["sale_date"].dt.year
+
+    # # Step 3: Define dimensions and metrics for the cube
+    dimensions = ["region", "product_id"]
+    metrics = {"sale_amount": ["sum", "mean"]}
 
     # Step 4: Create the cube
     olap_cube = create_olap_cube(sales_df, dimensions, metrics)
 
-    # Step 5: Save the cube to a CSV file
+    # print(olap_cube.head())
+
+    # # Step 5: Save the cube to a CSV file
     write_cube_to_csv(olap_cube, "multidimensional_olap_cube.csv")
 
     logger.info("OLAP Cubing process completed successfully.")

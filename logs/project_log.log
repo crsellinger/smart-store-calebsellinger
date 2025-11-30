@@ -2887,3 +2887,145 @@ dtype: int64
 2025-11-16 20:57:01.113 | INFO     | __main__:insert_sales:147 - Inserting 1999 sale rows.
 2025-11-16 20:57:01.118 | INFO     | __main__:load_data_to_db:240 - ETL finished successfully. Data loaded into the warehouse.
 2025-11-16 20:57:01.118 | INFO     | __main__:load_data_to_db:244 - Closing database connection.
+2025-11-30 17:07:38.576 | INFO     | __main__:<module>:32 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\analytics_project\OLAP
+2025-11-30 17:07:38.577 | INFO     | __main__:<module>:33 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\analytics_project\OLAP
+2025-11-30 17:07:38.577 | INFO     | __main__:<module>:34 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\analytics_project
+2025-11-30 17:07:38.577 | INFO     | __main__:<module>:35 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-30 17:07:38.577 | INFO     | __main__:<module>:36 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-30 17:07:38.577 | INFO     | __main__:<module>:38 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data
+2025-11-30 17:07:38.577 | INFO     | __main__:<module>:39 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse
+2025-11-30 17:07:38.577 | INFO     | __main__:<module>:40 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-30 17:07:38.577 | INFO     | __main__:<module>:41 - OLAP_OUTPUT_DIR:     C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\olap_cubing_outputs
+2025-11-30 17:07:38.577 | INFO     | __main__:main:147 - Starting OLAP Cubing process...
+2025-11-30 17:07:38.841 | INFO     | __main__:ingest_sales_data_from_dw:53 - Sales data successfully loaded from SQLite data warehouse.
+2025-11-30 17:10:35.697 | INFO     | __main__:<module>:32 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\analytics_project\OLAP
+2025-11-30 17:10:35.697 | INFO     | __main__:<module>:33 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\analytics_project\OLAP
+2025-11-30 17:10:35.697 | INFO     | __main__:<module>:34 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\analytics_project
+2025-11-30 17:10:35.697 | INFO     | __main__:<module>:35 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-30 17:10:35.697 | INFO     | __main__:<module>:36 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-30 17:10:35.697 | INFO     | __main__:<module>:38 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data
+2025-11-30 17:10:35.697 | INFO     | __main__:<module>:39 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse
+2025-11-30 17:10:35.697 | INFO     | __main__:<module>:40 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-30 17:10:35.697 | INFO     | __main__:<module>:41 - OLAP_OUTPUT_DIR:     C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\olap_cubing_outputs
+2025-11-30 17:10:35.697 | INFO     | __main__:main:147 - Starting OLAP Cubing process...
+2025-11-30 17:10:35.952 | INFO     | __main__:ingest_sales_data_from_dw:53 - Sales data successfully loaded from SQLite data warehouse.
+2025-11-30 17:13:19.736 | INFO     | __main__:<module>:32 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\analytics_project\OLAP
+2025-11-30 17:13:19.736 | INFO     | __main__:<module>:33 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\analytics_project\OLAP
+2025-11-30 17:13:19.736 | INFO     | __main__:<module>:34 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\analytics_project
+2025-11-30 17:13:19.736 | INFO     | __main__:<module>:35 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-30 17:13:19.736 | INFO     | __main__:<module>:36 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-30 17:13:19.736 | INFO     | __main__:<module>:38 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data
+2025-11-30 17:13:19.737 | INFO     | __main__:<module>:39 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse
+2025-11-30 17:13:19.737 | INFO     | __main__:<module>:40 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-30 17:13:19.737 | INFO     | __main__:<module>:41 - OLAP_OUTPUT_DIR:     C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\olap_cubing_outputs
+2025-11-30 17:13:19.737 | INFO     | __main__:main:147 - Starting OLAP Cubing process...
+2025-11-30 17:13:19.739 | INFO     | __main__:ingest_sales_data_from_dw:53 - Sales data successfully loaded from SQLite data warehouse.
+2025-11-30 17:18:14.161 | INFO     | __main__:<module>:32 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\analytics_project\OLAP
+2025-11-30 17:18:14.161 | INFO     | __main__:<module>:33 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\analytics_project\OLAP
+2025-11-30 17:18:14.161 | INFO     | __main__:<module>:34 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\analytics_project
+2025-11-30 17:18:14.161 | INFO     | __main__:<module>:35 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-30 17:18:14.161 | INFO     | __main__:<module>:36 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-30 17:18:14.161 | INFO     | __main__:<module>:38 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data
+2025-11-30 17:18:14.161 | INFO     | __main__:<module>:39 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse
+2025-11-30 17:18:14.161 | INFO     | __main__:<module>:40 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-30 17:18:14.161 | INFO     | __main__:<module>:41 - OLAP_OUTPUT_DIR:     C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\olap_cubing_outputs
+2025-11-30 17:18:14.162 | INFO     | __main__:main:147 - Starting OLAP Cubing process...
+2025-11-30 17:18:14.164 | INFO     | __main__:ingest_sales_data_from_dw:53 - Sales data successfully loaded from SQLite data warehouse.
+2025-11-30 17:22:35.314 | INFO     | __main__:<module>:32 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\analytics_project\OLAP
+2025-11-30 17:22:35.315 | INFO     | __main__:<module>:33 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\analytics_project\OLAP
+2025-11-30 17:22:35.315 | INFO     | __main__:<module>:34 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\analytics_project
+2025-11-30 17:22:35.315 | INFO     | __main__:<module>:35 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-30 17:22:35.315 | INFO     | __main__:<module>:36 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-30 17:22:35.315 | INFO     | __main__:<module>:38 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data
+2025-11-30 17:22:35.315 | INFO     | __main__:<module>:39 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse
+2025-11-30 17:22:35.315 | INFO     | __main__:<module>:40 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-30 17:22:35.315 | INFO     | __main__:<module>:41 - OLAP_OUTPUT_DIR:     C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\olap_cubing_outputs
+2025-11-30 17:22:35.315 | INFO     | __main__:main:147 - Starting OLAP Cubing process...
+2025-11-30 17:22:35.318 | INFO     | __main__:ingest_sales_data_from_dw:53 - Sales data successfully loaded from SQLite data warehouse.
+2025-11-30 17:22:35.327 | ERROR    | __main__:create_olap_cube:102 - Error creating OLAP cube: 'Column not found: sale_id'
+2025-11-30 17:24:26.188 | INFO     | __main__:<module>:32 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\analytics_project\OLAP
+2025-11-30 17:24:26.188 | INFO     | __main__:<module>:33 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\analytics_project\OLAP
+2025-11-30 17:24:26.189 | INFO     | __main__:<module>:34 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\analytics_project
+2025-11-30 17:24:26.189 | INFO     | __main__:<module>:35 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-30 17:24:26.189 | INFO     | __main__:<module>:36 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-30 17:24:26.189 | INFO     | __main__:<module>:38 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data
+2025-11-30 17:24:26.189 | INFO     | __main__:<module>:39 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse
+2025-11-30 17:24:26.189 | INFO     | __main__:<module>:40 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-30 17:24:26.189 | INFO     | __main__:<module>:41 - OLAP_OUTPUT_DIR:     C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\olap_cubing_outputs
+2025-11-30 17:24:26.189 | INFO     | __main__:main:147 - Starting OLAP Cubing process...
+2025-11-30 17:24:26.192 | INFO     | __main__:ingest_sales_data_from_dw:53 - Sales data successfully loaded from SQLite data warehouse.
+2025-11-30 17:24:26.198 | INFO     | __main__:generate_column_names:129 - Generated column names for OLAP cube: ['region', 'sale_amount_sum', 'sale_amount_mean']
+2025-11-30 17:24:26.198 | INFO     | __main__:create_olap_cube:99 - OLAP cube created with dimensions: ['region']
+2025-11-30 17:25:19.262 | INFO     | __main__:<module>:32 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\analytics_project\OLAP
+2025-11-30 17:25:19.262 | INFO     | __main__:<module>:33 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\analytics_project\OLAP
+2025-11-30 17:25:19.262 | INFO     | __main__:<module>:34 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\analytics_project
+2025-11-30 17:25:19.262 | INFO     | __main__:<module>:35 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-30 17:25:19.262 | INFO     | __main__:<module>:36 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-30 17:25:19.262 | INFO     | __main__:<module>:38 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data
+2025-11-30 17:25:19.262 | INFO     | __main__:<module>:39 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse
+2025-11-30 17:25:19.262 | INFO     | __main__:<module>:40 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-30 17:25:19.262 | INFO     | __main__:<module>:41 - OLAP_OUTPUT_DIR:     C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\olap_cubing_outputs
+2025-11-30 17:25:19.263 | INFO     | __main__:main:147 - Starting OLAP Cubing process...
+2025-11-30 17:25:19.266 | INFO     | __main__:ingest_sales_data_from_dw:53 - Sales data successfully loaded from SQLite data warehouse.
+2025-11-30 17:25:19.271 | INFO     | __main__:generate_column_names:129 - Generated column names for OLAP cube: ['region', 'sale_amount_sum', 'sale_amount_mean']
+2025-11-30 17:25:19.272 | INFO     | __main__:create_olap_cube:99 - OLAP cube created with dimensions: ['region']
+2025-11-30 17:27:38.921 | INFO     | __main__:<module>:32 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\analytics_project\OLAP
+2025-11-30 17:27:38.921 | INFO     | __main__:<module>:33 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\analytics_project\OLAP
+2025-11-30 17:27:38.921 | INFO     | __main__:<module>:34 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\analytics_project
+2025-11-30 17:27:38.921 | INFO     | __main__:<module>:35 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-30 17:27:38.922 | INFO     | __main__:<module>:36 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-30 17:27:38.922 | INFO     | __main__:<module>:38 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data
+2025-11-30 17:27:38.922 | INFO     | __main__:<module>:39 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse
+2025-11-30 17:27:38.922 | INFO     | __main__:<module>:40 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-30 17:27:38.922 | INFO     | __main__:<module>:41 - OLAP_OUTPUT_DIR:     C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\olap_cubing_outputs
+2025-11-30 17:27:38.922 | INFO     | __main__:main:147 - Starting OLAP Cubing process...
+2025-11-30 17:27:38.925 | INFO     | __main__:ingest_sales_data_from_dw:53 - Sales data successfully loaded from SQLite data warehouse.
+2025-11-30 17:27:38.928 | INFO     | __main__:generate_column_names:129 - Generated column names for OLAP cube: ['region', 'sale_amount_sum', 'sale_amount_mean']
+2025-11-30 17:27:38.928 | INFO     | __main__:create_olap_cube:99 - OLAP cube created with dimensions: ['region']
+2025-11-30 17:27:38.930 | INFO     | __main__:write_cube_to_csv:139 - OLAP cube saved to C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\olap_cubing_outputs\multidimensional_olap_cube.csv.
+2025-11-30 17:27:38.930 | INFO     | __main__:main:178 - OLAP Cubing process completed successfully.
+2025-11-30 17:27:38.930 | INFO     | __main__:main:179 - Please see outputs in C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\olap_cubing_outputs
+2025-11-30 17:32:02.477 | INFO     | __main__:<module>:32 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\analytics_project\OLAP
+2025-11-30 17:32:02.477 | INFO     | __main__:<module>:33 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\analytics_project\OLAP
+2025-11-30 17:32:02.477 | INFO     | __main__:<module>:34 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\analytics_project
+2025-11-30 17:32:02.477 | INFO     | __main__:<module>:35 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-30 17:32:02.477 | INFO     | __main__:<module>:36 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-30 17:32:02.477 | INFO     | __main__:<module>:38 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data
+2025-11-30 17:32:02.478 | INFO     | __main__:<module>:39 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse
+2025-11-30 17:32:02.478 | INFO     | __main__:<module>:40 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-30 17:32:02.478 | INFO     | __main__:<module>:41 - OLAP_OUTPUT_DIR:     C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\olap_cubing_outputs
+2025-11-30 17:32:02.478 | INFO     | __main__:main:147 - Starting OLAP Cubing process...
+2025-11-30 17:32:02.485 | INFO     | __main__:ingest_sales_data_from_dw:53 - Sales data successfully loaded from SQLite data warehouse.
+2025-11-30 17:32:02.490 | INFO     | __main__:generate_column_names:129 - Generated column names for OLAP cube: ['region', 'sale_amount_sum', 'sale_amount_mean']
+2025-11-30 17:32:02.490 | INFO     | __main__:create_olap_cube:99 - OLAP cube created with dimensions: ['region']
+2025-11-30 17:32:02.492 | INFO     | __main__:write_cube_to_csv:139 - OLAP cube saved to C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\olap_cubing_outputs\multidimensional_olap_cube.csv.
+2025-11-30 17:32:02.492 | INFO     | __main__:main:178 - OLAP Cubing process completed successfully.
+2025-11-30 17:32:02.492 | INFO     | __main__:main:179 - Please see outputs in C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\olap_cubing_outputs
+2025-11-30 17:33:07.045 | INFO     | __main__:<module>:32 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\analytics_project\OLAP
+2025-11-30 17:33:07.046 | INFO     | __main__:<module>:33 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\analytics_project\OLAP
+2025-11-30 17:33:07.046 | INFO     | __main__:<module>:34 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\analytics_project
+2025-11-30 17:33:07.046 | INFO     | __main__:<module>:35 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-30 17:33:07.046 | INFO     | __main__:<module>:36 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-30 17:33:07.046 | INFO     | __main__:<module>:38 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data
+2025-11-30 17:33:07.046 | INFO     | __main__:<module>:39 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse
+2025-11-30 17:33:07.046 | INFO     | __main__:<module>:40 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-30 17:33:07.046 | INFO     | __main__:<module>:41 - OLAP_OUTPUT_DIR:     C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\olap_cubing_outputs
+2025-11-30 17:33:07.046 | INFO     | __main__:main:147 - Starting OLAP Cubing process...
+2025-11-30 17:33:07.053 | INFO     | __main__:ingest_sales_data_from_dw:53 - Sales data successfully loaded from SQLite data warehouse.
+2025-11-30 17:33:07.054 | ERROR    | __main__:create_olap_cube:102 - Error creating OLAP cube: Grouper for 'customer_id' not 1-dimensional
+2025-11-30 17:33:37.101 | INFO     | __main__:<module>:32 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\analytics_project\OLAP
+2025-11-30 17:33:37.101 | INFO     | __main__:<module>:33 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\analytics_project\OLAP
+2025-11-30 17:33:37.101 | INFO     | __main__:<module>:34 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\analytics_project
+2025-11-30 17:33:37.101 | INFO     | __main__:<module>:35 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-30 17:33:37.102 | INFO     | __main__:<module>:36 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-30 17:33:37.102 | INFO     | __main__:<module>:38 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data
+2025-11-30 17:33:37.102 | INFO     | __main__:<module>:39 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse
+2025-11-30 17:33:37.102 | INFO     | __main__:<module>:40 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-30 17:33:37.102 | INFO     | __main__:<module>:41 - OLAP_OUTPUT_DIR:     C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\olap_cubing_outputs
+2025-11-30 17:33:37.102 | INFO     | __main__:main:147 - Starting OLAP Cubing process...
+2025-11-30 17:33:37.109 | INFO     | __main__:ingest_sales_data_from_dw:53 - Sales data successfully loaded from SQLite data warehouse.
+2025-11-30 17:33:37.122 | INFO     | __main__:generate_column_names:129 - Generated column names for OLAP cube: ['region', 'product_id', 'sale_amount_sum', 'sale_amount_mean']
+2025-11-30 17:33:37.122 | INFO     | __main__:create_olap_cube:99 - OLAP cube created with dimensions: ['region', 'product_id']
+2025-11-30 17:33:37.125 | INFO     | __main__:write_cube_to_csv:139 - OLAP cube saved to C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\olap_cubing_outputs\multidimensional_olap_cube.csv.
+2025-11-30 17:33:37.125 | INFO     | __main__:main:178 - OLAP Cubing process completed successfully.
+2025-11-30 17:33:37.125 | INFO     | __main__:main:179 - Please see outputs in C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\olap_cubing_outputs
