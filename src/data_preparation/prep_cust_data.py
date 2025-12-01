@@ -216,6 +216,9 @@ def main() -> None:
     # Remove outliers
     df = remove_outliers(df)
 
+    # Normalize region names
+    df["Region"] = df["Region"].str.title()
+
     # Save prepared data
     save_prepared_data(df, output_file)
 
