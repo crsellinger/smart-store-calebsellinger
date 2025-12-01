@@ -211,6 +211,7 @@ Python, following the rest of this project.
 Show bar graph of results for each region.
 
 #### Section 6: Business Action
-
+Revenue is high in the East, and action needs to be taken in the 3 lowest regions, Central, South, and South-West. This may include harder marketing targets, product swaps, or regional store culture shifts.
 
 #### Section 7: Challenges
+No challenges encountered. The example files and instructions made everything very clear.
