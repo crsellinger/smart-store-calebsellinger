@@ -3029,3 +3029,89 @@ dtype: int64
 2025-11-30 17:33:37.125 | INFO     | __main__:write_cube_to_csv:139 - OLAP cube saved to C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\olap_cubing_outputs\multidimensional_olap_cube.csv.
 2025-11-30 17:33:37.125 | INFO     | __main__:main:178 - OLAP Cubing process completed successfully.
 2025-11-30 17:33:37.125 | INFO     | __main__:main:179 - Please see outputs in C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\olap_cubing_outputs
+2025-11-30 17:40:57.606 | INFO     | __main__:<module>:36 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\analytics_project\OLAP
+2025-11-30 17:40:57.606 | INFO     | __main__:<module>:37 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\analytics_project\OLAP
+2025-11-30 17:40:57.606 | INFO     | __main__:<module>:38 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\analytics_project
+2025-11-30 17:40:57.606 | INFO     | __main__:<module>:39 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-30 17:40:57.606 | INFO     | __main__:<module>:40 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-30 17:40:57.606 | INFO     | __main__:<module>:42 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data
+2025-11-30 17:40:57.606 | INFO     | __main__:<module>:43 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse
+2025-11-30 17:40:57.606 | INFO     | __main__:<module>:44 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-30 17:40:57.606 | INFO     | __main__:<module>:45 - OLAP_OUTPUT_DIR:     C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\olap_cubing_outputs
+2025-11-30 17:40:57.606 | INFO     | __main__:<module>:46 - RESULTS_OUTPUT_DIR:  C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\results
+2025-11-30 17:40:57.607 | INFO     | __main__:main:67 - Starting SALES_TOP_PRODUCT_BY_WEEKDAY analysis...
+2025-11-30 17:40:57.609 | INFO     | __main__:load_olap_cube:59 - OLAP cube data successfully loaded from C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\olap_cubing_outputs\multidimensional_olap_cube.csv.
+2025-11-30 17:40:57.609 | INFO     | __main__:main:72 - Analysis and visualization completed successfully.
+2025-11-30 17:46:12.409 | INFO     | __main__:<module>:36 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\analytics_project\OLAP
+2025-11-30 17:46:12.409 | INFO     | __main__:<module>:37 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\analytics_project\OLAP
+2025-11-30 17:46:12.409 | INFO     | __main__:<module>:38 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\analytics_project
+2025-11-30 17:46:12.409 | INFO     | __main__:<module>:39 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-30 17:46:12.409 | INFO     | __main__:<module>:40 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-30 17:46:12.410 | INFO     | __main__:<module>:42 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data
+2025-11-30 17:46:12.410 | INFO     | __main__:<module>:43 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse
+2025-11-30 17:46:12.410 | INFO     | __main__:<module>:44 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-30 17:46:12.410 | INFO     | __main__:<module>:45 - OLAP_OUTPUT_DIR:     C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\olap_cubing_outputs
+2025-11-30 17:46:12.410 | INFO     | __main__:<module>:46 - RESULTS_OUTPUT_DIR:  C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\results
+2025-11-30 17:46:12.410 | INFO     | __main__:main:92 - Starting SALES_TOP_PRODUCT_BY_WEEKDAY analysis...
+2025-11-30 17:46:12.413 | INFO     | __main__:load_olap_cube:59 - OLAP cube data successfully loaded from C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\olap_cubing_outputs\multidimensional_olap_cube.csv.
+2025-11-30 17:46:12.415 | INFO     | __main__:analyze_top_region:83 - Top products identified for each day of the week.
+2025-11-30 17:46:12.418 | INFO     | __main__:main:100 - Analysis and visualization completed successfully.
+2025-11-30 17:53:29.126 | INFO     | __main__:<module>:36 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\analytics_project\OLAP
+2025-11-30 17:53:29.127 | INFO     | __main__:<module>:37 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\analytics_project\OLAP
+2025-11-30 17:53:29.127 | INFO     | __main__:<module>:38 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\analytics_project
+2025-11-30 17:53:29.127 | INFO     | __main__:<module>:39 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-30 17:53:29.127 | INFO     | __main__:<module>:40 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-30 17:53:29.127 | INFO     | __main__:<module>:42 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data
+2025-11-30 17:53:29.127 | INFO     | __main__:<module>:43 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse
+2025-11-30 17:53:29.127 | INFO     | __main__:<module>:44 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-30 17:53:29.127 | INFO     | __main__:<module>:45 - OLAP_OUTPUT_DIR:     C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\olap_cubing_outputs
+2025-11-30 17:53:29.127 | INFO     | __main__:<module>:46 - RESULTS_OUTPUT_DIR:  C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\results
+2025-11-30 17:53:29.127 | INFO     | __main__:main:112 - Starting SALES_TOP_PRODUCT_BY_WEEKDAY analysis...
+2025-11-30 17:53:29.130 | INFO     | __main__:load_olap_cube:59 - OLAP cube data successfully loaded from C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\olap_cubing_outputs\multidimensional_olap_cube.csv.
+2025-11-30 17:53:29.132 | INFO     | __main__:analyze_top_region:83 - Top products identified for each day of the week.
+2025-11-30 17:53:29.135 | INFO     | __main__:main:120 - Analysis and visualization completed successfully.
+2025-11-30 17:53:58.507 | INFO     | __main__:<module>:36 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\analytics_project\OLAP
+2025-11-30 17:53:58.508 | INFO     | __main__:<module>:37 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\analytics_project\OLAP
+2025-11-30 17:53:58.508 | INFO     | __main__:<module>:38 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\analytics_project
+2025-11-30 17:53:58.508 | INFO     | __main__:<module>:39 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-30 17:53:58.508 | INFO     | __main__:<module>:40 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-30 17:53:58.508 | INFO     | __main__:<module>:42 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data
+2025-11-30 17:53:58.508 | INFO     | __main__:<module>:43 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse
+2025-11-30 17:53:58.508 | INFO     | __main__:<module>:44 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-30 17:53:58.508 | INFO     | __main__:<module>:45 - OLAP_OUTPUT_DIR:     C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\olap_cubing_outputs
+2025-11-30 17:53:58.508 | INFO     | __main__:<module>:46 - RESULTS_OUTPUT_DIR:  C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\results
+2025-11-30 17:53:58.508 | INFO     | __main__:main:112 - Starting SALES_TOP_PRODUCT_BY_WEEKDAY analysis...
+2025-11-30 17:53:58.511 | INFO     | __main__:load_olap_cube:59 - OLAP cube data successfully loaded from C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\olap_cubing_outputs\multidimensional_olap_cube.csv.
+2025-11-30 17:53:58.513 | INFO     | __main__:analyze_top_region:83 - Top products identified for each day of the week.
+2025-11-30 17:54:00.635 | INFO     | __main__:visualize_sales_by_region:104 - Stacked bar chart saved to C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\results\revenue_by_region.png.
+2025-11-30 17:54:40.559 | INFO     | __main__:main:121 - Analysis and visualization completed successfully.
+2025-11-30 17:54:43.959 | INFO     | __main__:<module>:36 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\analytics_project\OLAP
+2025-11-30 17:54:43.960 | INFO     | __main__:<module>:37 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\analytics_project\OLAP
+2025-11-30 17:54:43.960 | INFO     | __main__:<module>:38 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\analytics_project
+2025-11-30 17:54:43.960 | INFO     | __main__:<module>:39 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-30 17:54:43.960 | INFO     | __main__:<module>:40 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-30 17:54:43.960 | INFO     | __main__:<module>:42 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data
+2025-11-30 17:54:43.960 | INFO     | __main__:<module>:43 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse
+2025-11-30 17:54:43.960 | INFO     | __main__:<module>:44 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-30 17:54:43.960 | INFO     | __main__:<module>:45 - OLAP_OUTPUT_DIR:     C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\olap_cubing_outputs
+2025-11-30 17:54:43.960 | INFO     | __main__:<module>:46 - RESULTS_OUTPUT_DIR:  C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\results
+2025-11-30 17:54:43.961 | INFO     | __main__:main:112 - Starting SALES_TOP_PRODUCT_BY_WEEKDAY analysis...
+2025-11-30 17:54:43.964 | INFO     | __main__:load_olap_cube:59 - OLAP cube data successfully loaded from C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\olap_cubing_outputs\multidimensional_olap_cube.csv.
+2025-11-30 17:54:43.966 | INFO     | __main__:analyze_top_region:83 - Top products identified for each day of the week.
+2025-11-30 17:54:44.130 | INFO     | __main__:visualize_sales_by_region:104 - Stacked bar chart saved to C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\results\revenue_by_region.png.
+2025-11-30 17:55:42.158 | INFO     | __main__:main:121 - Analysis and visualization completed successfully.
+2025-11-30 17:59:59.051 | INFO     | __main__:<module>:36 - THIS_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\analytics_project\OLAP
+2025-11-30 17:59:59.051 | INFO     | __main__:<module>:37 - DW_DIR:              C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\analytics_project\OLAP
+2025-11-30 17:59:59.051 | INFO     | __main__:<module>:38 - PACKAGE_DIR:         C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src\analytics_project
+2025-11-30 17:59:59.051 | INFO     | __main__:<module>:39 - SRC_DIR:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\src
+2025-11-30 17:59:59.051 | INFO     | __main__:<module>:40 - PROJECT_ROOT_DIR:    C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger
+2025-11-30 17:59:59.051 | INFO     | __main__:<module>:42 - DATA_DIR:            C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data
+2025-11-30 17:59:59.051 | INFO     | __main__:<module>:43 - WAREHOUSE_DIR:       C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse
+2025-11-30 17:59:59.051 | INFO     | __main__:<module>:44 - DB_PATH:             C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\warehouse\smart_sales.db
+2025-11-30 17:59:59.051 | INFO     | __main__:<module>:45 - OLAP_OUTPUT_DIR:     C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\olap_cubing_outputs
+2025-11-30 17:59:59.051 | INFO     | __main__:<module>:46 - RESULTS_OUTPUT_DIR:  C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\results
+2025-11-30 17:59:59.052 | INFO     | __main__:main:112 - Starting SALES_TOP_PRODUCT_BY_WEEKDAY analysis...
+2025-11-30 17:59:59.054 | INFO     | __main__:load_olap_cube:59 - OLAP cube data successfully loaded from C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\olap_cubing_outputs\multidimensional_olap_cube.csv.
+2025-11-30 17:59:59.056 | INFO     | __main__:analyze_top_region:83 - Top products identified for each day of the week.
+2025-11-30 17:59:59.228 | INFO     | __main__:visualize_sales_by_region:104 - Stacked bar chart saved to C:\Users\caleb\Documents\School\NWMSU MSDS\44632\smart-store-calebsellinger\data\results\revenue_by_region.png.
+2025-11-30 18:00:11.981 | INFO     | __main__:main:121 - Analysis and visualization completed successfully.
